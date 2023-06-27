@@ -50,8 +50,14 @@ def classify_publication_language_fasttext(publication):
 def classify_publication_language(publication):
     return classify_publication_language_fasttext(publication)
 
+def prepare_folders():
+    os.makedirs('conferences', exist_ok = True)
+    os.makedirs('authors', exist_ok = True)
+
 if __name__ == '__main__':
+    prepare_folders()
     publications_list = load_conference('sbsi')
     # publications_list[:] = map(classify_publication_language_fasttext, publications_list)
     # save_conference_locally('sbsi', publications_list)
-    # [print("{0} {1}: {2}".format(p['language'], publications_list.index(p), p['info']['title'])) for p in publications_list if p['language'] not in ['__label__pt', '__label__en']]
+    [print("{0} {1}: {2}".format(p['language'], publications_list.index(p), p['info']['title'])) for p in publications_list if p['language'] not in ['__label__pt', '__label__en']]
+

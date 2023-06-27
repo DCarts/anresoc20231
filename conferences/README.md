@@ -1,1 +1,0 @@
-Pasta das publicações em json.
