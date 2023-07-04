@@ -10,7 +10,38 @@ from scholarly import scholarly
 import random
 import time
 from orcid_service import load_orcid
+import iso3166
 fasttext_model = fasttext.load_model('lid.176.ftz')
+
+REMOVE_ACCENTS_TRANSLATION = str.maketrans('áéíóúàèìòùãõâêîôû', 'aeiouaeiouaoaeiou')
+COUNTRIES_CASEFOLDED = tuple([x.casefold() for x in iso3166.countries_by_name.keys()] + ['united states', 'iran', 'united kingdom', 'turkey', 'itally', 'russia'])
+BRAZILIAN_STATES_CASEFOLDED = tuple(x.casefold() for x in ['Acre',
+'alagoas',
+'amapa',
+'amazonas',
+'bahia',
+'Ceara',
+'Distrito Federal',
+'Espirito Santo',
+'Goias',
+'Maranhao',
+'Mato Grosso',
+'Mato Grosso do Sul',
+'Minas Gerais',
+'Para',
+'Paraiba',
+'Parana',
+'Pernambuco',
+'Piaui',
+'Rio de Janeiro',
+'Rio Grande do Norte',
+'Rio Grande do Sul',
+'Rondonia',
+'Roraima',
+'Santa Catarina',
+'Sao Paulo',
+'Sergipe',
+'Tocantins'])
 
 def download_conference(conference_alias):
     publications = []
@@ -243,60 +274,196 @@ def load_citators_from_publications(publications):
                     raise Error(f'doi {new_doi} não é do crossref, é do {doi_dict[new_doi]["agency"]}')
             print('salvei')
             save_dict(doi_dict, doi_dict_path)
-
-        # citators = load_citation_people_from_publication(publication)
-        # for citator in citators:
-        #     if citator in citator_maps:
-        #         continue
-        #     citator_map = dict()
-        #     citator_maps[citator] = citator_map
-        #     print('querying scholar')
-        #     author = next(scholarly.search_author(citator), None)
-        #     time.sleep(random.randrange(1,3))
-        #     if author == None:
-        #         continue
-        #     citator_map['affiliation'] = author.get('affiliation', '')
-        #     citator_map['email_domain'] = author.get('email_domain', '')
-        # with open(citators_json_path, 'w') as output_file:
-        #     output_file.write(json.dumps(citator_maps, indent=4))
     
+def clean_affiliation(affiliation):
+    return affiliation.casefold().translate(REMOVE_ACCENTS_TRANSLATION).strip('!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~')
+    
+def load_affiliation_related_to_portuguese(affiliation, affiliation_dict=None):
+    affiliation = affiliation.casefold().translate(REMOVE_ACCENTS_TRANSLATION).strip('!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~')
+    if affiliation_dict is None:
+        affiliation_dict = load_dict(os.path.join('data', 'affiliations.json'))
+
+    if affiliation in affiliation_dict:
+        return affiliation_dict[affiliation]
+
+    if affiliation.endswith(('brasil', 'brazil')) or any(x in affiliation for x in BRAZILIAN_STATES_CASEFOLDED + ('brasil', 'brazil')):
+        affiliation_dict[affiliation] = True
+    elif affiliation.endswith(COUNTRIES_CASEFOLDED):
+        affiliation_dict[affiliation] = False
+    else:
+        print('A afiliação com nome')
+        print(f'"{affiliation}"') 
+        print('é relacionada à lingua portuguesa?')
+        valid_yes_answers = ['s', 'sim', 'y', 'yes']
+        valid_no_answers = ['n', 'no', 'nao']
+        answer = ''
+        while answer not in valid_yes_answers + valid_no_answers:
+            answer = input("(s/n) ").casefold()
+
+        affiliation_dict[affiliation] = answer in valid_yes_answers
+    return affiliation_dict[affiliation]
+
+def load_orcid_related_to_portuguese(orcid, orcid_dict=None):
+    if orcid_dict is None:
+        orcid_dict = load_dict(os.path.join('data', 'orcid.json'))
+    if orcid not in orcid_dict: # carrega orcid no orcid_dict
+        load_orcid(orcid, orcid_dict, method='person')
+        load_orcid(orcid, orcid_dict, method='employment')
+    if 'related_to_portuguese' in orcid_dict[orcid]:
+        return orcid_dict[orcid]
+    
+    if 'person' in orcid_dict[orcid]:
+        person_dict = orcid_dict[orcid].get('person', dict())
+        if type(person_dict) is not dict:
+            person_dict = dict()
+
+        addresses_dict = person_dict.get('addresses', dict())
+        if type(addresses_dict) is not dict:
+            addresses_dict = dict()
+
+        addresses_list = addresses_dict.get('address', [])
+        if type(addresses_list) is not list:
+            addresses_list = list()
+
+        if len(addresses_list) > 0:
+            for address in addresses_list:
+                country_dict = address.get('country', dict())
+                if type(country_dict) is not dict:
+                    country_dict = dict()
+                country_code = country_dict.get('value', None)
+                if country_code in ('AO', 'BR', 'CV', 'GW', 'MZ', 'PT', 'ST'):
+                    orcid_dict[orcid]['related_to_portuguese'] = True
+                    return orcid_dict
+                    
+
+            orcid_dict[orcid]['related_to_portuguese'] = False
+            return orcid_dict
+            
+        employments_dict = orcid_dict[orcid].get('employments', dict())
+        if type(employments_dict) is not dict:
+            employments_dict = dict()
+
+        employments_list = employments_dict.get('employment-summary', [])
+        if type(employments_list) is not list:
+            employments_list = list()
+
+        if len(employments_list) > 0:
+            for employment in employments_list:
+                organization_dict = employment.get('organization', dict())
+                if type(organization_dict) is not dict:
+                    organization_dict = dict()
+                address_dict = organization_dict.get('address', dict())
+                if type(address_dict) is not dict:
+                    address_dict = dict()
+                country_code = address_dict.get('value', None)
+                if country_code in ('AO', 'BR', 'CV', 'GW', 'MZ', 'PT', 'ST'):
+                    orcid_dict[orcid]['related_to_portuguese'] = True
+                    return orcid_dict
+            orcid_dict[orcid]['related_to_portuguese'] = False
+            return orcid_dict
+        
+        biography_dict = person_dict.get('biography', dict())
+        if type(biography_dict) is not dict:
+            biography_dict = dict()
+        content_str = biography_dict.get('content', None)
+        if type(content_str) is str:
+            content_str = clean_affiliation(content_str)
+            if content_str.endswith(('brasil', 'brazil')) or any(x in content_str for x in BRAZILIAN_STATES_CASEFOLDED + ('brasil', 'brazil')):
+                orcid_dict[orcid]['related_to_portuguese'] = True
+                return orcid_dict
+            elif content_str.endswith(COUNTRIES_CASEFOLDED):
+                orcid_dict[orcid]['related_to_portuguese'] = False
+                return orcid_dict
+            else:
+                print('A biografia')
+                print(f'"{content_str}"') 
+                print('é relacionada à lingua portuguesa?')
+                valid_yes_answers = ['s', 'sim', 'y', 'yes']
+                valid_no_answers = ['n', 'no', 'nao']
+                answer = ''
+                while answer not in valid_yes_answers + valid_no_answers:
+                    answer = input("(s/n) ").casefold()
+
+                orcid_dict[orcid]['related_to_portuguese'] = answer in valid_yes_answers
+
+    return orcid_dict
+
+def load_author_portuguese_related(author_dict, orcid_dict=None, affiliation_dict=None):
+    if orcid_dict is None:
+        orcid_dict = load_dict(os.path.join('data', 'orcid.json'))
+    if affiliation_dict is None:
+        affiliation_dict = load_dict(os.path.join('data', 'affiliations.json'))
+    if len(author_dict['affiliation']) > 0:
+        for affiliation_raw in author_dict['affiliation']:
+            affiliation_clean = clean_affiliation(affiliation_raw['name'])
+            if load_affiliation_related_to_portuguese(affiliation_clean, affiliation_dict):
+              author_dict['related_to_portuguese'] = True
+    if 'ORCID' in author_dict:
+        load_orcid(author_dict['ORCID'][-19:], orcid_dict, method='person')
+        load_orcid(author_dict['ORCID'][-19:], orcid_dict, method='employments')
+        load_orcid_related_to_portuguese(author_dict['ORCID'][-19:], orcid_dict)
+        if 'related_to_portuguese' in orcid_dict[author_dict['ORCID'][-19:]]:
+            author_dict['related_to_portuguese'] = author_dict.get('related_to_portuguese', False) or orcid_dict[author_dict['ORCID'][-19:]]['related_to_portuguese']
+
+
+def load_doi_portuguese_affiliation(doi, doi_dict=None, orcid_dict=None, affiliation_dict=None):
+    if doi_dict is None:
+        doi_dict = load_dict(os.path.join('data', 'doi_metadata.json'))
+
+    if doi not in doi_dict:
+        load_agency_from_doi(new_doi, doi_dict)
+        if doi_dict[new_doi]['agency'] == 'crossref':
+            load_metadata_from_doi_crossref(new_doi, doi_dict)
+        else:
+            raise Error(f'doi {new_doi} não é do crossref, é do {doi_dict[new_doi]["agency"]}')
+    
+    if 'authors_related_to_portuguese' in doi_dict[doi]:
+       #  ['authors_related_to_portuguese']
+       return doi_dict
+
+    unknown_authors = 0
+    brazilian_authors = 0
+    non_brazilian_authors = 0
+    
+    for author in doi_dict[doi]['metadata']['message']['author']:
+        load_author_portuguese_related(author, orcid_dict, affiliation_dict)
+        if 'related_to_portuguese' not in author:
+            unknown_authors += 1
+        elif author['related_to_portuguese']:
+            brazilian_authors += 1
+        else:
+            non_brazilian_authors += 1
+    
+    if brazilian_authors > 0:
+        doi_dict[doi]['authors_related_to_portuguese'] = True
+    elif unknown_authors == 0 and non_brazilian_authors > 0 and brazilian_authors == 0:
+        doi_dict[doi]['authors_related_to_portuguese'] = False
+
+    return doi_dict
+
 if __name__ == '__main__':
     prepare_folders()
 
-    # publications_list = load_conference('sbsi')
-    # # load_citators_from_publications(publications_list)
-    # orcid_json_path = os.path.join('data', 'orcid.json')
-    # orcid_dict = load_dict(orcid_json_path)
-    # # load_orcid('0000-0002-2159-339X', orcid_dict, force=True)
-    # # save_dict(orcid_dict, orcid_json_path)
+    publications_list = load_conference('sbsi')
+    load_citators_from_publications(publications_list)
 
-    # doi_meta = load_dict(os.path.join('data', 'doi_metadata.json'))
-    # doi_meta_values = doi_meta.values()
-    # total = 0
-    # n_tem_afi_nem_orcid = 0
-    # t_tem_afi = 0
-    # t_tem_orcid = 0
-    # tem_afi_e_orcid = 0
-    # for obj in doi_meta_values:
-    #     tem_afi = False
-    #     tem_orcid = False
-    #     for author in obj['metadata']['message']['author']:
-    #         tem_afi = tem_afi or len(author['affiliation']) > 0
-    #         tem_orcid = tem_orcid or 'ORCID' in author
-    #         if 'ORCID' in author:
-    #             load_orcid(author['ORCID'][-19:], orcid_dict)
+    orcid_json_path = os.path.join('data', 'orcid.json')
+    orcid_dict = load_dict(orcid_json_path)
 
-    #     total +=1
-    #     if tem_afi and tem_orcid:
-    #         tem_afi_e_orcid += 1
-    #     elif tem_afi:
-    #         t_tem_afi += 1
-    #     elif tem_orcid:
-    #         t_tem_orcid += 1
-    #     else:
-    #         n_tem_afi_nem_orcid +=1
-    # print(total, tem_afi_e_orcid, t_tem_afi, t_tem_orcid, n_tem_afi_nem_orcid)
-    # save_dict(orcid_dict, orcid_json_path)
+    affiliation_json_path = os.path.join('data', 'affiliations.json')
+    affiliation_dict = load_dict(affiliation_json_path)
+
+    doi_json_path = os.path.join('data', 'doi_metadata.json')
+    doi_dict = load_dict(doi_json_path)
+
+    for doi in [key for key in doi_dict.keys()]:
+        print(doi)
+        load_doi_portuguese_affiliation(doi, doi_dict, orcid_dict, affiliation_dict)
+    
+    save_dict(orcid_dict, orcid_json_path)
+    save_dict(affiliation_dict, affiliation_json_path)
+    save_dict(doi_dict, doi_json_path)
+
 
     # for publication in publications_list:
     #     if 'doi' not in publication['info']:
