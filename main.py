@@ -10,7 +10,7 @@ import re
 from scholarly import scholarly
 import random
 import time
-from orcid_service import load_orcid
+#from orcid_service import load_orcid
 import iso3166
 fasttext_model = fasttext.load_model('lid.176.ftz')
 
@@ -153,6 +153,26 @@ def load_authorship_from_doi(doi, doi_dict=None, doi_author_dict=None):
 def get_citing_dois_oc(doi):
     try:
         response = requests.get(f'https://opencitations.net/index/api/v1/citations/{doi}', headers={ 'Accept': 'application/json' })
+        response.raise_for_status()
+    except Exception as err:
+        print('Erro ocorrido: {0}'.format(err))
+        traceback.print_exc()
+        return list()
+
+    citations = [citation['citing'] for citation in response.json()]
+
+    if len(citations) == 0:
+        return list()
+
+    citing_dois = set()
+    for citation in citations:
+        citing_dois.update([x.split('=>')[1].strip() for x in citation.split(';')])
+
+    return list(citing_dois)
+
+def get_citing_dois_ss(doi):
+    try:
+        response = requests.get(f'https://api.semanticscholar.org/v1/paper/{doi}', headers={ 'Accept': 'application/json' })
         response.raise_for_status()
     except Exception as err:
         print('Erro ocorrido: {0}'.format(err))
@@ -454,26 +474,41 @@ def add_meta(dataFrame, sbsi_dict, path):
 
     erro = 0
 
-    for item in sbsi_dict:
-        encodes = []
-        encodes.append(item['info']['title'])
-        encodes.append(item['info']['title'].encode('utf-8').decode('unicode_escape'))
-        encodes.append(html.unescape(item['info']['title']))
-        for df in dataFrame.iterrows():
+    for df in dataFrame.iterrows():
 
+        if len(df[1]['doi'].strip()) < 5:
+            try:
+                response = requests.get('https://dblp.org/search/publ/api?q={0}&format=json'.format(df[1]['titulo']))
+                response.raise_for_status()
+                excel_doi = response.json()['result']['info']['ee']
+                df[1]['doi'] = excel_doi
+            except Exception as err:
+                print('Erro ocorrido: {0}'.format(err))
+                traceback.print_exc()
+                continue
 
-            for titulo_encode in encodes:
-                if titulo_encode.rstrip(".").strip(" ").strip() == df[1]['titulo'].strip(" ").strip():
-                    if (item['language'] == '__label__en' and df[1]['idioma'] == 'pt-br' ) or (item['language'] == '__label__pt' and df[1]['idioma'] == 'en'):
-                        print (titulo_encode)
-                        erro+=1
+        for item in sbsi_dict:
 
-                    item['language'] = df[1]['idioma']
-                    break
-                
+            # encodes = []
+            # encodes.append(item['info']['title'])
+            # encodes.append(item['info']['title'].encode('utf-8').decode('unicode_escape'))
+            # encodes.append(html.unescape(item['info']['title']))
+
+            if item['info']['ee'] == df[1]['doi']:
+                item['language'] = df[1]['idioma']
+                break
+
+            # for titulo_encode in encodes:
+            #     if clean_affiliation(titulo_encode.rstrip(".")) == clean_affiliation(df[1]['titulo'].strip()):
+            #         """if (item['language'] == '__label__en' and df[1]['idioma'] == 'pt-br' ) or (item['language'] == '__label__pt' and df[1]['idioma'] == 'en'):
+            #             print (titulo_encode)
+            #             erro+=1"""
+            #         item['language'] = df[1]['idioma']
+            #         break
+
                 
             
-    print(erro)
+    #print(erro)
     save_dict(sbsi_dict, path)
             
             
@@ -507,6 +542,7 @@ if __name__ == '__main__':
     with open('conferences/sbsi.json') as f:
         sbsi_dict = json.load(f)
     add_meta(dataFrame, sbsi_dict,'conferences/sbsi_new.json')
+    pd.save_excel('')
 
 
     # for publication in publications_list:
