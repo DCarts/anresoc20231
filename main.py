@@ -179,14 +179,14 @@ def get_citing_dois_ss(doi):
         traceback.print_exc()
         return list()
 
-    citations = [citation['citing'] for citation in response.json()]
+    citations = response.json()['citations']
 
     if len(citations) == 0:
         return list()
 
     citing_dois = set()
     for citation in citations:
-        citing_dois.update([x.split('=>')[1].strip() for x in citation.split(';')])
+        citing_dois.update([citation['doi']])
 
     return list(citing_dois)
 
@@ -284,7 +284,9 @@ def load_citators_from_publications(publications):
             continue
 
         if doi not in citations:
-            citations[doi] = get_citing_dois_oc(doi)
+            citations_oc = get_citing_dois_oc(doi)
+            citations_ss = get_citing_dois_ss(doi)
+            citations[doi] = list(set(citations_oc + citations_ss))
             save_dict(citations, citations_json_path)
         
         citing_dois = citations.get(doi)
@@ -476,15 +478,18 @@ def add_meta(dataFrame, sbsi_dict, path):
 
     for df in dataFrame.iterrows():
 
-        if len(df[1]['doi'].strip()) < 5:
+        if clean_affiliation(df[1]['titulo']) in ['apresentacao','organizacao']:
+            continue
+        if isinstance(df[1]['doi'], float) or len(df[1]['doi'].strip()) < 5:
             try:
                 response = requests.get('https://dblp.org/search/publ/api?q={0}&format=json'.format(df[1]['titulo']))
                 response.raise_for_status()
-                excel_doi = response.json()['result']['info']['ee']
+                excel_doi = response.json()['result']['hits']['hit'][0]['info']['ee']
                 df[1]['doi'] = excel_doi
             except Exception as err:
-                print('Erro ocorrido: {0}'.format(err))
-                traceback.print_exc()
+                print(f"Título com erro: \"{df[1]['titulo']}\"")
+                #print(df[1]['doi'])
+                #traceback.print_exc()
                 continue
 
         for item in sbsi_dict:
@@ -542,7 +547,7 @@ if __name__ == '__main__':
     with open('conferences/sbsi.json') as f:
         sbsi_dict = json.load(f)
     add_meta(dataFrame, sbsi_dict,'conferences/sbsi_new.json')
-    pd.save_excel('')
+    dataFrame.to_excel('data/sbsi-metadata.xlsx')
 
 
     # for publication in publications_list:
