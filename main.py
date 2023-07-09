@@ -3,16 +3,17 @@ import math
 import json
 import os
 import fasttext
-import openpyxl
+
 import xml.etree.ElementTree as ET
 import traceback
 import re
 from scholarly import scholarly
 import random
 import time
-from orcid_service import load_orcid
+#from orcid_service import load_orcid
 import iso3166
 fasttext_model = fasttext.load_model('lid.176.ftz')
+import urllib
 
 #Muzy
 import pandas as pd
@@ -61,7 +62,7 @@ def download_conference(conference_alias):
             publications = publications + response.json()['result']['hits']['hit']
 
     except Exception as err:
-        print('Erro ocorrido: {0}'.format(err))
+        print('Erro ocorrido1: {0}'.format(err))
         traceback.print_exc()
         return None
     
@@ -103,7 +104,7 @@ def get_author_affiliations_dblp(author_pid):
         return [note.text for note in notes]
 
     except Exception as err:
-        print('Erro ocorrido: {0}'.format(err))
+        print('Erro ocorrido2: {0}'.format(err))
         traceback.print_exc()
         return []
 
@@ -155,7 +156,7 @@ def get_citing_dois_oc(doi):
         response = requests.get(f'https://opencitations.net/index/api/v1/citations/{doi}', headers={ 'Accept': 'application/json' })
         response.raise_for_status()
     except Exception as err:
-        print('Erro ocorrido: {0}'.format(err))
+        print('Erro ocorrido3: {0}'.format(err))
         traceback.print_exc()
         return list()
 
@@ -167,6 +168,29 @@ def get_citing_dois_oc(doi):
     citing_dois = set()
     for citation in citations:
         citing_dois.update([x.split('=>')[1].strip() for x in citation.split(';')])
+
+    return list(citing_dois)
+
+def get_citing_dois_ss(doi):
+    try:
+        response = requests.get(f'https://api.semanticscholar.org/v1/paper/{doi}', headers={ 'Accept': 'application/json' })
+        response.raise_for_status()
+    except Exception as err:
+        # print('Erro ocorrido4: {0}'.format(err))
+        # traceback.print_exc()
+        return list()
+
+    citations = response.json()['citations']
+
+    if len(citations) == 0:
+        return list()
+
+    citing_dois = set()
+    for citation in citations:
+        if citation['doi'] == 'null' or citation['doi'] == None:
+            print(f'nulo:{doi}:{citation["paperId"]}')
+            continue
+        citing_dois.update([citation['doi']])
 
     return list(citing_dois)
 
@@ -184,7 +208,7 @@ def load_metadata_from_dois_oc(dois, doi_dict=None):
         response = requests.get(f'https://opencitations.net/index/api/v1/metadata/{doi_str}', headers={ 'Accept': 'application/json' })
         response.raise_for_status()
     except Exception as err:
-        print('Erro ocorrido: {0}'.format(err))
+        print('Erro ocorrido5: {0}'.format(err))
         traceback.print_exc()
         return dict()
 
@@ -206,13 +230,41 @@ def load_metadata_from_doi_crossref(doi, doi_dict=None):
         response = requests.get(f'https://api.crossref.org/works/{doi}', headers={ 'Accept': 'application/json' })
         response.raise_for_status()
     except Exception as err:
-        print('Erro ocorrido: {0}'.format(err))
-        traceback.print_exc()
+        # print('Erro ocorrido6: {0}'.format(err))
+        # traceback.print_exc()
         return doi_dict
 
     response_json = response.json()
     if response_json['status'] != 'ok':
-        print('Erro ocorrido: {0}'.format(response['message']))
+        print('Erro ocorrido7: {0}'.format(response['message']))
+        traceback.print_exc()
+        return doi_dict
+
+    doi_dict[doi]['metadata'] = response_json
+    
+    return doi_dict
+
+def load_metadata_from_doi_datacite(doi, doi_dict=None):
+    if doi_dict is None:
+        doi_dict = load_dict(os.path.join('data', 'doi_metadata.json'))
+
+    if doi not in doi_dict:
+        raise Error(f'doi {doi} não está no dict carregado para baixar do datacite')
+
+    if 'agency' not in doi_dict[doi] or doi_dict[doi]['agency'] != 'datacite':
+        raise Error(f'doi {doi} não é do datacite para baixar do datacite')
+
+    try:
+        response = requests.get(f'https://api.datacite.org/dois/{urllib.parse.quote_plus(doi)}', headers={ 'Accept': 'application/json' })
+        response.raise_for_status()
+    except Exception as err:
+        print('Erro ocorrido8: {0}'.format(err))
+        traceback.print_exc()
+        return doi_dict
+
+    response_json = response.json()
+    if 'data' not in response_json:
+        print('Erro ocorrido9: {0}'.format(json.dumps(response_json)))
         traceback.print_exc()
         return doi_dict
 
@@ -230,16 +282,25 @@ def load_agency_from_doi(doi, doi_dict=None):
     if 'agency' in doi_dict[doi]:
         return doi_dict
 
+    if doi[:7] == '10.5555':
+        print(f'agencia_errada:{doi}')
+        return doi_dict
+
     try:
         response = requests.get(f'https://api.crossref.org/works/{doi}/agency', headers={ 'Accept': 'application/json' })
         response.raise_for_status()
-    except Exception as err:
-        print('Erro ocorrido: {0}'.format(err))
-        traceback.print_exc()
-
-    response_json = response.json()
+        response_json = response.json()
+    except (Exception, requests.exceptions.HTTPError) as err:
+        if err.response.status_code == 404:
+            response2 = requests.get(f'https://api.crossref.org/works/{doi}', headers={ 'Accept': 'application/json' })
+            if response2.status_code == 200:
+                doi_dict[doi]['agency'] = 'crossref'
+                return doi_dict
+        # print('Erro ocorrido10: {0}'.format(err))
+        # traceback.print_exc()
+        return doi_dict
     if response_json['status'] != 'ok':
-        print('Erro ocorrido: {0}'.format(response['message']))
+        print('Erro ocorrido11: {0}'.format(response['message']))
         traceback.print_exc()
         return doi_dict
 
@@ -254,6 +315,7 @@ def load_citators_from_publications(publications):
 
     citations_json_path = 'data/citations.json'
     citations = load_dict(citations_json_path)
+    # citations = {}
 
     doi_dict_path = os.path.join('data', 'doi_metadata.json')
     doi_dict = load_dict(doi_dict_path)
@@ -264,7 +326,9 @@ def load_citators_from_publications(publications):
             continue
 
         if doi not in citations:
-            citations[doi] = get_citing_dois_oc(doi)
+            citations_oc = get_citing_dois_oc(doi)
+            citations_ss = get_citing_dois_ss(doi)
+            citations[doi] = list(set(citations_oc + citations_ss))
             save_dict(citations, citations_json_path)
         
         citing_dois = citations.get(doi)
@@ -273,11 +337,16 @@ def load_citators_from_publications(publications):
         if len(new_dois) > 0:
             for new_doi in new_dois:
                 load_agency_from_doi(new_doi, doi_dict)
+                if 'agency' not in doi_dict[new_doi]:
+                    continue
+
                 if doi_dict[new_doi]['agency'] == 'crossref':
                     load_metadata_from_doi_crossref(new_doi, doi_dict)
+                elif doi_dict[new_doi]['agency'] == 'datacite':
+                    load_metadata_from_doi_datacite(new_doi, doi_dict)
                 else:
-                    raise Error(f'doi {new_doi} não é do crossref, é do {doi_dict[new_doi]["agency"]}')
-            print('salvei')
+                    raise Exception(f'doi {new_doi} não é do crossref, é do {doi_dict[new_doi]["agency"]}')
+            # print('salvei')
             save_dict(doi_dict, doi_dict_path)
     
 def clean_affiliation(affiliation):
@@ -422,22 +491,23 @@ def load_doi_portuguese_affiliation(doi, doi_dict=None, orcid_dict=None, affilia
         else:
             raise Error(f'doi {new_doi} não é do crossref, é do {doi_dict[new_doi]["agency"]}')
     
-    if 'authors_related_to_portuguese' in doi_dict[doi]:
-       #  ['authors_related_to_portuguese']
-       return doi_dict
+    # if 'authors_related_to_portuguese' in doi_dict[doi]:
+    #    #  ['authors_related_to_portuguese']
+    #    return doi_dict
 
     unknown_authors = 0
     brazilian_authors = 0
     non_brazilian_authors = 0
     
-    for author in doi_dict[doi]['metadata']['message']['author']:
-        load_author_portuguese_related(author, orcid_dict, affiliation_dict)
-        if 'related_to_portuguese' not in author:
-            unknown_authors += 1
-        elif author['related_to_portuguese']:
-            brazilian_authors += 1
-        else:
-            non_brazilian_authors += 1
+    if doi_dict[doi]['agency'] == 'crossref':
+        for author in doi_dict[doi]['metadata']['message']['author']:
+            load_author_portuguese_related(author, orcid_dict, affiliation_dict)
+            if 'related_to_portuguese' not in author:
+                unknown_authors += 1
+            elif author['related_to_portuguese']:
+                brazilian_authors += 1
+            else:
+                non_brazilian_authors += 1
     
     if brazilian_authors > 0:
         doi_dict[doi]['authors_related_to_portuguese'] = True
@@ -454,26 +524,44 @@ def add_meta(dataFrame, sbsi_dict, path):
 
     erro = 0
 
-    for item in sbsi_dict:
-        encodes = []
-        encodes.append(item['info']['title'])
-        encodes.append(item['info']['title'].encode('utf-8').decode('unicode_escape'))
-        encodes.append(html.unescape(item['info']['title']))
-        for df in dataFrame.iterrows():
+    for df in dataFrame.iterrows():
 
+        if clean_affiliation(df[1]['titulo']) in ['apresentacao','organizacao']:
+            continue
+        if isinstance(df[1]['doi'], float) or len(df[1]['doi'].strip()) < 5:
+            try:
+                response = requests.get('https://dblp.org/search/publ/api?q={0}&format=json'.format(df[1]['titulo']))
+                response.raise_for_status()
+                excel_doi = response.json()['result']['hits']['hit'][0]['info']['ee']
+                df[1]['doi'] = excel_doi
+            except Exception as err:
+                print(f"Título com erro: \"{df[1]['titulo']}\"")
+                #print(df[1]['doi'])
+                #traceback.print_exc()
+                continue
 
-            for titulo_encode in encodes:
-                if titulo_encode.rstrip(".").strip(" ").strip() == df[1]['titulo'].strip(" ").strip():
-                    if (item['language'] == '__label__en' and df[1]['idioma'] == 'pt-br' ) or (item['language'] == '__label__pt' and df[1]['idioma'] == 'en'):
-                        print (titulo_encode)
-                        erro+=1
+        for item in sbsi_dict:
 
-                    item['language'] = df[1]['idioma']
-                    break
-                
+            # encodes = []
+            # encodes.append(item['info']['title'])
+            # encodes.append(item['info']['title'].encode('utf-8').decode('unicode_escape'))
+            # encodes.append(html.unescape(item['info']['title']))
+
+            if item['info']['ee'] == df[1]['doi']:
+                item['language'] = df[1]['idioma']
+                break
+
+            # for titulo_encode in encodes:
+            #     if clean_affiliation(titulo_encode.rstrip(".")) == clean_affiliation(df[1]['titulo'].strip()):
+            #         """if (item['language'] == '__label__en' and df[1]['idioma'] == 'pt-br' ) or (item['language'] == '__label__pt' and df[1]['idioma'] == 'en'):
+            #             print (titulo_encode)
+            #             erro+=1"""
+            #         item['language'] = df[1]['idioma']
+            #         break
+
                 
             
-    print(erro)
+    #print(erro)
     save_dict(sbsi_dict, path)
             
             
@@ -503,10 +591,11 @@ if __name__ == '__main__':
 
 
     #Muzy
-    dataFrame = pd.read_excel('data/sbsi-metadata.xlsx')
-    with open('conferences/sbsi.json') as f:
-        sbsi_dict = json.load(f)
-    add_meta(dataFrame, sbsi_dict,'conferences/sbsi_new.json')
+    # dataFrame = pd.read_excel('data/sbsi-metadata.xlsx')
+    # with open('conferences/sbsi.json') as f:
+    #     sbsi_dict = json.load(f)
+    # add_meta(dataFrame, sbsi_dict,'conferences/sbsi_new.json')
+    # dataFrame.to_excel('data/sbsi-metadata.xlsx')
 
 
     # for publication in publications_list:
