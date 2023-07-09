@@ -16,6 +16,7 @@ fasttext_model = fasttext.load_model('lid.176.ftz')
 
 #Muzy
 import pandas as pd
+import html
 
 REMOVE_ACCENTS_TRANSLATION = str.maketrans('áéíóúàèìòùãõâêîôû', 'aeiouaeiouaoaeiou')
 COUNTRIES_CASEFOLDED = tuple([x.casefold() for x in iso3166.countries_by_name.keys()] + ['united states', 'iran', 'united kingdom', 'turkey', 'itally', 'russia'])
@@ -454,18 +455,21 @@ def add_meta(dataFrame, sbsi_dict, path):
     erro = 0
 
     for item in sbsi_dict:
-        titulo = item['info']['title'].encode('utf-8').decode('unicode_escape').rstrip(".")
+        encodes = []
+        encodes.append(item['info']['title'])
+        encodes.append(item['info']['title'].encode('utf-8').decode('unicode_escape'))
+        encodes.append(html.unescape(item['info']['title']))
         for df in dataFrame.iterrows():
-            #print(df[0])
-            #print()
 
-            if titulo == df[1]['titulo']:
-                if (item['language'] == '__label__en' and df[1]['idioma'] == 'pt-br' ) or (item['language'] == '__label__pt' and df[1]['idioma'] == 'en'):
-                    print (titulo)
-                    erro+=1
-                #print(titulo + ' : ' + item['language'])
-                #print(df[1]['titulo'] + ' : ' + df[1]['idioma'])
-                item['language'] = df[1]['idioma']
+
+            for titulo_encode in encodes:
+                if titulo_encode.rstrip(".").strip(" ").strip() == df[1]['titulo'].strip(" ").strip():
+                    if (item['language'] == '__label__en' and df[1]['idioma'] == 'pt-br' ) or (item['language'] == '__label__pt' and df[1]['idioma'] == 'en'):
+                        print (titulo_encode)
+                        erro+=1
+
+                    item['language'] = df[1]['idioma']
+                    break
                 
                 
             
@@ -475,7 +479,7 @@ def add_meta(dataFrame, sbsi_dict, path):
             
 
 if __name__ == '__main__':
-    prepare_folders()
+    """prepare_folders()
 
     publications_list = load_conference('sbsi')
     load_citators_from_publications(publications_list)
@@ -495,7 +499,7 @@ if __name__ == '__main__':
     
     save_dict(orcid_dict, orcid_json_path)
     save_dict(affiliation_dict, affiliation_json_path)
-    save_dict(doi_dict, doi_json_path)
+    save_dict(doi_dict, doi_json_path)"""
 
 
     #Muzy
@@ -503,6 +507,7 @@ if __name__ == '__main__':
     with open('conferences/sbsi.json') as f:
         sbsi_dict = json.load(f)
     add_meta(dataFrame, sbsi_dict,'conferences/sbsi_new.json')
+
 
     # for publication in publications_list:
     #     if 'doi' not in publication['info']:
