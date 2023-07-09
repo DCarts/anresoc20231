@@ -3,6 +3,7 @@ import math
 import json
 import os
 import fasttext
+import openpyxl
 import xml.etree.ElementTree as ET
 import traceback
 import re
@@ -12,6 +13,9 @@ import time
 from orcid_service import load_orcid
 import iso3166
 fasttext_model = fasttext.load_model('lid.176.ftz')
+
+#Muzy
+import pandas as pd
 
 REMOVE_ACCENTS_TRANSLATION = str.maketrans('áéíóúàèìòùãõâêîôû', 'aeiouaeiouaoaeiou')
 COUNTRIES_CASEFOLDED = tuple([x.casefold() for x in iso3166.countries_by_name.keys()] + ['united states', 'iran', 'united kingdom', 'turkey', 'itally', 'russia'])
@@ -441,6 +445,35 @@ def load_doi_portuguese_affiliation(doi, doi_dict=None, orcid_dict=None, affilia
 
     return doi_dict
 
+
+#Muzy
+def add_meta(dataFrame, sbsi_dict, path):
+    
+
+
+    erro = 0
+
+    for item in sbsi_dict:
+        titulo = item['info']['title'].encode('utf-8').decode('unicode_escape').rstrip(".")
+        for df in dataFrame.iterrows():
+            #print(df[0])
+            #print()
+
+            if titulo == df[1]['titulo']:
+                if (item['language'] == '__label__en' and df[1]['idioma'] == 'pt-br' ) or (item['language'] == '__label__pt' and df[1]['idioma'] == 'en'):
+                    print (titulo)
+                    erro+=1
+                #print(titulo + ' : ' + item['language'])
+                #print(df[1]['titulo'] + ' : ' + df[1]['idioma'])
+                item['language'] = df[1]['idioma']
+                
+                
+            
+    print(erro)
+    save_dict(sbsi_dict, path)
+            
+            
+
 if __name__ == '__main__':
     prepare_folders()
 
@@ -464,6 +497,12 @@ if __name__ == '__main__':
     save_dict(affiliation_dict, affiliation_json_path)
     save_dict(doi_dict, doi_json_path)
 
+
+    #Muzy
+    dataFrame = pd.read_excel('sbsi-metadata.xlsx')
+    with open('conferences/sbsi.json') as f:
+        sbsi_dict = json.load(f)
+    add_meta(dataFrame, sbsi_dict,'conferences/sbsi_new.json')
 
     # for publication in publications_list:
     #     if 'doi' not in publication['info']:
