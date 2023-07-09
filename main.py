@@ -503,7 +503,7 @@ if __name__ == '__main__':
 
 
     #Muzy
-    dataFrame = pd.read_excel('sbsi-metadata.xlsx')
+    dataFrame = pd.read_excel('data/sbsi-metadata.xlsx')
     with open('conferences/sbsi.json') as f:
         sbsi_dict = json.load(f)
     add_meta(dataFrame, sbsi_dict,'conferences/sbsi_new.json')
