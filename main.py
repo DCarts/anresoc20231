@@ -4,21 +4,16 @@ import math
 import json
 import os
 import fasttext
-
 import xml.etree.ElementTree as ET
 import traceback
-import re
 from scholarly import scholarly
-import random
-import time
 from orcid_service import load_orcid
-import iso3166
-fasttext_model = fasttext.load_model('lid.176.ftz')
 import urllib
 import networkx as nx
 import pandas as pd
 import matplotlib.pyplot as plt
-import html
+
+fasttext_model = fasttext.load_model('lid.176.ftz')
 
 REMOVE_ACCENTS_TRANSLATION = str.maketrans('áéíóúàèìòùãõâêîôû', 'aeiouaeiouaoaeiou')
 PORTUGUESE_COUNTRIES_CASEFOLDED = ('mozambique', 'mocambique', 'moçambique', 'brazil', 'brasil', 'angola', 'cabo verde', 'cape verde', 
