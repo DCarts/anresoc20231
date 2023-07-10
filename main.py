@@ -1,3 +1,4 @@
+#%%
 import requests
 import math
 import json
@@ -10,17 +11,55 @@ import re
 from scholarly import scholarly
 import random
 import time
-#from orcid_service import load_orcid
+from orcid_service import load_orcid
 import iso3166
 fasttext_model = fasttext.load_model('lid.176.ftz')
 import urllib
+import networkx as nx
 
 #Muzy
 import pandas as pd
+import matplotlib.pyplot as plt
 import html
 
 REMOVE_ACCENTS_TRANSLATION = str.maketrans('áéíóúàèìòùãõâêîôû', 'aeiouaeiouaoaeiou')
-COUNTRIES_CASEFOLDED = tuple([x.casefold() for x in iso3166.countries_by_name.keys()] + ['united states', 'iran', 'united kingdom', 'turkey', 'itally', 'russia'])
+PORTUGUESE_COUNTRIES_CASEFOLDED = ('mozambique', 'mocambique', 'moçambique', 'brazil', 'brasil', 'angola', 'cabo verde', 'cape verde', 
+                                   'macau', 'timor leste', 'east timor', 'equatorial guinea', 'guine-bissau', 'guinea-bissau', 'portugal')
+COUNTRIES_CASEFOLDED = ('afghanistan', 'aland islands', 'albania', 'algeria', 'american samoa', 'andorra', 'angola', 'anguilla', 
+                        'antarctica', 'antigua and barbuda', 'argentina', 'armenia', 'aruba', 'australia', 'austria', 'azerbaijan', 
+                        'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bermuda', 'bhutan', 
+                        'bolivia', 'bonaire', 'bosnia and herzegovina', 'bosnia', 'herzegovina', 'botswana', 
+                        'bouvet', 'british indian ocean territory', 'brunei', 'bulgaria', 'burkina faso', 
+                        'burundi', 'cambodia', 'cameroon', 'canada', 'cayman islands', 'central african republic', 'chad', 
+                        'chile', 'china', 'christmas island', 'cocos (keeling) islands', 'keeling', 'colombia', 'comoros', 'congo', 'cook islands', 
+                        'costa rica', "côte d'ivoire", 'croatia', 'cuba', 'curaçao', 'curacao', 'cyprus', 'czechia', 'denmark', 'djibouti', 
+                        'dominica', 'dominican republic', 'ecuador', 'egypt', 'el salvador', 'equatorial guinea', 'eritrea', 'estonia', 
+                        'ethiopia', 'falkland islands', 'malvinas', 'faroe islands', 'fiji', 'finland', 'france', 'french guiana', 
+                        'french polynesia', 'french southern territories', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'gibraltar', 
+                        'greece', 'greenland', 'grenada', 'guadeloupe', 'guam', 'guatemala', 'guernsey', 'guinea', 'guinea-bissau', 
+                        'guyana', 'haiti', 'heard island and mcdonald islands', 'holy see', 'honduras', 'hong kong', 'hungary', 'iceland', 
+                        'india', 'indonesia', 'iran, islamic republic of', 'iraq', 'ireland', 'isle of man', 'israel', 'italy', 'jamaica', 
+                        'japan', 'jersey', 'jordan', 'kazakhstan', 'kenya', 'kiribati', "korea, democratic people's republic of", 
+                        'korea, republic of', 'kosovo', 'kuwait', 'kyrgyzstan', "lao people's democratic republic", 'laos', 'latvia', 'lebanon', 
+                        'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'macao', 'north macedonia', 'madagascar', 
+                        'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall islands', 'martinique', 'mauritania', 'mauritius', 
+                        'mayotte', 'mexico', 'micronesia, federated states of', 'moldova, republic of', 'monaco', 'mongolia', 'montenegro', 
+                        'montserrat', 'morocco', 'mozambique', 'myanmar', 'namibia', 'nauru', 'nepal', 'netherlands', 'new caledonia', 'new zealand', 
+                        'nicaragua', 'niger', 'nigeria', 'niue', 'norfolk island', 'northern mariana islands', 'norway', 'oman', 'pakistan', 
+                        'palau', 'palestine, state of', 'panama', 'papua new guinea', 'paraguay', 'peru', 'philippines', 'pitcairn', 
+                        'poland', 'puerto rico', 'qatar', 'reunion', 'romania', 'russian federation', 'rwanda', 'saint barthélemy', 
+                        'saint helena, ascension and tristan da cunha', 'saint kitts and nevis', 'saint lucia', 'saint martin (french part)', 
+                        'saint pierre and miquelon', 'saint vincent and the grenadines', 'samoa', 'san marino', 'sao tome and principe', 
+                        'saudi arabia', 'senegal', 'serbia', 'seychelles', 'sierra leone', 'singapore', 'sint maarten (dutch part)', 
+                        'slovakia', 'slovenia', 'solomon islands', 'somalia', 'south africa', 'south georgia and the south sandwich islands', 
+                        'south sudan', 'spain', 'sri lanka', 'sudan', 'suriname', 'svalbard and jan mayen', 'eswatini', 'sweden', 
+                        'switzerland', 'syrian arab republic', 'taiwan, province of china', 'tajikistan', 'tanzania, united republic of', 
+                        'thailand', 'timor-leste', 'togo', 'tokelau', 'tonga', 'trinidad and tobago', 'tunisia', 'türkiye', 'turkmenistan', 
+                        'turks and caicos islands', 'tuvalu', 'uganda', 'ukraine', 'united arab emirates', 'united kingdom of great britain and northern ireland', 
+                        'great britain', 'northern ireland', 'ireland',
+                        'united states of america', 'united states minor outlying islands', 'uruguay', 'uzbekistan', 'vanuatu', 
+                        'venezuela, bolivarian republic of', 'viet nam', 'virgin islands, british', 'virgin islands, u.s.', 'wallis and futuna', 
+                        'western sahara', 'yemen', 'zambia', 'zimbabwe', 'united states', 'iran', 'united kingdom', 'turkey', 'itally', 'russia')
 BRAZILIAN_STATES_CASEFOLDED = tuple(x.casefold() for x in ['Acre',
 'alagoas',
 'amapa',
@@ -167,11 +206,11 @@ def get_citing_dois_oc(doi):
 
     citing_dois = set()
     for citation in citations:
-        citing_dois.update([x.split('=>')[1].strip() for x in citation.split(';')])
+        citing_dois.update([x.split('=>')[1].strip().lower() for x in citation.split(';')])
 
     return list(citing_dois)
 
-def get_citing_dois_ss(doi):
+def get_citing_dois_and_pids_ss(doi):
     try:
         response = requests.get(f'https://api.semanticscholar.org/v1/paper/{doi}', headers={ 'Accept': 'application/json' })
         response.raise_for_status()
@@ -179,22 +218,28 @@ def get_citing_dois_ss(doi):
 
         # print('Erro ocorrido4: {0}'.format(err))
         # traceback.print_exc()
-        return list()
+        return list(), list()
 
     citations = response.json()['citations']
 
     if len(citations) == 0:
-        return list()
+        return list(), list()
 
     citing_dois = set()
+    citing_pids = set()
     for citation in citations:
 
         if citation['doi'] == 'null' or citation['doi'] == None:
-            print(f'nulo:{doi}:{citation["paperId"]}')
+            citing_pids.update([citation['paperId'].lower()])
             continue
-        citing_dois.update([citation['doi']])
+        
+        if citation['doi'][:7] == '10.5555':
+            print(f'burro:{citation["doi"]}')
+            continue
 
-    return list(citing_dois)
+        citing_dois.update([citation['doi'].lower()])
+
+    return list(citing_dois), list(citing_pids)
 
 def get_doi(publication):
     return publication.get('info', {}).get('doi', None)
@@ -223,10 +268,10 @@ def load_metadata_from_doi_crossref(doi, doi_dict=None):
         doi_dict = load_dict(os.path.join('data', 'doi_metadata.json'))
 
     if doi not in doi_dict:
-        raise Error(f'doi {doi} não está no dict carregado para baixar do crossref')
+        raise Exception(f'doi {doi} não está no dict carregado para baixar do crossref')
 
     if 'agency' not in doi_dict[doi] or doi_dict[doi]['agency'] != 'crossref':
-        raise Error(f'doi {doi} não é do crossref para baixar do crossref')
+        raise Exception(f'doi {doi} não é do crossref para baixar do crossref')
 
     try:
         response = requests.get(f'https://api.crossref.org/works/{doi}', headers={ 'Accept': 'application/json' })
@@ -251,10 +296,10 @@ def load_metadata_from_doi_datacite(doi, doi_dict=None):
         doi_dict = load_dict(os.path.join('data', 'doi_metadata.json'))
 
     if doi not in doi_dict:
-        raise Error(f'doi {doi} não está no dict carregado para baixar do datacite')
+        raise Exception(f'doi {doi} não está no dict carregado para baixar do datacite')
 
     if 'agency' not in doi_dict[doi] or doi_dict[doi]['agency'] != 'datacite':
-        raise Error(f'doi {doi} não é do datacite para baixar do datacite')
+        raise Exception(f'doi {doi} não é do datacite para baixar do datacite')
 
     try:
         response = requests.get(f'https://api.datacite.org/dois/{urllib.parse.quote_plus(doi)}', headers={ 'Accept': 'application/json' })
@@ -273,7 +318,35 @@ def load_metadata_from_doi_datacite(doi, doi_dict=None):
     doi_dict[doi]['metadata'] = response_json
     
     return doi_dict
+
+def load_metadata_from_paper_id_semanticscholar(pid, doi_dict=None):
+    if doi_dict is None:
+        doi_dict = load_dict(os.path.join('data', 'doi_metadata.json'))
+
+    if pid not in doi_dict:
+        raise Exception(f'doi {pid} não está no dict carregado para baixar do semanticscholar')
+
+    if 'agency' not in doi_dict[pid] or doi_dict[pid]['agency'] != 'semanticscholar':
+        raise Exception(f'doi {pid} não é do semanticscholar para baixar do semanticscholar')
+
+    try:
+        response = requests.get(f'https://api.semanticscholar.org/v1/paper/{pid}', headers={ 'Accept': 'application/json' })
+        response.raise_for_status()
+    except Exception as err:
+        print('Erro ocorrido8: {0}'.format(err))
+        traceback.print_exc()
+        return doi_dict
+
+    response_json = response.json()
+    if 'paperId' not in response_json:
+        print('Erro ocorrido9: {0}'.format(json.dumps(response_json)))
+        traceback.print_exc()
+        return doi_dict
+
+    doi_dict[pid]['metadata'] = response_json
     
+    return doi_dict
+
 def load_agency_from_doi(doi, doi_dict=None):
     if doi_dict is None:
         doi_dict = load_dict(os.path.join('data', 'doi_metadata.json'))
@@ -329,13 +402,31 @@ def load_citators_from_publications(publications):
 
         if doi not in citations:
             citations_oc = get_citing_dois_oc(doi)
-            citations_ss = get_citing_dois_ss(doi)
-            citations[doi] = list(set(citations_oc + citations_ss))
+            citations_dois_ss, citations_pids_ss = get_citing_dois_and_pids_ss(doi)
+            citations[doi] = list(set(citations_oc + citations_dois_ss + citations_pids_ss))
+            for pid in citations_pids_ss:
+                if pid not in doi_dict:
+                    doi_dict[pid] = {}
+                if 'agency' not in doi_dict[pid]: 
+                    doi_dict[pid]['agency'] = 'semanticscholar'
             save_dict(citations, citations_json_path)
-        
-        citing_dois = citations.get(doi)
 
-        new_dois = list(filter(lambda d: d not in doi_dict or 'metadata' not in doi_dict[d], citing_dois))
+        # citations_dois_ss, citations_pids_ss = get_citing_dois_and_pids_ss(doi)
+        # for pid in citations_pids_ss:
+        #     if pid not in doi_dict:
+        #         doi_dict[pid] = {}
+        #     if 'agency' not in doi_dict[pid]: 
+        #         doi_dict[pid]['agency'] = 'semanticscholar'
+        # citations[doi] = list(set(citations[doi] + citations_pids_ss))
+        # save_dict(citations, citations_json_path)
+        
+        citing_dois = list(set(citation.lower() for citation in citations.get(doi)))
+        citations[doi] = citing_dois
+        save_dict(citations, citations_json_path)
+
+        new_dois = list(filter(lambda d: d not in doi_dict 
+                                or 'metadata' not in doi_dict[d], 
+                            citing_dois))
         if len(new_dois) > 0:
             for new_doi in new_dois:
                 load_agency_from_doi(new_doi, doi_dict)
@@ -346,8 +437,10 @@ def load_citators_from_publications(publications):
                     load_metadata_from_doi_crossref(new_doi, doi_dict)
                 elif doi_dict[new_doi]['agency'] == 'datacite':
                     load_metadata_from_doi_datacite(new_doi, doi_dict)
+                elif doi_dict[new_doi]['agency'] == 'semanticscholar':
+                    load_metadata_from_paper_id_semanticscholar(new_doi, doi_dict)
                 else:
-                    raise Exception(f'doi {new_doi} não é do crossref, é do {doi_dict[new_doi]["agency"]}')
+                    raise Exception(f'doi {new_doi} não é do conhecido, é do {doi_dict[new_doi]["agency"]}')
             # print('salvei')
             save_dict(doi_dict, doi_dict_path)
     
@@ -362,7 +455,7 @@ def load_affiliation_related_to_portuguese(affiliation, affiliation_dict=None):
     if affiliation in affiliation_dict:
         return affiliation_dict[affiliation]
 
-    if affiliation.endswith(('brasil', 'brazil')) or any(x in affiliation for x in BRAZILIAN_STATES_CASEFOLDED + ('brasil', 'brazil')):
+    if affiliation.endswith(('brasil', 'brazil')) or any(x in affiliation for x in BRAZILIAN_STATES_CASEFOLDED + PORTUGUESE_COUNTRIES_CASEFOLDED):
         affiliation_dict[affiliation] = True
     elif affiliation.endswith(COUNTRIES_CASEFOLDED):
         affiliation_dict[affiliation] = False
@@ -464,7 +557,8 @@ def load_orcid_related_to_portuguese(orcid, orcid_dict=None):
 
     return orcid_dict
 
-def load_author_portuguese_related(author_dict, orcid_dict=None, affiliation_dict=None):
+def load_author_portuguese_related_cf(author_dict, orcid_dict=None, affiliation_dict=None):
+    author_dict['type'] = 'crossref'
     if orcid_dict is None:
         orcid_dict = load_dict(os.path.join('data', 'orcid.json'))
     if affiliation_dict is None:
@@ -481,35 +575,99 @@ def load_author_portuguese_related(author_dict, orcid_dict=None, affiliation_dic
         if 'related_to_portuguese' in orcid_dict[author_dict['ORCID'][-19:]]:
             author_dict['related_to_portuguese'] = author_dict.get('related_to_portuguese', False) or orcid_dict[author_dict['ORCID'][-19:]]['related_to_portuguese']
 
+def load_author_portuguese_related_dc(author_dict, orcid_dict=None, affiliation_dict=None):
+    author_dict['type'] = 'datacite'
+    if orcid_dict is None:
+        orcid_dict = load_dict(os.path.join('data', 'orcid.json'))
+    if affiliation_dict is None:
+        affiliation_dict = load_dict(os.path.join('data', 'affiliations.json'))
+    if len(author_dict['affiliation']) > 0:
+        for affiliation_raw in author_dict['affiliation']:
+            affiliation_clean = clean_affiliation(affiliation_raw)
+            if load_affiliation_related_to_portuguese(affiliation_clean, affiliation_dict):
+              author_dict['related_to_portuguese'] = True
+    for name_identifier_dict in author_dict['nameIdentifiers']:
+        if name_identifier_dict['scheme'] == 'ORCID':
+            orcid_url = name_identifier_dict['nameIdentifier']
+            if orcid_url[-4] == '-':
+                orcid_id = orcid_url[-18:] + 'X'
+            else:
+                orcid_id = orcid_url[-19:]
+            load_orcid(orcid_id, orcid_dict, method='person')
+            load_orcid(orcid_id, orcid_dict, method='employments')
+            load_orcid_related_to_portuguese(orcid_id, orcid_dict)
+            if 'related_to_portuguese' in orcid_dict[orcid_id]:
+                author_dict['related_to_portuguese'] = author_dict.get('related_to_portuguese', False) or orcid_dict[orcid_id]['related_to_portuguese']
+
 
 def load_doi_portuguese_affiliation(doi, doi_dict=None, orcid_dict=None, affiliation_dict=None):
     if doi_dict is None:
         doi_dict = load_dict(os.path.join('data', 'doi_metadata.json'))
 
     if doi not in doi_dict:
-        load_agency_from_doi(new_doi, doi_dict)
-        if doi_dict[new_doi]['agency'] == 'crossref':
-            load_metadata_from_doi_crossref(new_doi, doi_dict)
+        load_agency_from_doi(doi, doi_dict)
+        if 'agency' not in doi_dict[doi]:
+            return doi_dict
+        if doi_dict[doi]['agency'] == 'crossref':
+            load_metadata_from_doi_crossref(doi, doi_dict)
+        elif doi_dict[doi]['agency'] == 'datacite':
+            load_metadata_from_doi_datacite(doi, doi_dict)
+        elif doi_dict[doi]['agency'] == 'semanticscholar':
+            load_metadata_from_paper_id_semanticscholar(doi, doi_dict)
         else:
-            raise Error(f'doi {new_doi} não é do crossref, é do {doi_dict[new_doi]["agency"]}')
+            raise Exception(f'doi {doi} não é de lugar conhecido, é do {doi_dict[doi]["agency"]}')
+        
     
-    # if 'authors_related_to_portuguese' in doi_dict[doi]:
-    #    #  ['authors_related_to_portuguese']
-    #    return doi_dict
+    if 'agency' not in doi_dict[doi]:
+        if doi[:3] != '10.':
+            doi_dict[doi]['agency'] = 'semanticscholar'
+            load_metadata_from_paper_id_semanticscholar(doi, doi_dict)
+        else:
+            return doi_dict
 
     unknown_authors = 0
     brazilian_authors = 0
     non_brazilian_authors = 0
     
     if doi_dict[doi]['agency'] == 'crossref':
-        for author in doi_dict[doi]['metadata']['message']['author']:
-            load_author_portuguese_related(author, orcid_dict, affiliation_dict)
-            if 'related_to_portuguese' not in author:
-                unknown_authors += 1
-            elif author['related_to_portuguese']:
-                brazilian_authors += 1
-            else:
-                non_brazilian_authors += 1
+        if 'metadata' not in doi_dict[doi]:
+            print(f'{doi} não tem metadata nos metadados do crossref')
+        elif 'message' not in doi_dict[doi]['metadata']:
+            print(f'{doi} não tem message nos metadados do crossref')
+        elif 'author' not in doi_dict[doi]['metadata']['message']:
+            print(f'{doi} não tem author nos metadados do crossref')
+        else:
+            for author in doi_dict[doi]['metadata']['message']['author']:
+                load_author_portuguese_related_cf(author, orcid_dict, affiliation_dict)
+                if 'related_to_portuguese' not in author:
+                    unknown_authors += 1
+                elif author['related_to_portuguese']:
+                    brazilian_authors += 1
+                else:
+                    non_brazilian_authors += 1
+    elif doi_dict[doi]['agency'] == 'datacite':
+        if 'metadata' not in doi_dict[doi]:
+            print(f'{doi} não tem metadata nos metadados do datacite')
+        elif 'data' not in doi_dict[doi]['metadata']:
+            print(f'{doi} não tem data nos metadados do datacite')
+        elif 'creators' not in doi_dict[doi]['metadata']['data']:
+            print(f'{doi} não tem creators nos metadados do datacite')
+        else:
+            for creator in doi_dict[doi]['metadata']['data']['creators']:
+                load_author_portuguese_related_dc(creator, orcid_dict, affiliation_dict)
+                if 'related_to_portuguese' not in creator:
+                    unknown_authors += 1
+                elif author['related_to_portuguese']:
+                    brazilian_authors += 1
+                else:
+                    non_brazilian_authors += 1
+
+    elif doi_dict[doi]['agency'] == 'semanticscholar':
+        print(f'https://www.semanticscholar.org/paper/{doi}')
+
+    if doi[:8] == '10.5753/':
+        doi_dict[doi]['authors_related_to_portuguese'] = True
+        return doi_dict
     
     if brazilian_authors > 0:
         doi_dict[doi]['authors_related_to_portuguese'] = True
@@ -569,6 +727,106 @@ def add_meta(dataFrame, sbsi_dict, path):
             
 
 if __name__ == '__main__':
+    prepare_folders()
+    publications_list = load_conference('sbsi_new')
+
+    doi_json_path = os.path.join('data', 'doi_metadata.json')
+    doi_dict = load_dict(doi_json_path)
+
+    orcid_json_path = os.path.join('data', 'orcid.json')
+    orcid_dict = load_dict(orcid_json_path)
+
+    affiliation_json_path = os.path.join('data', 'affiliations.json')
+    affiliation_dict = load_dict(affiliation_json_path)
+
+    citations_json_path = 'data/citations.json'
+    citations = load_dict(citations_json_path)
+
+    publications_by_year = dict()
+    info_by_year = list()
+    for publication in publications_list:
+        publication_year = publication['info']['year']
+        if publication_year not in publications_by_year:
+            publications_by_year[publication_year] = []
+        publication_year_list = publications_by_year.get(publication_year)
+        publication_year_list.append(publication)
+
+    for year in publications_by_year:
+        publication_year_list = publications_by_year[year]
+        info = {
+            "Ano": year,
+            "Número de publicações": len(publication_year_list),
+            "Número de citações": sum(len(citations.get(publication['info'].get('doi', ''), [])) for publication in publication_year_list)
+        }
+        info_by_year.append(info)
+    df = pd.DataFrame(info_by_year)
+    df = df.set_index('Ano')
+    df = df.iloc[::-1]
+    df.plot()
+    plt.show()
+
+    publications_2015 = publications_by_year['2015']
+    # load_citators_from_publications(publications_2015)
+    fig, ax = plt.subplots()
+    pt_br_p = sum(publication['language'] == 'pt-br' for publication in publications_2015)
+    en_us_p = sum(publication['language'] == 'en' for publication in publications_2015)
+    ax.bar(['pt-BR', 'en-US'], [pt_br_p, en_us_p])
+    ax.legend(title='Número de publicações')
+    plt.show()
+    
+    publications_2015_pt = [publication for publication in publications_2015 if publication['language'] == 'pt-br']
+    publications_2015_en = [publication for publication in publications_2015 if publication['language'] == 'en']
+    fig, ax = plt.subplots()
+    pt_br_c = sum(len(citations.get(publication['info'].get('doi', ''), [])) for publication in publications_2015_pt)
+    en_us_c = sum(len(citations.get(publication['info'].get('doi', ''), [])) for publication in publications_2015_en)
+    ax.bar(['pt-BR', 'en-US'], [pt_br_c, en_us_c])
+    ax.legend(title='Número de citações às publicações')
+    plt.show()
+
+    fig, ax = plt.subplots()
+    pt_br_a = pt_br_c/pt_br_p
+    en_us_a = en_us_c/en_us_p
+    ax.bar(['pt-BR', 'en-US'], [pt_br_a, en_us_a])
+    ax.legend(title='Média de citações por publicação')
+    plt.show()
+
+    G = nx.DiGraph()
+
+    viz_nosso_pt =                      {'color': {'r':   0, 'g': 255, 'b':   0, 'a': 1}}
+    viz_nosso_en =                      {'color': {'r':   0, 'g':   0, 'b': 255, 'a': 1}}
+    viz_externo_autoria_pt =            {'color': {'r': 255, 'g': 255, 'b':   0, 'a': 1}}
+    viz_externo_autoria_nao_pt =        {'color': {'r': 255, 'g':   0, 'b': 255, 'a': 1}}
+    viz_externo_autoria_desconhecida =  {'color': {'r': 255, 'g':   0, 'b':   0, 'a': 1}}
+
+    for publication in publications_2015:
+        doi = publication['info'].get('doi')
+        if doi is None:
+            continue
+        for citing_doi in citations.get(doi, []):
+            if citing_doi in doi_dict and 'authors_related_to_portuguese' not in doi_dict[citing_doi]:
+                load_doi_portuguese_affiliation(citing_doi, doi_dict, orcid_dict, affiliation_dict)
+                save_dict(orcid_dict, orcid_json_path)
+                save_dict(affiliation_dict, affiliation_json_path)
+            G.add_edge(citing_doi, doi.lower())
+            if citing_doi not in doi_dict or 'authors_related_to_portuguese' not in doi_dict[citing_doi] or doi_dict[citing_doi]['authors_related_to_portuguese'] is None:
+                G.nodes[citing_doi]['viz'] = viz_externo_autoria_desconhecida
+                if 'agency' in doi_dict[citing_doi] and doi_dict[citing_doi]['agency'] != 'semanticscholar':
+                    print(f'https://doi.org/{citing_doi}')
+            elif doi_dict[citing_doi]['authors_related_to_portuguese']:
+                G.nodes[citing_doi]['viz'] = viz_externo_autoria_pt
+            else:
+                G.nodes[citing_doi]['viz'] = viz_externo_autoria_nao_pt
+    for publication in publications_2015:
+        doi = publication['info'].get('doi')
+        if doi is None:
+            continue
+        G.add_node(doi.lower())
+        G.nodes[doi.lower()]['viz'] = viz_nosso_pt if publication['language'] == 'pt-br' else viz_nosso_en
+        
+    save_dict(doi_dict, doi_json_path)
+
+    nx.write_gexf(G, "/data/citacoes.gexf")
+
     """prepare_folders()
 
     publications_list = load_conference('sbsi')

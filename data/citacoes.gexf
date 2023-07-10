@@ -1,0 +1,1075 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-07-10">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="10.5753/sbsi.2016.5953" label="10.5753/sbsi.2016.5953">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5894" label="10.5753/sbsi.2015.5894">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="edf573ea4a77b2025a5ffb522a9fbc090b98ced8" label="edf573ea4a77b2025a5ffb522a9fbc090b98ced8">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1111/tgis.12903" label="10.1111/tgis.12903">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3330204.3330214" label="10.1145/3330204.3330214">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3085228.3085288" label="10.1145/3085228.3085288">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3330204.3330237" label="10.1145/3330204.3330237">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5890" label="10.5753/sbsi.2015.5890">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.5974" label="10.5753/sbsi.2016.5974">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="e6f76e643bdaafca3666730fc16e7eac2216fb4d" label="e6f76e643bdaafca3666730fc16e7eac2216fb4d">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5847" label="10.5753/sbsi.2015.5847">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.34117/bjdv6n7-205" label="10.34117/bjdv6n7-205">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5845" label="10.5753/sbsi.2015.5845">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3411564.3411640" label="10.1145/3411564.3411640">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5802" label="10.5753/sbsi.2015.5802">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1007/978-3-319-39907-2_7" label="10.1007/978-3-319-39907-2_7">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/semish.2022.223289" label="10.5753/semish.2022.223289">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5826" label="10.5753/sbsi.2015.5826">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="74fe5fec1fd29313ce45750b5c0201e17f4b5993" label="74fe5fec1fd29313ce45750b5c0201e17f4b5993">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.14393/ufu.di.2020.563" label="10.14393/ufu.di.2020.563">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5797" label="10.5753/sbsi.2015.5797">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1007/978-3-030-14347-3_5" label="10.1007/978-3-030-14347-3_5">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5585/rgss.v9i2.16570" label="10.5585/rgss.v9i2.16570">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/icaccs.2019.8728457" label="10.1109/icaccs.2019.8728457">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5824" label="10.5753/sbsi.2015.5824">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.3390/s19194243" label="10.3390/s19194243">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1016/j.firesaf.2017.03.083" label="10.1016/j.firesaf.2017.03.083">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="fe1966644715ccdfc50401b8bf288d23e7a063a7" label="fe1966644715ccdfc50401b8bf288d23e7a063a7">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.3390/s22145134" label="10.3390/s22145134">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1177/8755293020911163" label="10.1177/8755293020911163">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1109/ipin54987.2022.9918151" label="10.1109/ipin54987.2022.9918151">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1109/access.2018.2847030" label="10.1109/access.2018.2847030">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1145/3085228.3085308" label="10.1145/3085228.3085308">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5833" label="10.5753/sbsi.2015.5833">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3364641.3364656" label="10.1145/3364641.3364656">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/cbie.wcbie.2017.1364" label="10.5753/cbie.wcbie.2017.1364">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.6007" label="10.5753/sbsi.2016.6007">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5857" label="10.5753/sbsi.2015.5857">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1002/smr.1931" label="10.1002/smr.1931">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5883" label="10.5753/sbsi.2015.5883">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.7250/csimq.2018-15.02" label="10.7250/csimq.2018-15.02">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5220/0005974801690176" label="10.5220/0005974801690176">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1007/978-3-319-64930-6_5" label="10.1007/978-3-319-64930-6_5">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1145/3330204.3330234" label="10.1145/3330204.3330234">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5818" label="10.5753/sbsi.2015.5818">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3229345.3229389" label="10.1145/3229345.3229389">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/icalt.2019.00013" label="10.1109/icalt.2019.00013">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.23919/cisti.2017.7975743" label="10.23919/cisti.2017.7975743">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/cbie.wcbie.2016.1473" label="10.5753/cbie.wcbie.2016.1473">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2017.6061" label="10.5753/sbsi.2017.6061">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/siie.2016.7751829" label="10.1109/siie.2016.7751829">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5220/0009356307350742" label="10.5220/0009356307350742">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1002/smr.2487" label="10.1002/smr.2487">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5836" label="10.5753/sbsi.2015.5836">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1145/3167132.3167295" label="10.1145/3167132.3167295">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1007/978-3-030-93135-3_6" label="10.1007/978-3-030-93135-3_6">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="1bd7c46cc49a9e6716083ffead694a101edd6454" label="1bd7c46cc49a9e6716083ffead694a101edd6454">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5220/0009580204240431" label="10.5220/0009580204240431">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/maltesque.2017.7882010" label="10.1109/maltesque.2017.7882010">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="555f5a0d742bf929dd0101816a04a8cff17dcca7" label="555f5a0d742bf929dd0101816a04a8cff17dcca7">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3132498.3134268" label="10.1145/3132498.3134268">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3555228.3555268" label="10.1145/3555228.3555268">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1016/j.jss.2021.110984" label="10.1016/j.jss.2021.110984">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.3390/su131810256" label="10.3390/su131810256">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1007/s11219-016-9318-6" label="10.1007/s11219-016-9318-6">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1016/j.infsof.2019.08.005" label="10.1016/j.infsof.2019.08.005">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1016/j.jss.2018.07.035" label="10.1016/j.jss.2018.07.035">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1371/journal.pone.0231731" label="10.1371/journal.pone.0231731">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2017.6068" label="10.5753/sbsi.2017.6068">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5752/p.2316-9451.2020v8n1p20-42" label="10.5752/p.2316-9451.2020v8n1p20-42">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3357141.3357143" label="10.1145/3357141.3357143">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/access.2020.3047870" label="10.1109/access.2020.3047870">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1002/spe.2697" label="10.1002/spe.2697">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.17632/72fvy4r3gj.1" label="10.17632/72fvy4r3gj.1">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.5947" label="10.5753/sbsi.2016.5947">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5823" label="10.5753/sbsi.2015.5823">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1007/s11280-021-00997-x" label="10.1007/s11280-021-00997-x">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="7ca3527a982a34d0675bea3bf88de0434744b218" label="7ca3527a982a34d0675bea3bf88de0434744b218">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="e172640d71969690912db4e9378b9f315d88e8f8" label="e172640d71969690912db4e9378b9f315d88e8f8">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5881" label="10.5753/sbsi.2015.5881">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.21528/cbic2015-078" label="10.21528/cbic2015-078">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5820" label="10.5753/sbsi.2015.5820">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.21203/rs.3.rs-469721/v1" label="10.21203/rs.3.rs-469721/v1">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5827" label="10.5753/sbsi.2015.5827">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/pdcat.2017.00030" label="10.1109/pdcat.2017.00030">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/jidm.2022.2695" label="10.5753/jidm.2022.2695">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.18293/seke2016-182" label="10.18293/seke2016-182">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5849" label="10.5753/sbsi.2015.5849">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.6004" label="10.5753/sbsi.2016.6004">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="e590657c64793eb0aab8012e8f1e1624f7e4ef91" label="e590657c64793eb0aab8012e8f1e1624f7e4ef91">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5220/0006337503040311" label="10.5220/0006337503040311">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.3390/agronomy10060855" label="10.3390/agronomy10060855">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5840" label="10.5753/sbsi.2015.5840">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="0ce562b96e9813269397439b07f08c88d8b0eab3" label="0ce562b96e9813269397439b07f08c88d8b0eab3">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3411564.3411584" label="10.1145/3411564.3411584">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3424953.3426540" label="10.1145/3424953.3426540">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.6003" label="10.5753/sbsi.2016.6003">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5825" label="10.5753/sbsi.2015.5825">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="8073ffc997a27af3d59faaf4f21b6103aa298bec" label="8073ffc997a27af3d59faaf4f21b6103aa298bec">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1007/978-3-030-50072-6_13" label="10.1007/978-3-030-50072-6_13">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5810" label="10.5753/sbsi.2015.5810">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/brasnam.2017.3251" label="10.5753/brasnam.2017.3251">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/bresci.2018.3268" label="10.5753/bresci.2018.3268">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/brasnam.2016.6445" label="10.5753/brasnam.2016.6445">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/brasnam.2016.6452" label="10.5753/brasnam.2016.6452">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.11606/d.100.2017.tde-01112017-111709" label="10.11606/d.100.2017.tde-01112017-111709">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5804" label="10.5753/sbsi.2015.5804">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.5981" label="10.5753/sbsi.2016.5981">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/eatis.2016.7520113" label="10.1109/eatis.2016.7520113">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/wbci.2018.3226" label="10.5753/wbci.2018.3226">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="6f4e3ea0a82262105f908c74a5dd7062875db22c" label="6f4e3ea0a82262105f908c74a5dd7062875db22c">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="de819c241ebe92b4d39022444d520b1bb594dfba" label="de819c241ebe92b4d39022444d520b1bb594dfba">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5868" label="10.5753/sbsi.2015.5868">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.5954" label="10.5753/sbsi.2016.5954">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.36558/22372903-2019v9n1-p7" label="10.36558/22372903-2019v9n1-p7">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5831" label="10.5753/sbsi.2015.5831">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="da524088169f38e30141a9ee19a25d9c1c2b1425" label="da524088169f38e30141a9ee19a25d9c1c2b1425">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="8d974551d475d13fdb310d6f195c2afdffc36381" label="8d974551d475d13fdb310d6f195c2afdffc36381">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5871" label="10.5753/sbsi.2015.5871">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/cbie.wcbie.2015.1444" label="10.5753/cbie.wcbie.2015.1444">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5892" label="10.5753/sbsi.2015.5892">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/cbie.wcbie.2018.337" label="10.5753/cbie.wcbie.2018.337">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/cbie.wcbie.2015.272" label="10.5753/cbie.wcbie.2015.272">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/cbie.sbie.2020.381" label="10.5753/cbie.sbie.2020.381">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="c6752c478528034434b74e38aeab33af059c3d59" label="c6752c478528034434b74e38aeab33af059c3d59">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="63d3272bf219413e0f2febcb47411493a835bf7e" label="63d3272bf219413e0f2febcb47411493a835bf7e">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5837" label="10.5753/sbsi.2015.5837">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/semish.2020.11315" label="10.5753/semish.2020.11315">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5854" label="10.5753/sbsi.2015.5854">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbcup.2016.9445" label="10.5753/sbcup.2016.9445">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5838" label="10.5753/sbsi.2015.5838">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3106426.3106543" label="10.1145/3106426.3106543">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5885" label="10.5753/sbsi.2015.5885">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1109/access.2021.3098192" label="10.1109/access.2021.3098192">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/isys.2015.291" label="10.5753/isys.2015.291">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3345645.3351103" label="10.1145/3345645.3351103">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/isys.2017.329" label="10.5753/isys.2017.329">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.14722/usec.2023.235078" label="10.14722/usec.2023.235078">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.5982" label="10.5753/sbsi.2016.5982">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/asonam.2018.8508654" label="10.1109/asonam.2018.8508654">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1145/3341161.3342868" label="10.1145/3341161.3342868">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="b02b76417c5919a18023e4b60e761d6338ad8494" label="b02b76417c5919a18023e4b60e761d6338ad8494">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1002/cpe.5346" label="10.1002/cpe.5346">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1007/s11042-016-3899-8" label="10.1007/s11042-016-3899-8">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3466933.3466973" label="10.1145/3466933.3466973">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.11591/ijeecs.v17.i1.pp248-255" label="10.11591/ijeecs.v17.i1.pp248-255">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1145/3535511.3535516" label="10.1145/3535511.3535516">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3183506" label="10.1145/3183506">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="4f9e89b98c9325a9a9c0758f7039e16485e17799" label="4f9e89b98c9325a9a9c0758f7039e16485e17799">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.11113/aej.v13.19171" label="10.11113/aej.v13.19171">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1109/asonam.2018.8508296" label="10.1109/asonam.2018.8508296">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1109/sami.2019.8782731" label="10.1109/sami.2019.8782731">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1109/tifs.2016.2603960" label="10.1109/tifs.2016.2603960">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1016/j.jnca.2018.03.015" label="10.1016/j.jnca.2018.03.015">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1007/s11042-020-08721-z" label="10.1007/s11042-020-08721-z">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.24251/hicss.2021.096" label="10.24251/hicss.2021.096">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.48550/arxiv.2206.03581" label="10.48550/arxiv.2206.03581">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1109/laclo.2018.00068" label="10.1109/laclo.2018.00068">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5864" label="10.5753/sbsi.2015.5864">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3357236.3395543" label="10.1145/3357236.3395543">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.21037/jhmhp-20-92" label="10.21037/jhmhp-20-92">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5860" label="10.5753/sbsi.2015.5860">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.7769/gesec.v14i2.1630" label="10.7769/gesec.v14i2.1630">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5809" label="10.5753/sbsi.2015.5809">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="9864f3d72aea7f3fef111527ec67578ecf02db9d" label="9864f3d72aea7f3fef111527ec67578ecf02db9d">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.14488/enegep2021_tn_wpg_354_1822_42144" label="10.14488/enegep2021_tn_wpg_354_1822_42144">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5888" label="10.5753/sbsi.2015.5888">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2017.6020" label="10.5753/sbsi.2017.6020">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5813" label="10.5753/sbsi.2015.5813">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.1145/3411564.3411607" label="10.1145/3411564.3411607">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/2820426.2820465" label="10.1145/2820426.2820465">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3324473" label="10.1145/3324473">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/ersirj.2021.16976" label="10.5753/ersirj.2021.16976">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5893" label="10.5753/sbsi.2015.5893">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="3cfe06c8b85191dff852f85689bf84b7b8427063" label="3cfe06c8b85191dff852f85689bf84b7b8427063">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/icsa-c50368.2020.00045" label="10.1109/icsa-c50368.2020.00045">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="1f06d0a6f950963c61bfc54737a3c03ddc2ceaa1" label="1f06d0a6f950963c61bfc54737a3c03ddc2ceaa1">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/isys.2016.300" label="10.5753/isys.2016.300">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/isys.2018.379" label="10.5753/isys.2018.379">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="caa17fcaba03650f4491be462ec02cf6dc737a5c" label="caa17fcaba03650f4491be462ec02cf6dc737a5c">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/eri-mt.2019.8600" label="10.5753/eri-mt.2019.8600">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5872" label="10.5753/sbsi.2015.5872">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3411564.3411644" label="10.1145/3411564.3411644">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/waihcws.2021.17539" label="10.5753/waihcws.2021.17539">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3535511.3535553" label="10.1145/3535511.3535553">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3466933.3466981" label="10.1145/3466933.3466981">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5832" label="10.5753/sbsi.2015.5832">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5281/zenodo.4244859" label="10.5281/zenodo.4244859">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5889" label="10.5753/sbsi.2015.5889">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.3390/info10030088" label="10.3390/info10030088">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5858" label="10.5753/sbsi.2015.5858">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3229345.3229405" label="10.1145/3229345.3229405">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5884" label="10.5753/sbsi.2015.5884">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1515/itms-2017-0013" label="10.1515/itms-2017-0013">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5880" label="10.5753/sbsi.2015.5880">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.5984" label="10.5753/sbsi.2016.5984">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5795" label="10.5753/sbsi.2015.5795">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3229345.3229408" label="10.1145/3229345.3229408">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5877" label="10.5753/sbsi.2015.5877">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3229345.3229415" label="10.1145/3229345.3229415">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.47985/dcidj.475" label="10.47985/dcidj.475">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.11606/d.100.2018.tde-21052018-162205" label="10.11606/d.100.2018.tde-21052018-162205">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5220/0009393405630570" label="10.5220/0009393405630570">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5803" label="10.5753/sbsi.2015.5803">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="e44a2d563a989b63d4e56957bd19e4c614f6a10c" label="e44a2d563a989b63d4e56957bd19e4c614f6a10c">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="fcfc6d4efe78f018ef3bd87fffd49c8fef4d9aaa" label="fcfc6d4efe78f018ef3bd87fffd49c8fef4d9aaa">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5814" label="10.5753/sbsi.2015.5814">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.32749/nucleodoconhecimento.com.br/historia/empreendedorismo-solidario" label="10.32749/nucleodoconhecimento.com.br/historia/empreendedorismo-solidario">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5865" label="10.5753/sbsi.2015.5865">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5798" label="10.5753/sbsi.2015.5798">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/wei.2018.3484" label="10.5753/wei.2018.3484">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/erbase.2021.20051" label="10.5753/erbase.2021.20051">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5842" label="10.5753/sbsi.2015.5842">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.4018/ijicte.20210701.oa3" label="10.4018/ijicte.20210701.oa3">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5816" label="10.5753/sbsi.2015.5816">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5867" label="10.5753/sbsi.2015.5867">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="8561a75a70d3d627151e739a796e1829efe1a0d9" label="8561a75a70d3d627151e739a796e1829efe1a0d9">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5861" label="10.5753/sbsi.2015.5861">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.3390/su10124402" label="10.3390/su10124402">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/cbie.sbie.2016.996" label="10.5753/cbie.sbie.2016.996">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5807" label="10.5753/sbsi.2015.5807">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3209281.3209367" label="10.1145/3209281.3209367">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5874" label="10.5753/sbsi.2015.5874">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.6009" label="10.5753/sbsi.2016.6009">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5886" label="10.5753/sbsi.2015.5886">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/procomm.2018.00033" label="10.1109/procomm.2018.00033">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5821" label="10.5753/sbsi.2015.5821">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="9b2c35db8fbceab32b88de1ee69121225c80c543" label="9b2c35db8fbceab32b88de1ee69121225c80c543">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.21474/ijar01/9270" label="10.21474/ijar01/9270">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.18421/tem64-22" label="10.18421/tem64-22">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="c92fb82074c8a40db9a64d50fe14993c84b43351" label="c92fb82074c8a40db9a64d50fe14993c84b43351">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5830" label="10.5753/sbsi.2015.5830">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3160504.3160546" label="10.1145/3160504.3160546">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5869" label="10.5753/sbsi.2015.5869">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="15c38272abca2b1589e358bb9248fa6f9e5956f8" label="15c38272abca2b1589e358bb9248fa6f9e5956f8">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5862" label="10.5753/sbsi.2015.5862">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.5965" label="10.5753/sbsi.2016.5965">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3330204.3330260" label="10.1145/3330204.3330260">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5822" label="10.5753/sbsi.2015.5822">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.29322/ijsrp.8.6.2018.p7861" label="10.29322/ijsrp.8.6.2018.p7861">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5851" label="10.5753/sbsi.2015.5851">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.14201/adcaij2018733146" label="10.14201/adcaij2018733146">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2016.5967" label="10.5753/sbsi.2016.5967">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5801" label="10.5753/sbsi.2015.5801">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/isys.2015.280" label="10.5753/isys.2015.280">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/tla.2016.7786373" label="10.1109/tla.2016.7786373">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1109/tla.2016.7587653" label="10.1109/tla.2016.7587653">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.14257/ijseia.2016.10.10.07" label="10.14257/ijseia.2016.10.10.07">
+        <viz:color r="255" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5887" label="10.5753/sbsi.2015.5887">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.1145/3493244.3493249" label="10.1145/3493244.3493249">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5863" label="10.5753/sbsi.2015.5863">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/washes.2019.6404" label="10.5753/washes.2019.6404">
+        <viz:color r="255" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5796" label="10.5753/sbsi.2015.5796">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5852" label="10.5753/sbsi.2015.5852">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5873" label="10.5753/sbsi.2015.5873">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5855" label="10.5753/sbsi.2015.5855">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5839" label="10.5753/sbsi.2015.5839">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5808" label="10.5753/sbsi.2015.5808">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5843" label="10.5753/sbsi.2015.5843">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5859" label="10.5753/sbsi.2015.5859">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5805" label="10.5753/sbsi.2015.5805">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5799" label="10.5753/sbsi.2015.5799">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5882" label="10.5753/sbsi.2015.5882">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5848" label="10.5753/sbsi.2015.5848">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5844" label="10.5753/sbsi.2015.5844">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5841" label="10.5753/sbsi.2015.5841">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5828" label="10.5753/sbsi.2015.5828">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5834" label="10.5753/sbsi.2015.5834">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5812" label="10.5753/sbsi.2015.5812">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5875" label="10.5753/sbsi.2015.5875">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5811" label="10.5753/sbsi.2015.5811">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5870" label="10.5753/sbsi.2015.5870">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5850" label="10.5753/sbsi.2015.5850">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5876" label="10.5753/sbsi.2015.5876">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5878" label="10.5753/sbsi.2015.5878">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5866" label="10.5753/sbsi.2015.5866">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5817" label="10.5753/sbsi.2015.5817">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5800" label="10.5753/sbsi.2015.5800">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5891" label="10.5753/sbsi.2015.5891">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5856" label="10.5753/sbsi.2015.5856">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5829" label="10.5753/sbsi.2015.5829">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5835" label="10.5753/sbsi.2015.5835">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5846" label="10.5753/sbsi.2015.5846">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5853" label="10.5753/sbsi.2015.5853">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5806" label="10.5753/sbsi.2015.5806">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5815" label="10.5753/sbsi.2015.5815">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5879" label="10.5753/sbsi.2015.5879">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015.5819" label="10.5753/sbsi.2015.5819">
+        <viz:color r="0" g="255" b="0" a="1" />
+      </node>
+      <node id="10.5753/sbsi.2015" label="10.5753/sbsi.2015">
+        <viz:color r="0" g="0" b="255" a="1" />
+      </node>
+    </nodes>
+    <edges>
+      <edge source="10.5753/sbsi.2016.5953" target="10.5753/sbsi.2015.5894" id="0" />
+      <edge source="10.5753/sbsi.2016.5953" target="10.5753/sbsi.2015.5804" id="1" />
+      <edge source="10.5753/sbsi.2016.5953" target="10.5753/sbsi.2015.5803" id="2" />
+      <edge source="edf573ea4a77b2025a5ffb522a9fbc090b98ced8" target="10.5753/sbsi.2015.5894" id="3" />
+      <edge source="10.1111/tgis.12903" target="10.5753/sbsi.2015.5894" id="4" />
+      <edge source="10.1145/3330204.3330214" target="10.5753/sbsi.2015.5894" id="5" />
+      <edge source="10.1145/3330204.3330214" target="10.5753/sbsi.2015.5804" id="6" />
+      <edge source="10.1145/3085228.3085288" target="10.5753/sbsi.2015.5894" id="7" />
+      <edge source="10.1145/3330204.3330237" target="10.5753/sbsi.2015.5890" id="8" />
+      <edge source="10.5753/sbsi.2016.5974" target="10.5753/sbsi.2015.5890" id="9" />
+      <edge source="10.5753/sbsi.2016.5974" target="10.5753/sbsi.2015.5798" id="10" />
+      <edge source="10.5753/sbsi.2016.5974" target="10.5753/sbsi.2015.5867" id="11" />
+      <edge source="e6f76e643bdaafca3666730fc16e7eac2216fb4d" target="10.5753/sbsi.2015.5847" id="12" />
+      <edge source="10.34117/bjdv6n7-205" target="10.5753/sbsi.2015.5845" id="13" />
+      <edge source="10.1145/3411564.3411640" target="10.5753/sbsi.2015.5802" id="14" />
+      <edge source="10.1007/978-3-319-39907-2_7" target="10.5753/sbsi.2015.5802" id="15" />
+      <edge source="10.5753/semish.2022.223289" target="10.5753/sbsi.2015.5826" id="16" />
+      <edge source="74fe5fec1fd29313ce45750b5c0201e17f4b5993" target="10.5753/sbsi.2015.5826" id="17" />
+      <edge source="74fe5fec1fd29313ce45750b5c0201e17f4b5993" target="10.5753/sbsi.2015.5830" id="18" />
+      <edge source="10.14393/ufu.di.2020.563" target="10.5753/sbsi.2015.5797" id="19" />
+      <edge source="10.1007/978-3-030-14347-3_5" target="10.5753/sbsi.2015.5797" id="20" />
+      <edge source="10.5585/rgss.v9i2.16570" target="10.5753/sbsi.2015.5797" id="21" />
+      <edge source="10.1109/icaccs.2019.8728457" target="10.5753/sbsi.2015.5824" id="22" />
+      <edge source="10.3390/s19194243" target="10.5753/sbsi.2015.5824" id="23" />
+      <edge source="10.1016/j.firesaf.2017.03.083" target="10.5753/sbsi.2015.5824" id="24" />
+      <edge source="fe1966644715ccdfc50401b8bf288d23e7a063a7" target="10.5753/sbsi.2015.5824" id="25" />
+      <edge source="10.3390/s22145134" target="10.5753/sbsi.2015.5824" id="26" />
+      <edge source="10.1177/8755293020911163" target="10.5753/sbsi.2015.5824" id="27" />
+      <edge source="10.1109/ipin54987.2022.9918151" target="10.5753/sbsi.2015.5824" id="28" />
+      <edge source="10.1109/access.2018.2847030" target="10.5753/sbsi.2015.5824" id="29" />
+      <edge source="10.1145/3085228.3085308" target="10.5753/sbsi.2015.5833" id="30" />
+      <edge source="10.1145/3364641.3364656" target="10.5753/sbsi.2015.5833" id="31" />
+      <edge source="10.5753/cbie.wcbie.2017.1364" target="10.5753/sbsi.2015.5833" id="32" />
+      <edge source="10.5753/sbsi.2016.6007" target="10.5753/sbsi.2015.5857" id="33" />
+      <edge source="10.1002/smr.1931" target="10.5753/sbsi.2015.5883" id="34" />
+      <edge source="10.7250/csimq.2018-15.02" target="10.5753/sbsi.2015.5883" id="35" />
+      <edge source="10.5220/0005974801690176" target="10.5753/sbsi.2015.5883" id="36" />
+      <edge source="10.1007/978-3-319-64930-6_5" target="10.5753/sbsi.2015.5883" id="37" />
+      <edge source="10.1145/3330204.3330234" target="10.5753/sbsi.2015.5818" id="38" />
+      <edge source="10.1145/3330204.3330234" target="10.5753/sbsi.2015.5807" id="39" />
+      <edge source="10.1145/3229345.3229389" target="10.5753/sbsi.2015.5818" id="40" />
+      <edge source="10.1109/icalt.2019.00013" target="10.5753/sbsi.2015.5818" id="41" />
+      <edge source="10.23919/cisti.2017.7975743" target="10.5753/sbsi.2015.5818" id="42" />
+      <edge source="10.5753/cbie.wcbie.2016.1473" target="10.5753/sbsi.2015.5818" id="43" />
+      <edge source="10.5753/sbsi.2017.6061" target="10.5753/sbsi.2015.5818" id="44" />
+      <edge source="10.1109/siie.2016.7751829" target="10.5753/sbsi.2015.5818" id="45" />
+      <edge source="10.5220/0009356307350742" target="10.5753/sbsi.2015.5818" id="46" />
+      <edge source="10.1002/smr.2487" target="10.5753/sbsi.2015.5836" id="47" />
+      <edge source="10.1145/3167132.3167295" target="10.5753/sbsi.2015.5836" id="48" />
+      <edge source="10.1007/978-3-030-93135-3_6" target="10.5753/sbsi.2015.5836" id="49" />
+      <edge source="1bd7c46cc49a9e6716083ffead694a101edd6454" target="10.5753/sbsi.2015.5836" id="50" />
+      <edge source="10.5220/0009580204240431" target="10.5753/sbsi.2015.5836" id="51" />
+      <edge source="10.1109/maltesque.2017.7882010" target="10.5753/sbsi.2015.5836" id="52" />
+      <edge source="555f5a0d742bf929dd0101816a04a8cff17dcca7" target="10.5753/sbsi.2015.5836" id="53" />
+      <edge source="10.1145/3132498.3134268" target="10.5753/sbsi.2015.5836" id="54" />
+      <edge source="10.1145/3555228.3555268" target="10.5753/sbsi.2015.5836" id="55" />
+      <edge source="10.1016/j.jss.2021.110984" target="10.5753/sbsi.2015.5836" id="56" />
+      <edge source="10.3390/su131810256" target="10.5753/sbsi.2015.5836" id="57" />
+      <edge source="10.1007/s11219-016-9318-6" target="10.5753/sbsi.2015.5836" id="58" />
+      <edge source="10.1016/j.infsof.2019.08.005" target="10.5753/sbsi.2015.5836" id="59" />
+      <edge source="10.1016/j.jss.2018.07.035" target="10.5753/sbsi.2015.5836" id="60" />
+      <edge source="10.1371/journal.pone.0231731" target="10.5753/sbsi.2015.5836" id="61" />
+      <edge source="10.5753/sbsi.2017.6068" target="10.5753/sbsi.2015.5836" id="62" />
+      <edge source="10.5752/p.2316-9451.2020v8n1p20-42" target="10.5753/sbsi.2015.5836" id="63" />
+      <edge source="10.1145/3357141.3357143" target="10.5753/sbsi.2015.5836" id="64" />
+      <edge source="10.1109/access.2020.3047870" target="10.5753/sbsi.2015.5836" id="65" />
+      <edge source="10.1002/spe.2697" target="10.5753/sbsi.2015.5836" id="66" />
+      <edge source="10.17632/72fvy4r3gj.1" target="10.5753/sbsi.2015.5836" id="67" />
+      <edge source="10.5753/sbsi.2016.5947" target="10.5753/sbsi.2015.5823" id="68" />
+      <edge source="10.1007/s11280-021-00997-x" target="10.5753/sbsi.2015.5823" id="69" />
+      <edge source="7ca3527a982a34d0675bea3bf88de0434744b218" target="10.5753/sbsi.2015.5823" id="70" />
+      <edge source="e172640d71969690912db4e9378b9f315d88e8f8" target="10.5753/sbsi.2015.5881" id="71" />
+      <edge source="10.21528/cbic2015-078" target="10.5753/sbsi.2015.5820" id="72" />
+      <edge source="10.21203/rs.3.rs-469721/v1" target="10.5753/sbsi.2015.5827" id="73" />
+      <edge source="10.1109/pdcat.2017.00030" target="10.5753/sbsi.2015.5827" id="74" />
+      <edge source="10.5753/jidm.2022.2695" target="10.5753/sbsi.2015.5827" id="75" />
+      <edge source="10.18293/seke2016-182" target="10.5753/sbsi.2015.5849" id="76" />
+      <edge source="10.5753/sbsi.2016.6004" target="10.5753/sbsi.2015.5849" id="77" />
+      <edge source="e590657c64793eb0aab8012e8f1e1624f7e4ef91" target="10.5753/sbsi.2015.5849" id="78" />
+      <edge source="10.5220/0006337503040311" target="10.5753/sbsi.2015.5849" id="79" />
+      <edge source="10.3390/agronomy10060855" target="10.5753/sbsi.2015.5840" id="80" />
+      <edge source="0ce562b96e9813269397439b07f08c88d8b0eab3" target="10.5753/sbsi.2015.5840" id="81" />
+      <edge source="10.1145/3411564.3411584" target="10.5753/sbsi.2015.5840" id="82" />
+      <edge source="10.1145/3424953.3426540" target="10.5753/sbsi.2015.5840" id="83" />
+      <edge source="10.5753/sbsi.2016.6003" target="10.5753/sbsi.2015.5825" id="84" />
+      <edge source="8073ffc997a27af3d59faaf4f21b6103aa298bec" target="10.5753/sbsi.2015.5825" id="85" />
+      <edge source="10.1007/978-3-030-50072-6_13" target="10.5753/sbsi.2015.5810" id="86" />
+      <edge source="10.5753/brasnam.2017.3251" target="10.5753/sbsi.2015.5810" id="87" />
+      <edge source="10.5753/bresci.2018.3268" target="10.5753/sbsi.2015.5810" id="88" />
+      <edge source="10.5753/brasnam.2016.6445" target="10.5753/sbsi.2015.5810" id="89" />
+      <edge source="10.5753/brasnam.2016.6452" target="10.5753/sbsi.2015.5810" id="90" />
+      <edge source="10.11606/d.100.2017.tde-01112017-111709" target="10.5753/sbsi.2015.5810" id="91" />
+      <edge source="10.5753/sbsi.2016.5981" target="10.5753/sbsi.2015.5804" id="92" />
+      <edge source="10.1109/eatis.2016.7520113" target="10.5753/sbsi.2015.5804" id="93" />
+      <edge source="10.5753/wbci.2018.3226" target="10.5753/sbsi.2015.5804" id="94" />
+      <edge source="6f4e3ea0a82262105f908c74a5dd7062875db22c" target="10.5753/sbsi.2015.5804" id="95" />
+      <edge source="de819c241ebe92b4d39022444d520b1bb594dfba" target="10.5753/sbsi.2015.5868" id="96" />
+      <edge source="10.5753/sbsi.2016.5954" target="10.5753/sbsi.2015.5868" id="97" />
+      <edge source="10.5753/sbsi.2016.5954" target="10.5753/sbsi.2015.5893" id="98" />
+      <edge source="10.36558/22372903-2019v9n1-p7" target="10.5753/sbsi.2015.5831" id="99" />
+      <edge source="da524088169f38e30141a9ee19a25d9c1c2b1425" target="10.5753/sbsi.2015.5831" id="100" />
+      <edge source="8d974551d475d13fdb310d6f195c2afdffc36381" target="10.5753/sbsi.2015.5871" id="101" />
+      <edge source="10.5753/cbie.wcbie.2015.1444" target="10.5753/sbsi.2015.5892" id="102" />
+      <edge source="10.5753/cbie.wcbie.2018.337" target="10.5753/sbsi.2015.5892" id="103" />
+      <edge source="10.5753/cbie.wcbie.2015.272" target="10.5753/sbsi.2015.5892" id="104" />
+      <edge source="10.5753/cbie.sbie.2020.381" target="10.5753/sbsi.2015.5892" id="105" />
+      <edge source="c6752c478528034434b74e38aeab33af059c3d59" target="10.5753/sbsi.2015.5892" id="106" />
+      <edge source="63d3272bf219413e0f2febcb47411493a835bf7e" target="10.5753/sbsi.2015.5837" id="107" />
+      <edge source="10.5753/semish.2020.11315" target="10.5753/sbsi.2015.5854" id="108" />
+      <edge source="10.5753/sbcup.2016.9445" target="10.5753/sbsi.2015.5838" id="109" />
+      <edge source="10.1145/3106426.3106543" target="10.5753/sbsi.2015.5885" id="110" />
+      <edge source="10.1109/access.2021.3098192" target="10.5753/sbsi.2015.5885" id="111" />
+      <edge source="10.5753/isys.2015.291" target="10.5753/sbsi.2015.5885" id="112" />
+      <edge source="10.1145/3345645.3351103" target="10.5753/sbsi.2015.5885" id="113" />
+      <edge source="10.5753/isys.2017.329" target="10.5753/sbsi.2015.5885" id="114" />
+      <edge source="10.14722/usec.2023.235078" target="10.5753/sbsi.2015.5885" id="115" />
+      <edge source="10.5753/sbsi.2016.5982" target="10.5753/sbsi.2015.5885" id="116" />
+      <edge source="10.1109/asonam.2018.8508654" target="10.5753/sbsi.2015.5885" id="117" />
+      <edge source="10.1145/3341161.3342868" target="10.5753/sbsi.2015.5885" id="118" />
+      <edge source="b02b76417c5919a18023e4b60e761d6338ad8494" target="10.5753/sbsi.2015.5885" id="119" />
+      <edge source="10.1002/cpe.5346" target="10.5753/sbsi.2015.5885" id="120" />
+      <edge source="10.1007/s11042-016-3899-8" target="10.5753/sbsi.2015.5885" id="121" />
+      <edge source="10.1145/3466933.3466973" target="10.5753/sbsi.2015.5885" id="122" />
+      <edge source="10.11591/ijeecs.v17.i1.pp248-255" target="10.5753/sbsi.2015.5885" id="123" />
+      <edge source="10.1145/3535511.3535516" target="10.5753/sbsi.2015.5885" id="124" />
+      <edge source="10.1145/3183506" target="10.5753/sbsi.2015.5885" id="125" />
+      <edge source="4f9e89b98c9325a9a9c0758f7039e16485e17799" target="10.5753/sbsi.2015.5885" id="126" />
+      <edge source="10.11113/aej.v13.19171" target="10.5753/sbsi.2015.5885" id="127" />
+      <edge source="10.1109/asonam.2018.8508296" target="10.5753/sbsi.2015.5885" id="128" />
+      <edge source="10.1109/sami.2019.8782731" target="10.5753/sbsi.2015.5885" id="129" />
+      <edge source="10.1109/tifs.2016.2603960" target="10.5753/sbsi.2015.5885" id="130" />
+      <edge source="10.1016/j.jnca.2018.03.015" target="10.5753/sbsi.2015.5885" id="131" />
+      <edge source="10.1007/s11042-020-08721-z" target="10.5753/sbsi.2015.5885" id="132" />
+      <edge source="10.24251/hicss.2021.096" target="10.5753/sbsi.2015.5885" id="133" />
+      <edge source="10.48550/arxiv.2206.03581" target="10.5753/sbsi.2015.5885" id="134" />
+      <edge source="10.1109/laclo.2018.00068" target="10.5753/sbsi.2015.5864" id="135" />
+      <edge source="10.1145/3357236.3395543" target="10.5753/sbsi.2015.5864" id="136" />
+      <edge source="10.21037/jhmhp-20-92" target="10.5753/sbsi.2015.5860" id="137" />
+      <edge source="10.7769/gesec.v14i2.1630" target="10.5753/sbsi.2015.5809" id="138" />
+      <edge source="9864f3d72aea7f3fef111527ec67578ecf02db9d" target="10.5753/sbsi.2015.5809" id="139" />
+      <edge source="10.14488/enegep2021_tn_wpg_354_1822_42144" target="10.5753/sbsi.2015.5888" id="140" />
+      <edge source="10.5753/sbsi.2017.6020" target="10.5753/sbsi.2015.5813" id="141" />
+      <edge source="10.1145/3411564.3411607" target="10.5753/sbsi.2015.5813" id="142" />
+      <edge source="10.1145/2820426.2820465" target="10.5753/sbsi.2015.5813" id="143" />
+      <edge source="10.1145/3324473" target="10.5753/sbsi.2015.5813" id="144" />
+      <edge source="10.5753/ersirj.2021.16976" target="10.5753/sbsi.2015.5893" id="145" />
+      <edge source="3cfe06c8b85191dff852f85689bf84b7b8427063" target="10.5753/sbsi.2015.5893" id="146" />
+      <edge source="10.1109/icsa-c50368.2020.00045" target="10.5753/sbsi.2015.5893" id="147" />
+      <edge source="1f06d0a6f950963c61bfc54737a3c03ddc2ceaa1" target="10.5753/sbsi.2015.5893" id="148" />
+      <edge source="10.5753/isys.2016.300" target="10.5753/sbsi.2015.5893" id="149" />
+      <edge source="10.5753/isys.2018.379" target="10.5753/sbsi.2015.5893" id="150" />
+      <edge source="caa17fcaba03650f4491be462ec02cf6dc737a5c" target="10.5753/sbsi.2015.5893" id="151" />
+      <edge source="10.5753/eri-mt.2019.8600" target="10.5753/sbsi.2015.5872" id="152" />
+      <edge source="10.1145/3411564.3411644" target="10.5753/sbsi.2015.5872" id="153" />
+      <edge source="10.5753/waihcws.2021.17539" target="10.5753/sbsi.2015.5872" id="154" />
+      <edge source="10.1145/3535511.3535553" target="10.5753/sbsi.2015.5872" id="155" />
+      <edge source="10.1145/3466933.3466981" target="10.5753/sbsi.2015.5832" id="156" />
+      <edge source="10.5281/zenodo.4244859" target="10.5753/sbsi.2015.5889" id="157" />
+      <edge source="10.3390/info10030088" target="10.5753/sbsi.2015.5858" id="158" />
+      <edge source="10.1145/3229345.3229405" target="10.5753/sbsi.2015.5884" id="159" />
+      <edge source="10.1515/itms-2017-0013" target="10.5753/sbsi.2015.5880" id="160" />
+      <edge source="10.5753/sbsi.2016.5984" target="10.5753/sbsi.2015.5795" id="161" />
+      <edge source="10.1145/3229345.3229408" target="10.5753/sbsi.2015.5877" id="162" />
+      <edge source="10.1145/3229345.3229415" target="10.5753/sbsi.2015.5877" id="163" />
+      <edge source="10.47985/dcidj.475" target="10.5753/sbsi.2015.5877" id="164" />
+      <edge source="10.11606/d.100.2018.tde-21052018-162205" target="10.5753/sbsi.2015.5877" id="165" />
+      <edge source="10.5220/0009393405630570" target="10.5753/sbsi.2015.5877" id="166" />
+      <edge source="e44a2d563a989b63d4e56957bd19e4c614f6a10c" target="10.5753/sbsi.2015.5803" id="167" />
+      <edge source="fcfc6d4efe78f018ef3bd87fffd49c8fef4d9aaa" target="10.5753/sbsi.2015.5814" id="168" />
+      <edge source="10.32749/nucleodoconhecimento.com.br/historia/empreendedorismo-solidario" target="10.5753/sbsi.2015.5865" id="169" />
+      <edge source="10.5753/wei.2018.3484" target="10.5753/sbsi.2015.5798" id="170" />
+      <edge source="10.5753/erbase.2021.20051" target="10.5753/sbsi.2015.5842" id="171" />
+      <edge source="10.4018/ijicte.20210701.oa3" target="10.5753/sbsi.2015.5816" id="172" />
+      <edge source="8561a75a70d3d627151e739a796e1829efe1a0d9" target="10.5753/sbsi.2015.5861" id="173" />
+      <edge source="10.3390/su10124402" target="10.5753/sbsi.2015.5861" id="174" />
+      <edge source="10.5753/cbie.sbie.2016.996" target="10.5753/sbsi.2015.5807" id="175" />
+      <edge source="10.1145/3209281.3209367" target="10.5753/sbsi.2015.5874" id="176" />
+      <edge source="10.5753/sbsi.2016.6009" target="10.5753/sbsi.2015.5886" id="177" />
+      <edge source="10.1109/procomm.2018.00033" target="10.5753/sbsi.2015.5821" id="178" />
+      <edge source="9b2c35db8fbceab32b88de1ee69121225c80c543" target="10.5753/sbsi.2015.5821" id="179" />
+      <edge source="10.21474/ijar01/9270" target="10.5753/sbsi.2015.5821" id="180" />
+      <edge source="10.18421/tem64-22" target="10.5753/sbsi.2015.5821" id="181" />
+      <edge source="c92fb82074c8a40db9a64d50fe14993c84b43351" target="10.5753/sbsi.2015.5821" id="182" />
+      <edge source="10.1145/3160504.3160546" target="10.5753/sbsi.2015.5869" id="183" />
+      <edge source="15c38272abca2b1589e358bb9248fa6f9e5956f8" target="10.5753/sbsi.2015.5862" id="184" />
+      <edge source="10.5753/sbsi.2016.5965" target="10.5753/sbsi.2015.5862" id="185" />
+      <edge source="10.1145/3330204.3330260" target="10.5753/sbsi.2015.5822" id="186" />
+      <edge source="10.29322/ijsrp.8.6.2018.p7861" target="10.5753/sbsi.2015.5851" id="187" />
+      <edge source="10.14201/adcaij2018733146" target="10.5753/sbsi.2015.5851" id="188" />
+      <edge source="10.5753/sbsi.2016.5967" target="10.5753/sbsi.2015.5801" id="189" />
+      <edge source="10.5753/isys.2015.280" target="10.5753/sbsi.2015.5801" id="190" />
+      <edge source="10.1109/tla.2016.7786373" target="10.5753/sbsi.2015.5801" id="191" />
+      <edge source="10.1109/tla.2016.7587653" target="10.5753/sbsi.2015.5801" id="192" />
+      <edge source="10.14257/ijseia.2016.10.10.07" target="10.5753/sbsi.2015.5887" id="193" />
+      <edge source="10.1145/3493244.3493249" target="10.5753/sbsi.2015.5863" id="194" />
+      <edge source="10.5753/washes.2019.6404" target="10.5753/sbsi.2015.5863" id="195" />
+    </edges>
+  </graph>
+</gexf>
