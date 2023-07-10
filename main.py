@@ -748,19 +748,19 @@ if __name__ == '__main__':
         publication_year_list = publications_by_year.get(publication_year)
         publication_year_list.append(publication)
 
-    for year in publications_by_year:
-        publication_year_list = publications_by_year[year]
-        info = {
-            "Ano": year,
-            "Número de publicações": len(publication_year_list),
-            "Número de citações": sum(len(citations.get(publication['info'].get('doi', ''), [])) for publication in publication_year_list)
-        }
-        info_by_year.append(info)
-    df = pd.DataFrame(info_by_year)
-    df = df.set_index('Ano')
-    df = df.iloc[::-1]
-    df.plot()
-    plt.show()
+    # for year in publications_by_year:
+    #     publication_year_list = publications_by_year[year]
+    #     info = {
+    #         "Ano": year,
+    #         "Número de publicações": len(publication_year_list),
+    #         "Número de citações": sum(len(citations.get(publication['info'].get('doi', ''), [])) for publication in publication_year_list)
+    #     }
+    #     info_by_year.append(info)
+    # df = pd.DataFrame(info_by_year)
+    # df = df.set_index('Ano')
+    # df = df.iloc[::-1]
+    # df.plot()
+    # plt.show()
 
     publications_2015 = publications_by_year['2015']
     # load_citators_from_publications(publications_2015)
@@ -787,13 +787,25 @@ if __name__ == '__main__':
     ax.legend(title='Média de citações por publicação')
     plt.show()
 
-    G = nx.DiGraph()
-
     viz_nosso_pt =                      {'color': {'r':   0, 'g': 255, 'b':   0, 'a': 1}}
     viz_nosso_en =                      {'color': {'r':   0, 'g':   0, 'b': 255, 'a': 1}}
     viz_externo_autoria_pt =            {'color': {'r': 255, 'g': 255, 'b':   0, 'a': 1}}
     viz_externo_autoria_nao_pt =        {'color': {'r': 255, 'g':   0, 'b': 255, 'a': 1}}
     viz_externo_autoria_desconhecida =  {'color': {'r': 255, 'g':   0, 'b':   0, 'a': 1}}
+
+
+    citacoes_por_tipo_columns = ['Filiação lusófona \nà publicação em português',
+                                 'Filiação lusófona \nà publicação em inglês',
+                                 'Filiação não-lusófona \nà publicação em português',
+                                 'Filiação não-lusófona \nà publicação em inglês']
+    citacoes_por_tipo = {
+        'pt_pt': 0,
+        'pt_en': 0,
+        'n_pt_pt': 0,
+        'n_pt_en': 0
+    }
+
+    G = nx.DiGraph()
 
     for publication in publications_2015:
         doi = publication['info'].get('doi')
@@ -811,18 +823,35 @@ if __name__ == '__main__':
                     print(f'https://doi.org/{citing_doi}')
             elif doi_dict[citing_doi]['authors_related_to_portuguese']:
                 G.nodes[citing_doi]['viz'] = viz_externo_autoria_pt
+                if publication['language'] == 'pt-br':
+                    citacoes_por_tipo['pt_pt'] += 1
+                else:
+                    citacoes_por_tipo['pt_en'] += 1
             else:
                 G.nodes[citing_doi]['viz'] = viz_externo_autoria_nao_pt
+                if publication['language'] == 'pt-br':
+                    citacoes_por_tipo['n_pt_pt'] += 1
+                else:
+                    citacoes_por_tipo['n_pt_en'] += 1
     for publication in publications_2015:
         doi = publication['info'].get('doi')
         if doi is None:
             continue
         G.add_node(doi.lower())
         G.nodes[doi.lower()]['viz'] = viz_nosso_pt if publication['language'] == 'pt-br' else viz_nosso_en
-        
-    save_dict(doi_dict, doi_json_path)
 
-    nx.write_gexf(G, "/data/citacoes.gexf")
+    fig, ax = plt.subplots()
+    plt.xticks(
+        rotation=45, 
+        fontweight='light'
+    )
+    ax.bar(citacoes_por_tipo_columns, citacoes_por_tipo.values())
+    ax.legend(title='Quantidade de citações por tipo')
+    plt.show()
+        
+    # save_dict(doi_dict, doi_json_path)
+
+    # nx.write_gexf(G, "data/citacoes.gexf")
 
     """prepare_folders()
 
@@ -866,3 +895,5 @@ if __name__ == '__main__':
     # print(get_author_affiliations_dblp('o/JoniceOliveira'))
     
 
+
+# %%
