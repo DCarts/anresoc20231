@@ -16,8 +16,6 @@ import iso3166
 fasttext_model = fasttext.load_model('lid.176.ftz')
 import urllib
 import networkx as nx
-
-#Muzy
 import pandas as pd
 import matplotlib.pyplot as plt
 import html
@@ -677,7 +675,6 @@ def load_doi_portuguese_affiliation(doi, doi_dict=None, orcid_dict=None, affilia
     return doi_dict
 
 
-#Muzy
 def add_meta(dataFrame, sbsi_dict, path):
     
 
@@ -850,7 +847,6 @@ if __name__ == '__main__':
     save_dict(doi_dict, doi_json_path)"""
 
 
-    #Muzy
 
     # dataFrame = pd.read_excel('data/sbsi-metadata.xlsx')
     # with open('conferences/sbsi.json') as f:
