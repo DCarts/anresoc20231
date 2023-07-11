@@ -1,0 +1,2484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1148.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-549.000000 -557.000000 1148.000000 1165.000000" height="1165.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="3.0"
+              d="M 538.273621,143.305038 L 550.781860,137.072098"
+              class="id_10.5753/sbsi.2016.5953 id_10.5753/sbsi.2015.5894"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 531.672241,159.920639 L 534.197754,166.793472"
+              class="id_10.5753/sbsi.2016.5953 id_10.5753/sbsi.2015.5804"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 517.744690,141.715515 L 503.097229,131.328308"
+              class="id_10.5753/sbsi.2016.5953 id_10.5753/sbsi.2015.5803"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 552.580566,78.908386 L 563.161987,102.094055"
+              class="id_edf573ea4a77b2025a5ffb522a9fbc090b98ced8 id_10.5753/sbsi.2015.5894"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 535.895142,109.091362 L 550.204529,115.298340"
+              class="id_10.1111/tgis.12903 id_10.5753/sbsi.2015.5894"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 582.396912,160.678986 L 579.959473,150.637253"
+              class="id_10.1145/3330204.3330214 id_10.5753/sbsi.2015.5894"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 574.359741,177.428726 L 567.662964,180.564224"
+              class="id_10.1145/3330204.3330214 id_10.5753/sbsi.2015.5804"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 583.441284,94.431503 L 581.452393,100.903511"
+              class="id_10.1145/3085228.3085288 id_10.5753/sbsi.2015.5894"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -425.498871,-43.456398 L -439.233093,-46.410923"
+              class="id_10.1145/3330204.3330237 id_10.5753/sbsi.2015.5890"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -455.388519,-83.479919 L -457.278259,-73.732285"
+              class="id_10.5753/sbsi.2016.5974 id_10.5753/sbsi.2015.5890"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -450.167511,-106.895569 L -447.755585,-116.449944"
+              class="id_10.5753/sbsi.2016.5974 id_10.5753/sbsi.2015.5798"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -441.381561,-92.697487 L -426.762726,-89.501289"
+              class="id_10.5753/sbsi.2016.5974 id_10.5753/sbsi.2015.5867"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -109.207588,-117.643188 L -103.793167,-122.277809"
+              class="id_e6f76e643bdaafca3666730fc16e7eac2216fb4d id_10.5753/sbsi.2015.5847"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 15.558581,-214.637833 L 4.219170,-214.175293"
+              class="id_10.34117/bjdv6n7-205 id_10.5753/sbsi.2015.5845"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -263.508240,87.238983 L -272.437317,83.780159"
+              class="id_10.1145/3411564.3411640 id_10.5753/sbsi.2015.5802"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -275.678864,48.712914 L -280.962921,56.520035"
+              class="id_10.1007/978-3-319-39907-2_7 id_10.5753/sbsi.2015.5802"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -65.166916,339.613739 L -72.154739,351.364136"
+              class="id_10.5753/semish.2022.223289 id_10.5753/sbsi.2015.5826"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -117.169098,360.278137 L -105.674667,364.001221"
+              class="id_74fe5fec1fd29313ce45750b5c0201e17f4b5993 id_10.5753/sbsi.2015.5826"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -127.023209,344.682495 L -125.350700,331.942505"
+              class="id_74fe5fec1fd29313ce45750b5c0201e17f4b5993 id_10.5753/sbsi.2015.5830"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 329.710480,150.460312 L 331.680328,163.799469"
+              class="id_10.14393/ufu.di.2020.563 id_10.5753/sbsi.2015.5797"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 298.873535,167.674759 L 314.192902,176.010101"
+              class="id_10.1007/978-3-030-14347-3_5 id_10.5753/sbsi.2015.5797"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 301.341064,203.065262 L 313.493988,197.445755"
+              class="id_10.5585/rgss.v9i2.16570 id_10.5753/sbsi.2015.5797"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -425.747437,-252.530884 L -455.945129,-259.213531"
+              class="id_10.1109/icaccs.2019.8728457 id_10.5753/sbsi.2015.5824"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -461.911072,-306.041229 L -470.274323,-290.621124"
+              class="id_10.3390/s19194243 id_10.5753/sbsi.2015.5824"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -511.136475,-220.592606 L -498.823181,-240.889740"
+              class="id_10.1016/j.firesaf.2017.03.083 id_10.5753/sbsi.2015.5824"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -493.752197,-301.298889 L -491.505890,-293.076508"
+              class="id_fe1966644715ccdfc50401b8bf288d23e7a063a7 id_10.5753/sbsi.2015.5824"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -475.632141,-219.838303 L -478.799438,-237.196228"
+              class="id_10.3390/s22145134 id_10.5753/sbsi.2015.5824"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -526.040161,-251.121353 L -511.105499,-256.191162"
+              class="id_10.1177/8755293020911163 id_10.5753/sbsi.2015.5824"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -430.931549,-285.613678 L -457.147675,-275.623291"
+              class="id_10.1109/ipin54987.2022.9918151 id_10.5753/sbsi.2015.5824"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -442.107452,-223.023956 L -463.799774,-244.999466"
+              class="id_10.1109/access.2018.2847030 id_10.5753/sbsi.2015.5824"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -152.254211,-343.885834 L -159.034317,-344.562592"
+              class="id_10.1145/3085228.3085308 id_10.5753/sbsi.2015.5833"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -197.023682,-319.623230 L -193.828964,-325.755859"
+              class="id_10.1145/3364641.3364656 id_10.5753/sbsi.2015.5833"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -165.047394,-313.775635 L -171.526886,-325.880798"
+              class="id_10.5753/cbie.wcbie.2017.1364 id_10.5753/sbsi.2015.5833"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -59.195126,191.036743 L -68.400742,190.407349"
+              class="id_10.5753/sbsi.2016.6007 id_10.5753/sbsi.2015.5857"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 192.624710,276.895721 L 203.908417,282.426666"
+              class="id_10.1002/smr.1931 id_10.5753/sbsi.2015.5883"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 218.293930,256.824158 L 220.951126,269.083435"
+              class="id_10.7250/csimq.2018-15.02 id_10.5753/sbsi.2015.5883"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 248.588120,269.116791 L 243.060272,275.106079"
+              class="id_10.5220/0005974801690176 id_10.5753/sbsi.2015.5883"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 197.220123,309.207581 L 204.416687,305.273834"
+              class="id_10.1007/978-3-319-64930-6_5 id_10.5753/sbsi.2015.5883"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 63.631550,546.321655 L 50.819138,552.241272"
+              class="id_10.1145/3330204.3330234 id_10.5753/sbsi.2015.5818"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 82.269241,532.121948 L 86.557915,527.045532"
+              class="id_10.1145/3330204.3330234 id_10.5753/sbsi.2015.5807"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -10.358994,589.040527 L 1.341621,580.793335"
+              class="id_10.1145/3229345.3229389 id_10.5753/sbsi.2015.5818"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -35.280262,518.908447 L 1.897167,546.985779"
+              class="id_10.1109/icalt.2019.00013 id_10.5753/sbsi.2015.5818"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 30.107708,483.308594 L 26.665585,535.652039"
+              class="id_10.23919/cisti.2017.7975743 id_10.5753/sbsi.2015.5818"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 40.850636,526.117371 L 35.914677,537.838379"
+              class="id_10.5753/cbie.wcbie.2016.1473 id_10.5753/sbsi.2015.5818"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -19.821190,557.858032 L -3.604530,560.189270"
+              class="id_10.5753/sbsi.2017.6061 id_10.5753/sbsi.2015.5818"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -2.287151,508.019501 L 12.346615,538.427185"
+              class="id_10.1109/siie.2016.7751829 id_10.5753/sbsi.2015.5818"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 59.508690,580.209534 L 50.848877,576.234558"
+              class="id_10.5220/0009356307350742 id_10.5753/sbsi.2015.5818"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 276.662048,-354.502960 L 299.682312,-383.801971"
+              class="id_10.1002/smr.2487 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 371.560211,-446.483551 L 359.579498,-438.663879"
+              class="id_10.1145/3167132.3167295 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 353.019012,-478.581940 L 341.912384,-453.742004"
+              class="id_10.1007/978-3-030-93135-3_6 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 399.862183,-422.382324 L 366.130035,-419.577606"
+              class="id_1bd7c46cc49a9e6716083ffead694a101edd6454 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 232.487915,-446.059906 L 285.941010,-428.808746"
+              class="id_10.5220/0009580204240431 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 239.355789,-339.011017 L 294.513306,-388.637238"
+              class="id_10.1109/maltesque.2017.7882010 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 230.916321,-373.912506 L 287.557007,-399.320648"
+              class="id_555f5a0d742bf929dd0101816a04a8cff17dcca7 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 403.102142,-364.698853 L 359.465210,-393.496094"
+              class="id_10.1145/3132498.3134268 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 289.676727,-465.750244 L 301.179626,-449.654480"
+              class="id_10.1145/3555228.3555268 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 304.440613,-312.625458 L 317.053436,-375.803558"
+              class="id_10.1016/j.jss.2021.110984 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 344.162140,-363.261932 L 339.056335,-377.441223"
+              class="id_10.3390/su131810256 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 377.122070,-337.938782 L 347.900024,-381.891235"
+              class="id_10.1007/s11219-016-9318-6 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 223.165009,-412.480042 L 283.978455,-414.679413"
+              class="id_10.1016/j.infsof.2019.08.005 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 320.154449,-491.598022 L 322.412476,-457.238464"
+              class="id_10.1016/j.jss.2018.07.035 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 268.570068,-311.360168 L 305.568939,-379.942322"
+              class="id_10.1371/journal.pone.0231731 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 250.726883,-480.403534 L 293.959747,-443.068878"
+              class="id_10.5753/sbsi.2017.6068 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 267.979980,-390.466339 L 287.574799,-399.281097"
+              class="id_10.5752/p.2316-9451.2020v8n1p20-42 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 266.122284,-424.037354 L 284.313080,-421.610352"
+              class="id_10.1145/3357141.3357143 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 311.995117,-355.942200 L 316.352600,-375.949829"
+              class="id_10.1109/access.2020.3047870 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 376.557373,-395.883545 L 363.402863,-401.069946"
+              class="id_10.1002/spe.2697 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 340.956909,-318.011017 L 331.671112,-375.533112"
+              class="id_10.17632/72fvy4r3gj.1 id_10.5753/sbsi.2015.5836"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -263.302277,-223.896896 L -276.758820,-235.664658"
+              class="id_10.5753/sbsi.2016.5947 id_10.5753/sbsi.2015.5823"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -257.787415,-258.389160 L -271.272705,-255.832626"
+              class="id_10.1007/s11280-021-00997-x id_10.5753/sbsi.2015.5823"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -297.342773,-213.696060 L -296.383301,-227.561646"
+              class="id_7ca3527a982a34d0675bea3bf88de0434744b218 id_10.5753/sbsi.2015.5823"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -196.092819,16.250679 L -199.275635,8.319425"
+              class="id_e172640d71969690912db4e9378b9f315d88e8f8 id_10.5753/sbsi.2015.5881"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 37.488388,-155.476730 L 21.228571,-161.240952"
+              class="id_10.21528/cbic2015-078 id_10.5753/sbsi.2015.5820"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -25.318472,-325.961060 L -26.531118,-347.845490"
+              class="id_10.21203/rs.3.rs-469721/v1 id_10.5753/sbsi.2015.5827"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -52.602909,-351.255920 L -46.267693,-356.485992"
+              class="id_10.1109/pdcat.2017.00030 id_10.5753/sbsi.2015.5827"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -1.035390,-353.499817 L -8.089417,-358.284332"
+              class="id_10.5753/jidm.2022.2695 id_10.5753/sbsi.2015.5827"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 99.236977,-464.035400 L 93.310837,-467.239868"
+              class="id_10.18293/seke2016-182 id_10.5753/sbsi.2015.5849"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 83.064323,-433.445404 L 77.585190,-454.981812"
+              class="id_10.5753/sbsi.2016.6004 id_10.5753/sbsi.2015.5849"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 40.512833,-472.293640 L 47.193092,-473.753113"
+              class="id_e590657c64793eb0aab8012e8f1e1624f7e4ef91 id_10.5753/sbsi.2015.5849"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 47.394741,-438.533234 L 58.776501,-457.697601"
+              class="id_10.5220/0006337503040311 id_10.5753/sbsi.2015.5849"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 104.783630,345.635254 L 101.978767,360.295319"
+              class="id_10.3390/agronomy10060855 id_10.5753/sbsi.2015.5840"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 73.105164,352.965546 L 82.243935,364.944031"
+              class="id_0ce562b96e9813269397439b07f08c88d8b0eab3 id_10.5753/sbsi.2015.5840"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 127.266441,368.899902 L 119.284157,373.108246"
+              class="id_10.1145/3411564.3411584 id_10.5753/sbsi.2015.5840"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 63.021004,382.948120 L 72.502983,383.430573"
+              class="id_10.1145/3424953.3426540 id_10.5753/sbsi.2015.5840"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -29.556139,270.127319 L -24.131042,277.567657"
+              class="id_10.5753/sbsi.2016.6003 id_10.5753/sbsi.2015.5825"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 10.948710,272.373413 L 4.797259,279.134369"
+              class="id_8073ffc997a27af3d59faaf4f21b6103aa298bec id_10.5753/sbsi.2015.5825"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 531.825989,-135.727737 L 526.976318,-146.945389"
+              class="id_10.1007/978-3-030-50072-6_13 id_10.5753/sbsi.2015.5810"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 475.817474,-196.204269 L 493.503754,-185.430099"
+              class="id_10.5753/brasnam.2017.3251 id_10.5753/sbsi.2015.5810"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 451.809723,-169.840149 L 489.606110,-170.816895"
+              class="id_10.5753/bresci.2018.3268 id_10.5753/sbsi.2015.5810"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 506.045807,-209.268616 L 509.307831,-197.323013"
+              class="id_10.5753/brasnam.2016.6445 id_10.5753/sbsi.2015.5810"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 465.337952,-134.201981 L 494.756012,-155.713028"
+              class="id_10.5753/brasnam.2016.6452 id_10.5753/sbsi.2015.5810"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 499.448120,-126.984451 L 506.856445,-146.491547"
+              class="id_10.11606/d.100.2017.tde-01112017-111709 id_10.5753/sbsi.2015.5810"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 506.999329,176.956100 L 518.672729,181.748444"
+              class="id_10.5753/sbsi.2016.5981 id_10.5753/sbsi.2015.5804"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 510.596497,212.977753 L 520.905579,206.362839"
+              class="id_10.1109/eatis.2016.7520113 id_10.5753/sbsi.2015.5804"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 538.477234,228.848114 L 539.872986,218.434128"
+              class="id_10.5753/wbci.2018.3226 id_10.5753/sbsi.2015.5804"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 474.189514,193.488647 L 516.674744,192.520767"
+              class="id_6f4e3ea0a82262105f908c74a5dd7062875db22c id_10.5753/sbsi.2015.5804"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 335.224609,347.327911 L 346.125244,349.844788"
+              class="id_de819c241ebe92b4d39022444d520b1bb594dfba id_10.5753/sbsi.2015.5868"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 368.544952,384.609406 L 368.525238,377.921082"
+              class="id_10.5753/sbsi.2016.5954 id_10.5753/sbsi.2015.5868"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 362.331207,406.853760 L 353.994232,420.520844"
+              class="id_10.5753/sbsi.2016.5954 id_10.5753/sbsi.2015.5893"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 279.885956,-122.034630 L 284.209656,-131.282196"
+              class="id_10.36558/22372903-2019v9n1-p7 id_10.5753/sbsi.2015.5831"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 261.223297,-157.539063 L 271.314148,-155.843307"
+              class="id_da524088169f38e30141a9ee19a25d9c1c2b1425 id_10.5753/sbsi.2015.5831"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 99.342117,-123.200714 L 104.577591,-118.989334"
+              class="id_8d974551d475d13fdb310d6f195c2afdffc36381 id_10.5753/sbsi.2015.5871"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -368.195313,-388.784485 L -360.457153,-398.450073"
+              class="id_10.5753/cbie.wcbie.2015.1444 id_10.5753/sbsi.2015.5892"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -294.751190,-404.034668 L -319.577545,-411.323120"
+              class="id_10.5753/cbie.wcbie.2018.337 id_10.5753/sbsi.2015.5892"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -304.935272,-371.026093 L -327.875183,-398.721436"
+              class="id_10.5753/cbie.wcbie.2015.272 id_10.5753/sbsi.2015.5892"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -339.501923,-366.660767 L -341.943024,-392.901611"
+              class="id_10.5753/cbie.sbie.2020.381 id_10.5753/sbsi.2015.5892"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -310.253571,-437.061188 L -321.650116,-430.884430"
+              class="id_c6752c478528034434b74e38aeab33af059c3d59 id_10.5753/sbsi.2015.5892"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 152.103271,143.581589 L 160.446259,147.783813"
+              class="id_63d3272bf219413e0f2febcb47411493a835bf7e id_10.5753/sbsi.2015.5837"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 179.042084,-104.571762 L 188.708450,-101.784523"
+              class="id_10.5753/semish.2020.11315 id_10.5753/sbsi.2015.5854"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -103.421776,127.795982 L -108.925659,133.968567"
+              class="id_10.5753/sbcup.2016.9445 id_10.5753/sbsi.2015.5838"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -311.229492,337.174316 L -385.949280,314.345612"
+              class="id_10.1145/3106426.3106543 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -412.379303,368.391602 L -418.189178,344.882721"
+              class="id_10.1109/access.2021.3098192 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -424.290100,218.849014 L -426.423798,256.269989"
+              class="id_10.5753/isys.2015.291 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -487.772522,311.091522 L -473.361328,308.665955"
+              class="id_10.1145/3345645.3351103 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -301.582764,259.196350 L -386.247986,287.107819"
+              class="id_10.5753/isys.2017.329 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -344.674042,196.191406 L -400.811707,266.108002"
+              class="id_10.14722/usec.2023.235078 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -452.988281,238.224182 L -445.012939,259.148010"
+              class="id_10.5753/sbsi.2016.5982 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -478.006409,265.321960 L -465.299683,274.621124"
+              class="id_10.1109/asonam.2018.8508654 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -415.949249,177.850800 L -424.255859,256.446259"
+              class="id_10.1145/3341161.3342868 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -486.788361,218.509033 L -454.767731,264.315094"
+              class="id_b02b76417c5919a18023e4b60e761d6338ad8494 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -452.123810,193.849060 L -438.467255,257.207306"
+              class="id_10.1002/cpe.5346 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -339.912537,358.856476 L -391.209473,325.650513"
+              class="id_10.1007/s11042-016-3899-8 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -360.038910,248.159500 L -393.317810,273.759491"
+              class="id_10.1145/3466933.3466973 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -326.410767,227.782486 L -392.392273,275.006622"
+              class="id_10.11591/ijeecs.v17.i1.pp248-255 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -452.530212,356.647278 L -446.573120,342.617737"
+              class="id_10.1145/3535511.3535516 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -488.627014,349.247467 L -464.027710,329.428925"
+              class="id_10.1145/3183506 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -395.676727,245.932968 L -405.756134,262.656158"
+              class="id_4f9e89b98c9325a9a9c0758f7039e16485e17799 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -438.056519,394.120026 L -433.357544,345.984131"
+              class="id_10.11113/aej.v13.19171 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -372.839355,386.238098 L -404.191742,338.750580"
+              class="id_10.1109/asonam.2018.8508296 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -356.227142,320.898895 L -385.549744,312.958771"
+              class="id_10.1109/sami.2019.8782731 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -382.826782,342.504059 L -395.452209,331.205688"
+              class="id_10.1109/tifs.2016.2603960 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -311.680115,300.582306 L -383.986084,300.961212"
+              class="id_10.1016/j.jnca.2018.03.015 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -508.950439,282.591522 L -472.814758,290.999237"
+              class="id_10.1007/s11042-020-08721-z id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -383.141388,204.526672 L -409.703430,260.537415"
+              class="id_10.24251/hicss.2021.096 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -351.492706,287.032104 L -384.718933,293.105530"
+              class="id_10.48550/arxiv.2206.03581 id_10.5753/sbsi.2015.5885"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 71.948463,-278.568146 L 80.010803,-283.721313"
+              class="id_10.1109/laclo.2018.00068 id_10.5753/sbsi.2015.5864"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 110.160744,-265.411377 L 106.963036,-274.455811"
+              class="id_10.1145/3357236.3395543 id_10.5753/sbsi.2015.5864"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 21.957298,197.867615 L 35.792881,199.607529"
+              class="id_10.21037/jhmhp-20-92 id_10.5753/sbsi.2015.5860"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -292.317932,-45.992115 L -301.103821,-40.834763"
+              class="id_10.7769/gesec.v14i2.1630 id_10.5753/sbsi.2015.5809"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -297.233459,-6.188485 L -304.458496,-13.232245"
+              class="id_9864f3d72aea7f3fef111527ec67578ecf02db9d id_10.5753/sbsi.2015.5809"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -170.837433,-94.781258 L -176.489456,-88.375763"
+              class="id_10.14488/enegep2021_tn_wpg_354_1822_42144 id_10.5753/sbsi.2015.5888"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -484.748779,33.777748 L -508.198212,26.020247"
+              class="id_10.5753/sbsi.2017.6020 id_10.5753/sbsi.2015.5813"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -486.958649,-1.684412 L -509.078766,8.137764"
+              class="id_10.1145/3411564.3411607 id_10.5753/sbsi.2015.5813"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -515.179077,47.440197 L -519.510620,39.816174"
+              class="id_10.1145/2820426.2820465 id_10.5753/sbsi.2015.5813"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -518.812744,-12.567013 L -522.138000,-4.673231"
+              class="id_10.1145/3324473 id_10.5753/sbsi.2015.5813"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 267.106110,445.817230 L 310.380615,445.328735"
+              class="id_10.5753/ersirj.2021.16976 id_10.5753/sbsi.2015.5893"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 327.241241,486.509003 L 331.204803,472.588654"
+              class="id_3cfe06c8b85191dff852f85689bf84b7b8427063 id_10.5753/sbsi.2015.5893"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 296.448822,380.504608 L 323.250366,421.075195"
+              class="id_10.1109/icsa-c50368.2020.00045 id_10.5753/sbsi.2015.5893"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 287.181610,413.338959 L 314.578949,430.062408"
+              class="id_1f06d0a6f950963c61bfc54737a3c03ddc2ceaa1 id_10.5753/sbsi.2015.5893"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 328.400940,405.927582 L 331.512329,417.335632"
+              class="id_10.5753/isys.2016.300 id_10.5753/sbsi.2015.5893"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 297.884369,464.997528 L 313.259277,457.532135"
+              class="id_10.5753/isys.2018.379 id_10.5753/sbsi.2015.5893"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 378.338074,436.937073 L 367.152283,439.234619"
+              class="id_caa17fcaba03650f4491be462ec02cf6dc737a5c id_10.5753/sbsi.2015.5893"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -200.883850,460.154938 L -195.124542,465.806030"
+              class="id_10.5753/eri-mt.2019.8600 id_10.5753/sbsi.2015.5872"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -144.553818,480.753693 L -152.623032,481.355560"
+              class="id_10.1145/3411564.3411644 id_10.5753/sbsi.2015.5872"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -145.088867,447.007355 L -160.853912,464.670959"
+              class="id_10.5753/waihcws.2021.17539 id_10.5753/sbsi.2015.5872"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -178.658875,434.710052 L -178.041809,458.371643"
+              class="id_10.1145/3535511.3535553 id_10.5753/sbsi.2015.5872"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 200.764923,19.234222 L 187.995361,16.963520"
+              class="id_10.1145/3466933.3466981 id_10.5753/sbsi.2015.5832"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -136.108444,-164.348114 L -146.557419,-159.918671"
+              class="id_10.5281/zenodo.4244859 id_10.5753/sbsi.2015.5889"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 223.351593,-29.815348 L 228.277100,-40.032566"
+              class="id_10.3390/info10030088 id_10.5753/sbsi.2015.5858"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 142.459000,81.233749 L 144.347412,72.993614"
+              class="id_10.1145/3229345.3229405 id_10.5753/sbsi.2015.5884"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 111.770493,185.244812 L 107.349213,194.795975"
+              class="id_10.1515/itms-2017-0013 id_10.5753/sbsi.2015.5880"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -150.123428,-43.400063 L -154.296890,-35.769562"
+              class="id_10.5753/sbsi.2016.5984 id_10.5753/sbsi.2015.5795"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -156.024597,-484.880127 L -176.896133,-499.012177"
+              class="id_10.1145/3229345.3229408 id_10.5753/sbsi.2015.5877"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -210.330612,-463.988098 L -204.373306,-488.412170"
+              class="id_10.1145/3229345.3229415 id_10.5753/sbsi.2015.5877"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -166.012360,-519.710327 L -172.928467,-518.373535"
+              class="id_10.47985/dcidj.475 id_10.5753/sbsi.2015.5877"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -176.482498,-457.040131 L -188.971786,-489.407135"
+              class="id_10.11606/d.100.2018.tde-21052018-162205 id_10.5753/sbsi.2015.5877"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -226.351013,-496.485291 L -220.335220,-500.124146"
+              class="id_10.5220/0009393405630570 id_10.5753/sbsi.2015.5877"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 456.399933,138.089111 L 465.756134,131.400024"
+              class="id_e44a2d563a989b63d4e56957bd19e4c614f6a10c id_10.5753/sbsi.2015.5803"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -164.358871,65.914635 L -155.878311,67.863121"
+              class="id_fcfc6d4efe78f018ef3bd87fffd49c8fef4d9aaa id_10.5753/sbsi.2015.5814"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -26.640156,153.573914 L -0.357927,153.333939"
+              class="id_10.32749/nucleodoconhecimento.com.br/historia/empreendedorismo-solidario id_10.5753/sbsi.2015.5865"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -406.261017,-130.857254 L -419.750641,-133.795242"
+              class="id_10.5753/wei.2018.3484 id_10.5753/sbsi.2015.5798"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 81.503052,-186.373672 L 90.910385,-186.008743"
+              class="id_10.5753/erbase.2021.20051 id_10.5753/sbsi.2015.5842"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 72.139191,131.055038 L 79.881241,128.809189"
+              class="id_10.4018/ijicte.20210701.oa3 id_10.5753/sbsi.2015.5816"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -132.205750,235.872574 L -140.921417,238.351074"
+              class="id_8561a75a70d3d627151e739a796e1829efe1a0d9 id_10.5753/sbsi.2015.5861"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -165.536346,212.690887 L -164.805511,221.774170"
+              class="id_10.3390/su10124402 id_10.5753/sbsi.2015.5861"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 78.956779,483.940857 L 86.258003,492.286713"
+              class="id_10.5753/cbie.sbie.2016.996 id_10.5753/sbsi.2015.5807"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 165.561874,-179.223022 L 162.558777,-168.285248"
+              class="id_10.1145/3209281.3209367 id_10.5753/sbsi.2015.5874"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -45.517296,-159.464859 L -52.334778,-166.880768"
+              class="id_10.5753/sbsi.2016.6009 id_10.5753/sbsi.2015.5886"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 419.106873,-75.679489 L 418.870209,-65.752487"
+              class="id_10.1109/procomm.2018.00033 id_10.5753/sbsi.2015.5821"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 392.183380,-10.043914 L 401.304382,-20.509706"
+              class="id_9b2c35db8fbceab32b88de1ee69121225c80c543 id_10.5753/sbsi.2015.5821"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 385.953125,-63.720139 L 397.472168,-55.247139"
+              class="id_10.21474/ijar01/9270 id_10.5753/sbsi.2015.5821"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 371.005768,-34.791546 L 392.608246,-37.154480"
+              class="id_10.18421/tem64-22 id_10.5753/sbsi.2015.5821"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 427.440460,-5.514606 L 424.902832,-15.030918"
+              class="id_c92fb82074c8a40db9a64d50fe14993c84b43351 id_10.5753/sbsi.2015.5821"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 154.861069,-37.339924 L 155.267685,-45.411995"
+              class="id_10.1145/3160504.3160546 id_10.5753/sbsi.2015.5869"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -81.696686,-251.250153 L -89.416061,-255.231766"
+              class="id_15c38272abca2b1589e358bb9248fa6f9e5956f8 id_10.5753/sbsi.2015.5862"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -119.368652,-235.615143 L -116.734085,-243.897003"
+              class="id_10.5753/sbsi.2016.5965 id_10.5753/sbsi.2015.5862"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -168.960403,128.812225 L -174.042358,122.043045"
+              class="id_10.1145/3330204.3330260 id_10.5753/sbsi.2015.5822"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -247.952194,-141.570236 L -257.593414,-139.741623"
+              class="id_10.29322/ijsrp.8.6.2018.p7861 id_10.5753/sbsi.2015.5851"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -266.485931,-105.800644 L -270.546417,-114.642128"
+              class="id_10.14201/adcaij2018733146 id_10.5753/sbsi.2015.5851"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -74.179916,-522.615967 L -66.511101,-527.658569"
+              class="id_10.5753/sbsi.2016.5967 id_10.5753/sbsi.2015.5801"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -14.263623,-528.830261 L -22.662176,-532.157349"
+              class="id_10.5753/isys.2015.280 id_10.5753/sbsi.2015.5801"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -59.032822,-493.097534 L -52.351513,-517.357666"
+              class="id_10.1109/tla.2016.7786373 id_10.5753/sbsi.2015.5801"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -23.810841,-496.844269 L -34.761909,-519.031494"
+              class="id_10.1109/tla.2016.7587653 id_10.5753/sbsi.2015.5801"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 198.586288,78.094032 L 199.477905,89.406387"
+              class="id_10.14257/ijseia.2016.10.10.07 id_10.5753/sbsi.2015.5887"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 283.190491,70.955368 L 291.737610,66.212646"
+              class="id_10.1145/3493244.3493249 id_10.5753/sbsi.2015.5863"
+              stroke-opacity="1.0" stroke="#030303"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 289.453705,31.146048 L 296.149261,38.327644"
+              class="id_10.5753/washes.2019.6404 id_10.5753/sbsi.2015.5863"
+              stroke-opacity="1.0" stroke="#030303"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5953 id_10.5753/sbsi.2015.5894"
+                  points="558.837158,133.058090 552.788879,141.099747 548.774841,133.044449"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5953 id_10.5753/sbsi.2015.5804"
+                  points="537.302063,175.241165 529.973877,168.345612 538.421631,165.241333"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5953 id_10.5753/sbsi.2015.5803"
+                  points="495.755859,126.122169 505.700287,127.657608 500.494171,134.999008"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_edf573ea4a77b2025a5ffb522a9fbc090b98ced8 id_10.5753/sbsi.2015.5894"
+                  points="566.898621,110.281700 559.068176,103.962379 567.255798,100.225731"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1111/tgis.12903 id_10.5753/sbsi.2015.5894"
+                  points="558.461243,118.879837 548.413757,119.426682 551.995300,111.169998"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3330204.3330214 id_10.5753/sbsi.2015.5894"
+                  points="577.836548,141.891220 584.332520,149.575775 575.586426,151.698730"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3330204.3330214 id_10.5753/sbsi.2015.5804"
+                  points="559.512085,184.380508 565.754822,176.488815 569.571106,184.639633"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3085228.3085288 id_10.5753/sbsi.2015.5894"
+                  points="578.808655,109.506454 577.150940,99.581650 585.753845,102.225372"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3330204.3330237 id_10.5753/sbsi.2015.5890"
+                  points="-448.031799,-48.303715 -438.286713,-50.810280 -440.179474,-42.011566"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5974 id_10.5753/sbsi.2015.5890"
+                  points="-458.991180,-64.896797 -461.696014,-74.588737 -452.860504,-72.875832"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5974 id_10.5753/sbsi.2015.5798"
+                  points="-445.552734,-125.176193 -443.392456,-115.348511 -452.118713,-117.551376"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5974 id_10.5753/sbsi.2015.5867"
+                  points="-417.970398,-87.578972 -427.723877,-85.105133 -425.801575,-93.897446"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_e6f76e643bdaafca3666730fc16e7eac2216fb4d id_10.5753/sbsi.2015.5847"
+                  points="-96.955925,-128.130341 -100.866905,-118.859184 -106.719429,-125.696434"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.34117/bjdv6n7-205 id_10.5753/sbsi.2015.5845"
+                  points="-4.773352,-213.808487 4.035767,-218.671555 4.402573,-209.679031"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3411564.3411640 id_10.5753/sbsi.2015.5802"
+                  points="-280.829681,80.529243 -270.811859,79.583984 -274.062775,87.976334"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1007/978-3-319-39907-2_7 id_10.5753/sbsi.2015.5802"
+                  points="-286.007538,63.973358 -284.689575,53.997734 -277.236267,59.042336"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/semish.2022.223289 id_10.5753/sbsi.2015.5826"
+                  points="-76.754951,359.099640 -76.022491,349.064026 -68.286987,353.664246"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_74fe5fec1fd29313ce45750b5c0201e17f4b5993 id_10.5753/sbsi.2015.5826"
+                  points="-97.112610,366.774506 -107.061310,368.282257 -104.288025,359.720184"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_74fe5fec1fd29313ce45750b5c0201e17f4b5993 id_10.5753/sbsi.2015.5830"
+                  points="-124.179222,323.019073 -120.888985,332.528229 -129.812424,331.356781"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.14393/ufu.di.2020.563 id_10.5753/sbsi.2015.5797"
+                  points="332.995117,172.702911 327.228607,164.456879 336.132050,163.142059"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1007/978-3-030-14347-3_5 id_10.5753/sbsi.2015.5797"
+                  points="322.098450,180.311554 312.042175,179.962875 316.343628,172.057327"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5585/rgss.v9i2.16570 id_10.5753/sbsi.2015.5797"
+                  points="321.662933,193.668442 315.382660,201.530228 311.605316,193.361282"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/icaccs.2019.8728457 id_10.5753/sbsi.2015.5824"
+                  points="-464.732544,-261.158142 -454.972809,-263.607239 -456.917450,-254.819824"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.3390/s19194243 id_10.5753/sbsi.2015.5824"
+                  points="-474.565125,-282.709808 -474.229980,-292.766510 -466.318665,-288.475739"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1016/j.firesaf.2017.03.083 id_10.5753/sbsi.2015.5824"
+                  points="-494.155121,-248.584488 -494.975800,-238.555710 -502.670563,-243.223770"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_fe1966644715ccdfc50401b8bf288d23e7a063a7 id_10.5753/sbsi.2015.5824"
+                  points="-489.134064,-284.394684 -495.846802,-291.890594 -487.164978,-294.262421"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.3390/s22145134 id_10.5753/sbsi.2015.5824"
+                  points="-480.415009,-246.050034 -474.372528,-238.003998 -483.226349,-236.388458"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1177/8755293020911163 id_10.5753/sbsi.2015.5824"
+                  points="-502.583160,-259.084229 -509.658966,-251.929993 -512.552002,-260.452332"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/ipin54987.2022.9918151 id_10.5753/sbsi.2015.5824"
+                  points="-465.557709,-272.418396 -458.750122,-279.828308 -455.545227,-271.418274"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/access.2018.2847030 id_10.5753/sbsi.2015.5824"
+                  points="-470.122345,-251.404556 -460.597229,-248.160751 -467.002319,-241.838181"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3085228.3085308 id_10.5753/sbsi.2015.5833"
+                  points="-167.989807,-345.456512 -158.587357,-349.040344 -159.481277,-340.084839"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3364641.3364656 id_10.5753/sbsi.2015.5833"
+                  points="-189.670898,-333.737732 -189.838028,-323.676819 -197.819901,-327.834900"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/cbie.wcbie.2017.1364 id_10.5753/sbsi.2015.5833"
+                  points="-175.774139,-333.815582 -167.559494,-328.004425 -175.494278,-323.757172"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.6007 id_10.5753/sbsi.2015.5857"
+                  points="-77.379776,189.793442 -68.093788,185.917831 -68.707695,194.896866"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1002/smr.1931 id_10.5753/sbsi.2015.5883"
+                  points="211.989792,286.387909 201.927795,286.467346 205.889038,278.385986"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.7250/csimq.2018-15.02 id_10.5753/sbsi.2015.5883"
+                  points="222.857605,277.879181 216.553253,270.036682 225.348999,268.130188"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5220/0005974801690176 id_10.5753/sbsi.2015.5883"
+                  points="236.956192,281.719727 239.753448,272.054047 246.367096,278.158112"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1007/978-3-319-64930-6_5 id_10.5753/sbsi.2015.5883"
+                  points="212.313904,300.957123 206.575043,309.222443 202.258331,301.325226"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3330204.3330234 id_10.5753/sbsi.2015.5818"
+                  points="42.649002,556.016052 48.931751,548.156189 52.706524,556.326355"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3330204.3330234 id_10.5753/sbsi.2015.5807"
+                  points="92.366043,520.170532 89.995415,529.949585 83.120415,524.141479"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3229345.3229389 id_10.5753/sbsi.2015.5818"
+                  points="8.697903,575.608276 3.934164,584.471497 -1.250921,577.115173"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/icalt.2019.00013 id_10.5753/sbsi.2015.5818"
+                  points="9.079115,552.409729 -0.814825,550.576782 4.609159,543.394775"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.23919/cisti.2017.7975743 id_10.5753/sbsi.2015.5818"
+                  points="26.075016,544.632629 22.175283,535.356750 31.155886,535.947327"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/cbie.wcbie.2016.1473 id_10.5753/sbsi.2015.5818"
+                  points="32.421673,546.132874 31.767420,536.091858 40.061932,539.584900"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2017.6061 id_10.5753/sbsi.2015.5818"
+                  points="5.303892,561.469910 -4.244847,564.643494 -2.964214,555.735046"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/siie.2016.7751829 id_10.5753/sbsi.2015.5818"
+                  points="16.249447,546.536926 8.291744,540.378601 16.401485,536.475769"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5220/0009356307350742 id_10.5753/sbsi.2015.5818"
+                  points="42.669411,572.480042 52.726131,572.144836 48.971622,580.324280"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1002/smr.2487 id_10.5753/sbsi.2015.5836"
+                  points="305.242645,-390.878876 303.220764,-381.021790 296.143860,-386.582153"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3167132.3167295 id_10.5753/sbsi.2015.5836"
+                  points="352.042786,-433.744751 357.119934,-442.432251 362.039063,-434.895508"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1007/978-3-030-93135-3_6 id_10.5753/sbsi.2015.5836"
+                  points="338.238739,-445.525909 337.804321,-455.578827 346.020447,-451.905182"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_1bd7c46cc49a9e6716083ffead694a101edd6454 id_10.5753/sbsi.2015.5836"
+                  points="357.160980,-418.831848 365.757172,-424.062134 366.502899,-415.093079"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5220/0009580204240431 id_10.5753/sbsi.2015.5836"
+                  points="294.506012,-426.044525 284.558899,-424.526245 287.323120,-433.091248"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/maltesque.2017.7882010 id_10.5753/sbsi.2015.5836"
+                  points="301.203888,-394.656860 297.523132,-385.291931 291.503479,-391.982544"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_555f5a0d742bf929dd0101816a04a8cff17dcca7 id_10.5753/sbsi.2015.5836"
+                  points="295.768646,-403.004272 289.398804,-395.214844 285.715210,-403.426453"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3132498.3134268 id_10.5753/sbsi.2015.5836"
+                  points="351.953491,-398.453308 361.943817,-397.251953 356.986603,-389.740234"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3555228.3555268 id_10.5753/sbsi.2015.5836"
+                  points="306.412567,-442.332153 297.518463,-447.038025 304.840790,-452.270935"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1016/j.jss.2021.110984 id_10.5753/sbsi.2015.5836"
+                  points="318.815430,-384.629395 321.466370,-374.922577 312.640503,-376.684540"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.3390/su131810256 id_10.5753/sbsi.2015.5836"
+                  points="336.007172,-385.908966 343.290222,-378.965790 334.822449,-375.916656"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1007/s11219-016-9318-6 id_10.5753/sbsi.2015.5836"
+                  points="342.917145,-389.385956 351.647369,-384.382690 344.152679,-379.399780"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1016/j.infsof.2019.08.005 id_10.5753/sbsi.2015.5836"
+                  points="292.972595,-415.004700 284.141083,-410.182343 283.815826,-419.176483"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1016/j.jss.2018.07.035 id_10.5753/sbsi.2015.5836"
+                  points="323.002655,-448.257843 317.922150,-456.943359 326.902802,-457.533569"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1371/journal.pone.0231731 id_10.5753/sbsi.2015.5836"
+                  points="309.842102,-387.863190 309.529358,-377.805725 301.608521,-382.078918"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2017.6068 id_10.5753/sbsi.2015.5836"
+                  points="300.771362,-437.186554 291.018585,-439.663055 296.900909,-446.474701"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5752/p.2316-9451.2020v8n1p20-42 id_10.5753/sbsi.2015.5836"
+                  points="295.782532,-402.973358 289.420929,-395.177216 285.728668,-403.384979"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3357141.3357143 id_10.5753/sbsi.2015.5836"
+                  points="293.234039,-420.420135 283.717957,-417.149872 284.908203,-426.070831"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/access.2020.3047870 id_10.5753/sbsi.2015.5836"
+                  points="318.267822,-384.743683 320.749542,-374.992218 311.955658,-376.907440"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1002/spe.2697 id_10.5753/sbsi.2015.5836"
+                  points="355.030151,-404.371063 365.053406,-405.256317 361.752319,-396.883575"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.17632/72fvy4r3gj.1 id_10.5753/sbsi.2015.5836"
+                  points="330.236816,-384.418091 336.113586,-376.250275 327.228638,-374.815948"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5947 id_10.5753/sbsi.2015.5823"
+                  points="-283.533691,-241.589294 -273.796509,-239.052094 -279.721130,-232.277222"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1007/s11280-021-00997-x id_10.5753/sbsi.2015.5823"
+                  points="-280.115204,-254.156265 -272.110901,-260.253876 -270.434509,-251.411377"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_7ca3527a982a34d0675bea3bf88de0434744b218 id_10.5753/sbsi.2015.5823"
+                  points="-295.761993,-236.540176 -291.894043,-227.251007 -300.872559,-227.872284"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_e172640d71969690912db4e9378b9f315d88e8f8 id_10.5753/sbsi.2015.5881"
+                  points="-202.627502,-0.033115 -195.099365,6.643487 -203.451904,9.995361"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.21528/cbic2015-078 id_10.5753/sbsi.2015.5820"
+                  points="12.745837,-164.248138 22.732166,-165.482315 19.724976,-156.999588"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.21203/rs.3.rs-469721/v1 id_10.5753/sbsi.2015.5827"
+                  points="-27.029057,-356.831696 -22.038012,-348.094452 -31.024225,-347.596527"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/pdcat.2017.00030 id_10.5753/sbsi.2015.5827"
+                  points="-39.327225,-362.215729 -43.402824,-353.015747 -49.132561,-359.956238"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/jidm.2022.2695 id_10.5753/sbsi.2015.5827"
+                  points="-15.537745,-363.336304 -5.563432,-362.008484 -10.615401,-354.560181"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.18293/seke2016-182 id_10.5753/sbsi.2015.5849"
+                  points="85.394119,-471.520691 95.451256,-471.198242 91.170418,-463.281494"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.6004 id_10.5753/sbsi.2015.5849"
+                  points="75.366165,-463.703979 81.946266,-456.091309 73.224113,-453.872314"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_e590657c64793eb0aab8012e8f1e1624f7e4ef91 id_10.5753/sbsi.2015.5849"
+                  points="55.985699,-475.674072 48.153572,-469.356812 46.232613,-478.149414"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5220/0006337503040311 id_10.5753/sbsi.2015.5849"
+                  points="63.372219,-465.435760 62.645588,-455.399750 54.907413,-459.995453"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.3390/agronomy10060855 id_10.5753/sbsi.2015.5840"
+                  points="100.287506,369.134979 97.558937,359.449677 106.398598,361.140961"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_0ce562b96e9813269397439b07f08c88d8b0eab3 id_10.5753/sbsi.2015.5840"
+                  points="87.702980,372.099396 78.666267,367.673553 85.821602,362.214508"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3411564.3411584 id_10.5753/sbsi.2015.5840"
+                  points="111.322830,377.305542 117.185509,369.127594 121.382805,377.088898"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3424953.3426540 id_10.5753/sbsi.2015.5840"
+                  points="81.491356,383.887878 72.274323,387.924744 72.731644,378.936401"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.6003 id_10.5753/sbsi.2015.5825"
+                  points="-18.828587,284.839813 -27.767111,280.218872 -20.494974,274.916443"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_8073ffc997a27af3d59faaf4f21b6103aa298bec id_10.5753/sbsi.2015.5825"
+                  points="-1.259565,285.791290 1.468788,276.105957 8.125731,282.162781"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1007/978-3-030-50072-6_13 id_10.5753/sbsi.2015.5810"
+                  points="523.404846,-155.206421 531.106812,-148.731110 522.845825,-145.159668"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/brasnam.2017.3251 id_10.5753/sbsi.2015.5810"
+                  points="501.189880,-180.747849 491.162628,-181.587036 495.844879,-189.273163"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/bresci.2018.3268 id_10.5753/sbsi.2015.5810"
+                  points="498.603088,-171.049393 489.722351,-166.318390 489.489868,-175.315399"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/brasnam.2016.6445 id_10.5753/sbsi.2015.5810"
+                  points="511.678680,-188.640900 504.966766,-196.137589 513.648865,-198.508438"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/brasnam.2016.6452 id_10.5753/sbsi.2015.5810"
+                  points="502.020996,-161.025314 497.412140,-152.080551 492.099884,-159.345505"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.11606/d.100.2017.tde-01112017-111709 id_10.5753/sbsi.2015.5810"
+                  points="510.051758,-154.905212 511.063293,-144.893890 502.649597,-148.089203"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5981 id_10.5753/sbsi.2015.5804"
+                  points="526.998413,185.166443 516.963745,185.911301 520.381714,177.585587"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/eatis.2016.7520113 id_10.5753/sbsi.2015.5804"
+                  points="528.480347,201.502457 523.335754,210.150208 518.475403,202.575470"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/wbci.2018.3226 id_10.5753/sbsi.2015.5804"
+                  points="541.068542,209.513885 544.333130,219.031906 535.412842,217.836349"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_6f4e3ea0a82262105f908c74a5dd7062875db22c id_10.5753/sbsi.2015.5804"
+                  points="525.672424,192.315781 516.777222,197.019592 516.572266,188.021942"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_de819c241ebe92b4d39022444d520b1bb594dfba id_10.5753/sbsi.2015.5868"
+                  points="354.894531,351.869537 345.112854,354.229431 347.137634,345.460144"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5954 id_10.5753/sbsi.2015.5868"
+                  points="368.498718,368.921143 373.025208,377.907806 364.025269,377.934357"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5954 id_10.5753/sbsi.2015.5893"
+                  points="349.307373,428.204163 350.152588,418.177429 357.835876,422.864258"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.36558/22372903-2019v9n1-p7 id_10.5753/sbsi.2015.5831"
+                  points="288.021515,-139.435089 288.286102,-129.376266 280.133209,-133.188126"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_da524088169f38e30141a9ee19a25d9c1c2b1425 id_10.5753/sbsi.2015.5831"
+                  points="280.189697,-154.351776 270.568390,-151.405533 272.059906,-160.281082"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_8d974551d475d13fdb310d6f195c2afdffc36381 id_10.5753/sbsi.2015.5871"
+                  points="111.590363,-113.348320 101.757080,-115.482948 107.398102,-122.495720"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/cbie.wcbie.2015.1444 id_10.5753/sbsi.2015.5892"
+                  points="-354.832367,-405.475861 -356.944244,-395.637695 -363.970062,-401.262451"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/cbie.wcbie.2018.337 id_10.5753/sbsi.2015.5892"
+                  points="-328.213104,-413.858337 -318.309937,-415.640900 -320.845154,-407.005341"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/cbie.wcbie.2015.272 id_10.5753/sbsi.2015.5892"
+                  points="-333.616211,-405.652588 -324.409607,-401.591949 -331.340759,-395.850922"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/cbie.sbie.2020.381 id_10.5753/sbsi.2015.5892"
+                  points="-342.776672,-401.862915 -337.462372,-393.318420 -346.423676,-392.484802"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_c6752c478528034434b74e38aeab33af059c3d59 id_10.5753/sbsi.2015.5892"
+                  points="-329.562683,-426.595917 -323.794373,-434.840698 -319.505859,-426.928162"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_63d3272bf219413e0f2febcb47411493a835bf7e id_10.5753/sbsi.2015.5837"
+                  points="168.484222,151.832413 158.421967,151.802795 162.470551,143.764832"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/semish.2020.11315 id_10.5753/sbsi.2015.5854"
+                  points="197.356125,-99.291008 187.461700,-97.460686 189.955200,-106.108360"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbcup.2016.9445 id_10.5753/sbsi.2015.5838"
+                  points="-114.915344,140.685974 -112.284363,130.973724 -105.566956,136.963409"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3106426.3106543 id_10.5753/sbsi.2015.5885"
+                  points="-394.556519,311.715912 -384.634430,310.041992 -387.264130,318.649231"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/access.2021.3098192 id_10.5753/sbsi.2015.5885"
+                  points="-420.348450,336.145569 -413.820618,343.803101 -422.557739,345.962341"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/isys.2015.291 id_10.5753/sbsi.2015.5885"
+                  points="-426.936127,265.255402 -430.916504,256.013824 -421.931091,256.526154"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3345645.3351103 id_10.5753/sbsi.2015.5885"
+                  points="-464.486145,307.172150 -472.614441,313.103546 -474.108215,304.228363"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/isys.2017.329 id_10.5753/sbsi.2015.5885"
+                  points="-394.795471,289.925659 -387.656921,282.834076 -384.839050,291.381561"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.14722/usec.2023.235078 id_10.5753/sbsi.2015.5885"
+                  points="-406.446442,273.125824 -404.320618,263.290619 -397.302795,268.925385"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5982 id_10.5753/sbsi.2015.5885"
+                  points="-441.807434,267.557800 -449.217834,260.750763 -440.808044,257.545258"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/asonam.2018.8508654 id_10.5753/sbsi.2015.5885"
+                  points="-458.036835,279.936310 -467.957275,278.252533 -462.642090,270.989716"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3341161.3342868 id_10.5753/sbsi.2015.5885"
+                  points="-425.201782,265.396423 -428.730927,255.973297 -419.780792,256.919220"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_b02b76417c5919a18023e4b60e761d6338ad8494 id_10.5753/sbsi.2015.5885"
+                  points="-449.611267,271.691498 -458.455933,266.893311 -451.079529,261.736877"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1002/cpe.5346 id_10.5753/sbsi.2015.5885"
+                  points="-436.570892,266.005249 -442.866241,258.155487 -434.068268,256.259125"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1007/s11042-016-3899-8 id_10.5753/sbsi.2015.5885"
+                  points="-398.764679,320.759827 -388.764130,321.872925 -393.654816,329.428101"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3466933.3466973 id_10.5753/sbsi.2015.5885"
+                  points="-400.451355,279.246979 -396.061554,270.192719 -390.574066,277.326263"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.11591/ijeecs.v17.i1.pp248-255 id_10.5753/sbsi.2015.5885"
+                  points="-399.710907,280.244690 -395.011322,271.347290 -389.773224,278.665955"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3535511.3535516 id_10.5753/sbsi.2015.5885"
+                  points="-443.055603,334.333588 -442.431061,344.376495 -450.715179,340.858978"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3183506 id_10.5753/sbsi.2015.5885"
+                  points="-457.019257,323.782562 -461.204529,332.933136 -466.850891,325.924713"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_4f9e89b98c9325a9a9c0758f7039e16485e17799 id_10.5753/sbsi.2015.5885"
+                  points="-410.402008,270.364319 -409.610229,260.333221 -401.902039,264.979095"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.11113/aej.v13.19171 id_10.5753/sbsi.2015.5885"
+                  points="-432.483124,337.026703 -428.878845,346.421326 -437.836243,345.546936"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/asonam.2018.8508296 id_10.5753/sbsi.2015.5885"
+                  points="-409.150482,331.239868 -400.436371,336.271210 -407.947113,341.229950"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/sami.2019.8782731 id_10.5753/sbsi.2015.5885"
+                  points="-394.236908,310.606415 -384.373566,308.615204 -386.725922,317.302338"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/tifs.2016.2603960 id_10.5753/sbsi.2015.5885"
+                  points="-402.158844,325.203949 -392.451355,327.852356 -398.453064,334.559021"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1016/j.jnca.2018.03.015 id_10.5753/sbsi.2015.5885"
+                  points="-392.985962,301.008392 -384.009674,296.461273 -383.962494,305.461151"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1007/s11042-020-08721-z id_10.5753/sbsi.2015.5885"
+                  points="-464.048889,293.038788 -473.834534,295.382172 -471.794983,286.616302"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.24251/hicss.2021.096 id_10.5753/sbsi.2015.5885"
+                  points="-413.559845,268.669342 -413.769379,258.609222 -405.637482,262.465607"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.48550/arxiv.2206.03581 id_10.5753/sbsi.2015.5885"
+                  points="-393.572235,294.723846 -385.528076,288.678864 -383.909790,297.532196"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/laclo.2018.00068 id_10.5753/sbsi.2015.5864"
+                  points="87.594124,-288.568298 82.434296,-279.929657 77.587311,-287.512970"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3357236.3395543 id_10.5753/sbsi.2015.5864"
+                  points="103.963020,-282.941071 111.205673,-275.955811 102.720398,-272.955811"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.21037/jhmhp-20-92 id_10.5753/sbsi.2015.5860"
+                  points="44.722549,200.730484 35.231400,204.072357 36.354362,195.142700"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.7769/gesec.v14i2.1630 id_10.5753/sbsi.2015.5809"
+                  points="-308.865387,-36.278683 -303.381866,-44.715553 -298.825775,-36.953972"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_9864f3d72aea7f3fef111527ec67578ecf02db9d id_10.5753/sbsi.2015.5809"
+                  points="-310.902802,-19.514851 -301.317200,-16.454390 -307.599792,-10.010100"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.14488/enegep2021_tn_wpg_354_1822_42144 id_10.5753/sbsi.2015.5888"
+                  points="-182.444122,-81.627281 -179.863693,-91.353096 -173.115219,-85.398430"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2017.6020 id_10.5753/sbsi.2015.5813"
+                  points="-516.742798,23.193544 -506.784851,21.747959 -509.611572,30.292534"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3411564.3411607 id_10.5753/sbsi.2015.5813"
+                  points="-517.304321,11.790222 -510.904999,4.024993 -507.252533,12.250535"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/2820426.2820465 id_10.5753/sbsi.2015.5813"
+                  points="-523.956482,31.990948 -515.598022,37.593235 -523.423218,42.039112"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3324473 id_10.5753/sbsi.2015.5813"
+                  points="-525.631958,3.620893 -526.285034,-6.420193 -517.990967,-2.926269"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/ersirj.2021.16976 id_10.5753/sbsi.2015.5893"
+                  points="319.380035,445.227142 310.431396,449.828461 310.329834,440.829010"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_3cfe06c8b85191dff852f85689bf84b7b8427063 id_10.5753/sbsi.2015.5893"
+                  points="333.669434,463.932709 335.532776,473.820984 326.876831,471.356323"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/icsa-c50368.2020.00045 id_10.5753/sbsi.2015.5893"
+                  points="328.211151,428.584534 319.495697,423.555603 327.005035,418.594788"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_1f06d0a6f950963c61bfc54737a3c03ddc2ceaa1 id_10.5753/sbsi.2015.5893"
+                  points="322.260925,434.751526 312.234406,433.903381 316.923492,426.221436"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/isys.2016.300 id_10.5753/sbsi.2015.5893"
+                  points="333.880463,426.018494 327.170898,418.519714 335.853760,416.151550"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/isys.2018.379 id_10.5753/sbsi.2015.5893"
+                  points="321.355377,453.601013 315.224823,461.580170 311.293732,453.484100"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_caa17fcaba03650f4491be462ec02cf6dc737a5c id_10.5753/sbsi.2015.5893"
+                  points="358.336334,441.045410 366.246887,434.826630 368.057678,443.642609"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/eri-mt.2019.8600 id_10.5753/sbsi.2015.5872"
+                  points="-188.700516,472.109344 -198.276199,469.018036 -191.972885,462.594025"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3411564.3411644 id_10.5753/sbsi.2015.5872"
+                  points="-161.598099,482.024994 -152.957748,476.868011 -152.288315,485.843109"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/waihcws.2021.17539 id_10.5753/sbsi.2015.5872"
+                  points="-166.846786,471.385529 -164.211197,461.674530 -157.496628,467.667389"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3535511.3535553 id_10.5753/sbsi.2015.5872"
+                  points="-177.807175,467.368561 -182.540283,458.488953 -173.543335,458.254333"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3466933.3466981 id_10.5753/sbsi.2015.5832"
+                  points="179.134369,15.387846 188.783203,12.533022 187.207520,21.394018"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5281/zenodo.4244859 id_10.5753/sbsi.2015.5889"
+                  points="-154.843643,-156.406052 -148.313736,-164.061783 -144.801102,-155.775558"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.3390/info10030088 id_10.5753/sbsi.2015.5858"
+                  points="232.185379,-48.139683 232.330658,-38.078426 224.223541,-41.986706"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3229345.3229405 id_10.5753/sbsi.2015.5884"
+                  points="146.357849,64.221031 148.733704,73.998833 139.961121,71.988396"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1515/itms-2017-0013 id_10.5753/sbsi.2015.5880"
+                  points="103.568497,202.963364 103.265518,192.905609 111.432907,196.686340"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5984 id_10.5753/sbsi.2015.5795"
+                  points="-158.615631,-27.873455 -158.244949,-37.928928 -150.348831,-33.610195"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3229345.3229408 id_10.5753/sbsi.2015.5877"
+                  points="-184.348511,-504.058167 -174.373138,-502.738373 -179.419128,-495.285980"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3229345.3229415 id_10.5753/sbsi.2015.5877"
+                  points="-202.240631,-497.155853 -200.001480,-487.345825 -208.745132,-489.478516"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.47985/dcidj.475 id_10.5753/sbsi.2015.5877"
+                  points="-181.764923,-516.665588 -173.782455,-522.791748 -172.074478,-513.955322"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.11606/d.100.2018.tde-21052018-162205 id_10.5753/sbsi.2015.5877"
+                  points="-192.211731,-497.803711 -184.773499,-491.027100 -193.170074,-487.787170"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5220/0009393405630570 id_10.5753/sbsi.2015.5877"
+                  points="-212.634430,-504.782257 -218.006180,-496.273743 -222.664261,-503.974548"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_e44a2d563a989b63d4e56957bd19e4c614f6a10c id_10.5753/sbsi.2015.5803"
+                  points="473.077484,126.165726 468.373291,135.060699 463.138977,127.739349"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_fcfc6d4efe78f018ef3bd87fffd49c8fef4d9aaa id_10.5753/sbsi.2015.5814"
+                  points="-147.106857,69.878433 -156.885971,72.248848 -154.870651,63.477390"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.32749/nucleodoconhecimento.com.br/historia/empreendedorismo-solidario id_10.5753/sbsi.2015.5865"
+                  points="8.641696,153.251770 -0.316841,157.833755 -0.399013,148.834122"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/wei.2018.3484 id_10.5753/sbsi.2015.5798"
+                  points="-428.544495,-135.710510 -418.792999,-138.192169 -420.708282,-129.398315"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/erbase.2021.20051 id_10.5753/sbsi.2015.5842"
+                  points="99.903618,-185.659866 90.735947,-181.512131 91.084824,-190.505356"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.4018/ijicte.20210701.oa3 id_10.5753/sbsi.2015.5816"
+                  points="88.524910,126.301796 81.134933,133.131027 78.627548,124.487358"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_8561a75a70d3d627151e739a796e1829efe1a0d9 id_10.5753/sbsi.2015.5861"
+                  points="-149.578186,240.812820 -142.152298,234.022690 -139.690536,242.679459"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.3390/su10124402 id_10.5753/sbsi.2015.5861"
+                  points="-164.083710,230.745178 -169.291016,222.135071 -160.320007,221.413269"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/cbie.sbie.2016.996 id_10.5753/sbsi.2015.5807"
+                  points="92.183899,499.060455 82.871124,495.249664 89.644882,489.323761"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3209281.3209367 id_10.5753/sbsi.2015.5874"
+                  points="160.175919,-159.606415 158.219360,-169.476685 166.898193,-167.093811"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.6009 id_10.5753/sbsi.2015.5886"
+                  points="-58.425797,-173.506424 -49.021942,-169.926270 -55.647614,-163.835266"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/procomm.2018.00033 id_10.5753/sbsi.2015.5821"
+                  points="418.655701,-56.755043 414.371490,-65.859741 423.368927,-65.645233"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_9b2c35db8fbceab32b88de1ee69121225c80c543 id_10.5753/sbsi.2015.5821"
+                  points="407.217468,-27.294628 404.696838,-17.553154 397.911926,-23.466259"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.21474/ijar01/9270 id_10.5753/sbsi.2015.5821"
+                  points="404.722076,-49.914352 394.805786,-51.622177 400.138550,-58.872101"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.18421/tem64-22 id_10.5753/sbsi.2015.5821"
+                  points="401.554901,-38.133087 393.097534,-32.681160 392.118958,-41.627800"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_c92fb82074c8a40db9a64d50fe14993c84b43351 id_10.5753/sbsi.2015.5821"
+                  points="422.583923,-23.727045 429.250885,-16.190376 420.554779,-13.871461"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3160504.3160546 id_10.5753/sbsi.2015.5869"
+                  points="155.720474,-54.400597 159.761993,-45.185600 150.773376,-45.638390"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_15c38272abca2b1589e358bb9248fa6f9e5956f8 id_10.5753/sbsi.2015.5862"
+                  points="-97.414734,-259.357452 -87.353226,-259.231110 -91.478897,-251.232422"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5965 id_10.5753/sbsi.2015.5862"
+                  points="-114.005783,-252.473511 -112.445831,-242.532852 -121.022339,-245.261154"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3330204.3330260 id_10.5753/sbsi.2015.5822"
+                  points="-179.445816,114.845634 -170.443649,119.341316 -177.641068,124.744774"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.29322/ijsrp.8.6.2018.p7861 id_10.5753/sbsi.2015.5851"
+                  points="-266.435791,-138.064529 -258.431976,-144.162811 -256.754852,-135.320435"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.14201/adcaij2018733146 id_10.5753/sbsi.2015.5851"
+                  points="-274.302521,-122.820854 -266.457062,-116.520180 -274.635773,-112.764076"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/sbsi.2016.5967 id_10.5753/sbsi.2015.5801"
+                  points="-58.991158,-532.603271 -64.038734,-523.898621 -68.983467,-531.418518"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/isys.2015.280 id_10.5753/sbsi.2015.5801"
+                  points="-31.029524,-535.472107 -21.004805,-536.341003 -24.319548,-527.973694"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/tla.2016.7786373 id_10.5753/sbsi.2015.5801"
+                  points="-49.961853,-526.034607 -48.013035,-516.162842 -56.689991,-518.552490"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1109/tla.2016.7587653 id_10.5753/sbsi.2015.5801"
+                  points="-38.745293,-527.101990 -30.726669,-521.023193 -38.797150,-517.039795"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.14257/ijseia.2016.10.10.07 id_10.5753/sbsi.2015.5887"
+                  points="200.185089,98.378563 194.991821,89.759972 203.963989,89.052803"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.1145/3493244.3493249 id_10.5753/sbsi.2015.5863"
+                  points="299.607239,61.845852 293.920990,70.147461 289.554230,62.277828"
+                  stroke="none"/>
+        <polyline fill="#030303" fill-opacity="1.0"
+                  class="id_10.5753/washes.2019.6404 id_10.5753/sbsi.2015.5863"
+                  points="302.286560,44.910461 292.857849,41.396297 299.440674,35.258991"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="527.5332"
+                class="id_10.5753/sbsi.2016.5953" cy="148.65704"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="15.455999" cx="573.8737"
+                class="id_10.5753/sbsi.2015.5894" cy="125.56529"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.6879997"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="547.5984"
+                class="id_edf573ea4a77b2025a5ffb522a9fbc090b98ced8"
+                cy="67.99153" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="524.8862"
+                class="id_10.1111/tgis.12903" cy="104.31603" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="585.22754"
+                class="id_10.1145/3330204.3330214" cy="172.34036"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="586.96625"
+                class="id_10.1145/3085228.3085288" cy="82.96091"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-413.76724"
+                class="id_10.1145/3330204.3330237" cy="-40.93268"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="-461.64047"
+                class="id_10.5753/sbsi.2015.5890" cy="-51.23123"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-453.10464"
+                class="id_10.5753/sbsi.2016.5974" cy="-95.260574"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-118.32391"
+                class="id_e6f76e643bdaafca3666730fc16e7eac2216fb4d"
+                cy="-109.83981" stroke="#b200b2" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.9232" cx="-87.1103"
+                class="id_10.5753/sbsi.2015.5847" cy="-136.55798"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="27.54861"
+                class="id_10.34117/bjdv6n7-205" cy="-215.1269" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-17.722584"
+                class="id_10.5753/sbsi.2015.5845" cy="-213.28029"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-252.31845"
+                class="id_10.1145/3411564.3411640" cy="91.57354"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="-293.80984"
+                class="id_10.5753/sbsi.2015.5802" cy="75.50116" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-268.95273"
+                class="id_10.1007/978-3-319-39907-2_7" cy="38.775154"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-59.03329"
+                class="id_10.5753/semish.2022.223289" cy="329.29974"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="-83.86996"
+                class="id_10.5753/sbsi.2015.5826" cy="371.06387"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-128.58517"
+                class="id_74fe5fec1fd29313ce45750b5c0201e17f4b5993"
+                cy="356.5804" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="327.9574"
+                class="id_10.14393/ufu.di.2020.563" cy="138.58905"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="13.6896" cx="335.16895"
+                class="id_10.5753/sbsi.2015.5797" cy="187.42326"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.3808"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="288.3328"
+                class="id_10.1007/978-3-030-14347-3_5" cy="161.93951"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="290.44913"
+                class="id_10.5585/rgss.v9i2.16570" cy="208.10168"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-414.03088"
+                class="id_10.1109/icaccs.2019.8728457" cy="-249.93806"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="18.1056" cx="-483.94766"
+                class="id_10.5753/sbsi.2015.5824" cy="-265.41037"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="3.1488"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-456.19"
+                class="id_10.3390/s19194243" cy="-316.58966" stroke="#b200b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-517.36053"
+                class="id_10.1016/j.firesaf.2017.03.083" cy="-210.33292"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-496.9146"
+                class="id_fe1966644715ccdfc50401b8bf288d23e7a063a7"
+                cy="-312.8747" stroke="#b200b2" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-473.4781"
+                class="id_10.3390/s22145134" cy="-208.03322" stroke="#b200b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-537.40326"
+                class="id_10.1177/8755293020911163" cy="-247.26395"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-419.71817"
+                class="id_10.1109/ipin54987.2022.9918151" cy="-289.88687"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-433.67737"
+                class="id_10.1109/access.2018.2847030" cy="-214.48383"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-140.31355"
+                class="id_10.1145/3085228.3085308" cy="-342.69394"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="13.6896" cx="-182.79623"
+                class="id_10.5753/sbsi.2015.5833" cy="-346.93445"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.3808"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-202.56776"
+                class="id_10.1145/3364641.3364656" cy="-308.9807"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-159.38441"
+                class="id_10.5753/cbie.wcbie.2017.1364" cy="-303.19592"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-47.223076"
+                class="id_10.5753/sbsi.2016.6007" cy="191.85529"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-90.30959"
+                class="id_10.5753/sbsi.2015.5857" cy="188.90941"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="181.84955"
+                class="id_10.1002/smr.1931" cy="271.61407" stroke="#b200b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="14.5728" cx="226.213"
+                class="id_10.5753/sbsi.2015.5883" cy="293.3597" stroke="#0000b2"
+                stroke-opacity="1.0" stroke-width="2.5344"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="215.75197"
+                class="id_10.7250/csimq.2018-15.02" cy="245.0965"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="256.7269"
+                class="id_10.5220/0005974801690176" cy="260.2986"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="186.6905"
+                class="id_10.1007/978-3-319-64930-6_5" cy="314.9632"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="74.52506"
+                class="id_10.1145/3330204.3330234" cy="541.28864"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="18.1056" cx="24.783642"
+                class="id_10.5753/sbsi.2015.5818" cy="564.2702" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="3.1488"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-20.16737"
+                class="id_10.1145/3229345.3229389" cy="595.954" stroke="#0000b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-44.856194"
+                class="id_10.1109/icalt.2019.00013" cy="511.67648"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="30.895132"
+                class="id_10.23919/cisti.2017.7975743" cy="471.33444"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="45.50797"
+                class="id_10.5753/cbie.wcbie.2016.1473" cy="515.05804"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-31.699085"
+                class="id_10.5753/sbsi.2017.6061" cy="556.1505" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-7.490926"
+                class="id_10.1109/siie.2016.7751829" cy="497.2065"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="70.41464"
+                class="id_10.5220/0009356307350742" cy="585.2156"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="269.24826"
+                class="id_10.1002/smr.2487" cy="-345.06708" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="29.5872" cx="325.11157"
+                class="id_10.5753/sbsi.2015.5836" cy="-416.16705"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="5.1456"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="381.60916"
+                class="id_10.1145/3167132.3167295" cy="-453.0424"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="357.9172"
+                class="id_10.1007/978-3-030-93135-3_6" cy="-489.53674"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="411.82092"
+                class="id_1bd7c46cc49a9e6716083ffead694a101edd6454"
+                cy="-423.37665" stroke="#b200b2" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="221.06793"
+                class="id_10.5220/0009580204240431" cy="-449.74554"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="230.43501"
+                class="id_10.1109/maltesque.2017.7882010" cy="-330.98483"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="219.96747"
+                class="id_555f5a0d742bf929dd0101816a04a8cff17dcca7"
+                cy="-369.00104" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="413.1178"
+                class="id_10.1145/3132498.3134268" cy="-358.08923"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="282.6995"
+                class="id_10.1145/3555228.3555268" cy="-475.51334"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="302.0913"
+                class="id_10.1016/j.jss.2021.110984" cy="-300.85767"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="348.22766"
+                class="id_10.3390/su131810256" cy="-351.9716" stroke="#b200b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="383.76593"
+                class="id_10.1007/s11219-016-9318-6" cy="-327.94583"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="211.17285"
+                class="id_10.1016/j.infsof.2019.08.005" cy="-412.04633"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="319.36752"
+                class="id_10.1016/j.jss.2018.07.035" cy="-503.5722"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="262.8725"
+                class="id_10.1371/journal.pone.0231731" cy="-300.799"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="241.64471"
+                class="id_10.5753/sbsi.2017.6068" cy="-488.24664"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="257.03632"
+                class="id_10.5752/p.2316-9451.2020v8n1p20-42" cy="-385.54333"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="254.22769"
+                class="id_10.1145/3357141.3357143" cy="-425.62433"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="309.4415"
+                class="id_10.1109/access.2020.3047870" cy="-344.21707"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="387.721"
+                class="id_10.1002/spe.2697" cy="-391.48206" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="342.86932"
+                class="id_10.17632/72fvy4r3gj.1" cy="-306.1644" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-254.26912"
+                class="id_10.5753/sbsi.2016.5947" cy="-215.99739"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="13.6896" cx="-294.7348"
+                class="id_10.5753/sbsi.2015.5823" cy="-251.38467"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.3808"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-245.99742"
+                class="id_10.1007/s11280-021-00997-x" cy="-260.62433"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-298.17114"
+                class="id_7ca3527a982a34d0675bea3bf88de0434744b218"
+                cy="-201.72469" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-191.62366"
+                class="id_e172640d71969690912db4e9378b9f315d88e8f8"
+                cy="27.387402" stroke="#b200b2" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.9232" cx="-207.45421"
+                class="id_10.5753/sbsi.2015.5881" cy="-12.060775"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="48.798702"
+                class="id_10.21528/cbic2015-078" cy="-151.46713"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="0.5306977"
+                class="id_10.5753/sbsi.2015.5820" cy="-168.57849"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-24.654554"
+                class="id_10.21203/rs.3.rs-469721/v1" cy="-313.97943"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="13.6896" cx="-27.852316"
+                class="id_10.5753/sbsi.2015.5827" cy="-371.6889"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.3808"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-61.85687"
+                class="id_10.1109/pdcat.2017.00030" cy="-343.61627"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="8.895718"
+                class="id_10.5753/jidm.2022.2695" cy="-346.76385"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="109.7926"
+                class="id_10.18293/seke2016-182" cy="-458.32764"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="14.5728" cx="71.460686"
+                class="id_10.5753/sbsi.2015.5849" cy="-479.05496"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.5344"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="86.023026"
+                class="id_10.5753/sbsi.2016.6004" cy="-421.81586"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="28.789362"
+                class="id_e590657c64793eb0aab8012e8f1e1624f7e4ef91"
+                cy="-469.73236" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="41.267117"
+                class="id_10.5220/0006337503040311" cy="-428.21567"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="107.03864"
+                class="id_10.3390/agronomy10060855" cy="333.84903"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="14.5728" cx="97.31089"
+                class="id_10.5753/sbsi.2015.5840" cy="384.69278"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.5344"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="65.82644"
+                class="id_0ce562b96e9813269397439b07f08c88d8b0eab3"
+                cy="343.4251" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="137.88155"
+                class="id_10.1145/3411564.3411584" cy="363.30353"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="51.036507"
+                class="id_10.1145/3424953.3426540" cy="382.33835"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-36.626083"
+                class="id_10.5753/sbsi.2016.6003" cy="260.43115"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="-10.627455"
+                class="id_10.5753/sbsi.2015.5825" cy="296.08737"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="19.024475"
+                class="id_8073ffc997a27af3d59faaf4f21b6103aa298bec"
+                cy="263.4975" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="536.5879"
+                class="id_10.1007/978-3-030-50072-6_13" cy="-124.71301"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="16.339201" cx="516.3572"
+                class="id_10.5753/sbsi.2015.5810" cy="-171.50821"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.8416"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="465.5693"
+                class="id_10.5753/brasnam.2017.3251" cy="-202.44727"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="439.81372"
+                class="id_10.5753/bresci.2018.3268" cy="-169.53014"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="502.88464"
+                class="id_10.5753/brasnam.2016.6445" cy="-220.84476"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="455.65134"
+                class="id_10.5753/brasnam.2016.6452" cy="-127.11894"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="495.18768"
+                class="id_10.11606/d.100.2017.tde-01112017-111709"
+                cy="-115.76622" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="16.339201" cx="543.4278"
+                class="id_10.5753/sbsi.2015.5804" cy="191.91129"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.8416"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="495.8984"
+                class="id_10.5753/sbsi.2016.5981" cy="172.39877"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="500.49686"
+                class="id_10.1109/eatis.2016.7520113" cy="219.45827"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="536.8831"
+                class="id_10.5753/wbci.2018.3226" cy="240.74176"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="462.19263"
+                class="id_6f4e3ea0a82262105f908c74a5dd7062875db22c"
+                cy="193.76196" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="323.53223"
+                class="id_de819c241ebe92b4d39022444d520b1bb594dfba"
+                cy="344.6282" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="368.45767"
+                class="id_10.5753/sbsi.2015.5868" cy="355.0012" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="368.58035"
+                class="id_10.5753/sbsi.2016.5954" cy="396.60934"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="274.80347"
+                class="id_10.36558/22372903-2019v9n1-p7" cy="-111.16411"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="293.9172"
+                class="id_10.5753/sbsi.2015.5831" cy="-152.04489"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="249.38922"
+                class="id_da524088169f38e30141a9ee19a25d9c1c2b1425"
+                cy="-159.52776" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="89.99176"
+                class="id_8d974551d475d13fdb310d6f195c2afdffc36381"
+                cy="-130.72208" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.9232" cx="121.68874"
+                class="id_10.5753/sbsi.2015.5871" cy="-105.22525"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-375.695"
+                class="id_10.5753/cbie.wcbie.2015.1444" cy="-379.41675"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="15.455999" cx="-344.3328"
+                class="id_10.5753/sbsi.2015.5892" cy="-418.5907"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.6879997"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-283.23712"
+                class="id_10.5753/cbie.wcbie.2018.337" cy="-400.65442"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-297.28058"
+                class="id_10.5753/cbie.wcbie.2015.272" cy="-361.78458"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-338.39038"
+                class="id_10.5753/cbie.sbie.2020.381" cy="-354.71234"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-299.7035"
+                class="id_c6752c478528034434b74e38aeab33af059c3d59"
+                cy="-442.7792" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="141.38599"
+                class="id_63d3272bf219413e0f2febcb47411493a835bf7e"
+                cy="138.18346" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="180.05888"
+                class="id_10.5753/sbsi.2015.5837" cy="157.6624" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="167.51184"
+                class="id_10.5753/semish.2020.11315" cy="-107.89645"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="209.80879"
+                class="id_10.5753/sbsi.2015.5854" cy="-95.700356"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-95.435524"
+                class="id_10.5753/sbcup.2016.9445" cy="118.83943"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-123.5405"
+                class="id_10.5753/sbsi.2015.5838" cy="150.35905"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-299.75317"
+                class="id_10.1145/3106426.3106543" cy="340.6806"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="33.12" cx="-428.98547"
+                class="id_10.5753/sbsi.2015.5885" cy="301.19702"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="5.7599998"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-409.5003"
+                class="id_10.1109/access.2021.3098192" cy="380.04114"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-423.607"
+                class="id_10.5753/isys.2015.291" cy="206.86847" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-499.60608"
+                class="id_10.1145/3345645.3351103" cy="313.08322"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-290.1861"
+                class="id_10.5753/isys.2017.329" cy="255.43921" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-337.16104"
+                class="id_10.14722/usec.2023.235078" cy="186.83434"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-457.26227"
+                class="id_10.5753/sbsi.2016.5982" cy="227.01111"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-487.6902"
+                class="id_10.1109/asonam.2018.8508654" cy="258.23505"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-414.68802"
+                class="id_10.1145/3341161.3342868" cy="165.91727"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-493.66364"
+                class="id_b02b76417c5919a18023e4b60e761d6338ad8494"
+                cy="208.67386" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-454.65228"
+                class="id_10.1002/cpe.5346" cy="182.11847" stroke="#b200b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-329.83893"
+                class="id_10.1007/s11042-016-3899-8" cy="365.3774"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-350.52753"
+                class="id_10.1145/3466933.3466973" cy="240.84282"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-316.6526"
+                class="id_10.11591/ijeecs.v17.i1.pp248-255" cy="220.79837"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-457.22028"
+                class="id_10.1145/3535511.3535516" cy="367.6928"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-497.97162"
+                class="id_10.1145/3183506" cy="356.77597" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-389.48224"
+                class="id_4f9e89b98c9325a9a9c0758f7039e16485e17799"
+                cy="235.65541" stroke="#b200b2" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-439.2224"
+                class="id_10.11113/aej.v13.19171" cy="406.06326"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-366.2277"
+                class="id_10.1109/asonam.2018.8508296" cy="396.25238"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-344.6443"
+                class="id_10.1109/sami.2019.8782731" cy="324.03537"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-373.88458"
+                class="id_10.1109/tifs.2016.2603960" cy="350.50635"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-299.68027"
+                class="id_10.1016/j.jnca.2018.03.015" cy="300.51944"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-520.63824"
+                class="id_10.1007/s11042-020-08721-z" cy="279.8721"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-377.9995"
+                class="id_10.24251/hicss.2021.096" cy="193.68411"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-339.6883"
+                class="id_10.48550/arxiv.2206.03581" cy="284.8744"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="61.83737"
+                class="id_10.1109/laclo.2018.00068" cy="-272.1055"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="99.32299"
+                class="id_10.5753/sbsi.2015.5864" cy="-296.06497"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="114.16077"
+                class="id_10.1145/3357236.3395543" cy="-254.09767"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="10.051075"
+                class="id_10.21037/jhmhp-20-92" cy="196.37033" stroke="#b200b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.9232" cx="57.58127"
+                class="id_10.5753/sbsi.2015.5860" cy="202.34755"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-281.96915"
+                class="id_10.7769/gesec.v14i2.1630" cy="-52.066883"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="-320.86996"
+                class="id_10.5753/sbsi.2015.5809" cy="-29.231947"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-288.64108"
+                class="id_9864f3d72aea7f3fef111527ec67578ecf02db9d"
+                cy="2.1883242" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-162.89787"
+                class="id_10.14488/enegep2021_tn_wpg_354_1822_42144"
+                cy="-103.77923" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-191.01884"
+                class="id_10.5753/sbsi.2015.5888" cy="-71.90948"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-473.35602"
+                class="id_10.5753/sbsi.2017.6020" cy="37.546684"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="14.5728" cx="-531.78125"
+                class="id_10.5753/sbsi.2015.5813" cy="18.21855" stroke="#0000b2"
+                stroke-opacity="1.0" stroke-width="2.5344"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-475.99127"
+                class="id_10.1145/3411564.3411607" cy="-6.554355"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-509.25122"
+                class="id_10.1145/2820426.2820465" cy="57.873833"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-514.1542"
+                class="id_10.1145/3324473" cy="-23.625849" stroke="#b200b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="255.10687"
+                class="id_10.5753/ersirj.2021.16976" cy="445.9527"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="18.1056" cx="339.05878"
+                class="id_10.5753/sbsi.2015.5893" cy="445.005" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="3.1488"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="323.95505"
+                class="id_3cfe06c8b85191dff852f85689bf84b7b8427063"
+                cy="498.05026" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="289.8344"
+                class="id_10.1109/icsa-c50368.2020.00045" cy="370.49213"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="276.939"
+                class="id_1f06d0a6f950963c61bfc54737a3c03ddc2ceaa1"
+                cy="407.08682" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="325.2434"
+                class="id_10.5753/isys.2016.300" cy="394.35043" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="287.0896"
+                class="id_10.5753/isys.2018.379" cy="470.239" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="390.09268"
+                class="id_caa17fcaba03650f4491be462ec02cf6dc737a5c"
+                cy="434.52267" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-209.44922"
+                class="id_10.5753/eri-mt.2019.8600" cy="451.75052"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="14.5728" cx="-177.39423"
+                class="id_10.5753/sbsi.2015.5872" cy="483.2032" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="2.5344"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-132.58705"
+                class="id_10.1145/3411564.3411644" cy="479.86115"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-137.09839"
+                class="id_10.5753/waihcws.2021.17539" cy="438.05457"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-178.97171"
+                class="id_10.1145/3535511.3535553" cy="422.71414"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="212.57959"
+                class="id_10.1145/3466933.3466981" cy="21.335121"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="166.37453"
+                class="id_10.5753/sbsi.2015.5832" cy="13.1188755"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-125.06014"
+                class="id_10.5281/zenodo.4244859" cy="-169.03162"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-166.7758"
+                class="id_10.5753/sbsi.2015.5889" cy="-151.34787"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="218.14055"
+                class="id_10.3390/info10030088" cy="-19.005856" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="237.8133"
+                class="id_10.5753/sbsi.2015.5858" cy="-59.813934"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="139.77843"
+                class="id_10.1145/3229345.3229405" cy="92.93053"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="149.25287"
+                class="id_10.5753/sbsi.2015.5884" cy="51.588516"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="116.81145"
+                class="id_10.1515/itms-2017-0013" cy="174.35497"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="98.12427"
+                class="id_10.5753/sbsi.2015.5880" cy="214.7244" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-144.36511"
+                class="id_10.5753/sbsi.2016.5984" cy="-53.928207"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-164.83461"
+                class="id_10.5753/sbsi.2015.5795" cy="-16.503061"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-146.08809"
+                class="id_10.1145/3229345.3229408" cy="-478.15213"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="15.455999" cx="-198.25963"
+                class="id_10.5753/sbsi.2015.5877" cy="-513.47736"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.6879997"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-213.1742"
+                class="id_10.1145/3229345.3229415" cy="-452.3299"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-154.23042"
+                class="id_10.47985/dcidj.475" cy="-521.9876" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-172.16257"
+                class="id_10.11606/d.100.2018.tde-21052018-162205"
+                cy="-445.84467" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-236.61873"
+                class="id_10.5220/0009393405630570" cy="-490.2745"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="484.40115"
+                class="id_10.5753/sbsi.2015.5803" cy="118.07001"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="446.63812"
+                class="id_e44a2d563a989b63d4e56957bd19e4c614f6a10c"
+                cy="145.06818" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-176.05415"
+                class="id_fcfc6d4efe78f018ef3bd87fffd49c8fef4d9aaa"
+                cy="63.227547" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-134.47595"
+                class="id_10.5753/sbsi.2015.5814" cy="72.780495"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-38.639656"
+                class="id_10.32749/nucleodoconhecimento.com.br/historia/empreendedorismo-solidario"
+                cy="153.68347" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="21.601156"
+                class="id_10.5753/sbsi.2015.5865" cy="153.13344"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="12.8064" cx="-442.14563"
+                class="id_10.5753/sbsi.2015.5798" cy="-138.67279"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-394.5359"
+                class="id_10.5753/wei.2018.3484" cy="-128.30357"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="69.51207"
+                class="id_10.5753/erbase.2021.20051" cy="-186.83884"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="112.853874"
+                class="id_10.5753/sbsi.2015.5842" cy="-185.1575"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="60.614304"
+                class="id_10.4018/ijicte.20210701.oa3" cy="134.39822"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="100.971794"
+                class="id_10.5753/sbsi.2015.5816" cy="122.691154"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-405.30948"
+                class="id_10.5753/sbsi.2015.5867" cy="-84.810844"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-120.66339"
+                class="id_8561a75a70d3d627151e739a796e1829efe1a0d9"
+                cy="232.59023" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="-162.96733"
+                class="id_10.5753/sbsi.2015.5861" cy="244.62035"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-166.49875"
+                class="id_10.3390/su10124402" cy="200.72954" stroke="#b200b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="71.05558"
+                class="id_10.5753/cbie.sbie.2016.996" cy="474.90918"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="101.34929"
+                class="id_10.5753/sbsi.2015.5807" cy="509.5372" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="168.73903"
+                class="id_10.1145/3209281.3209367" cy="-190.79478"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="156.74458"
+                class="id_10.5753/sbsi.2015.5874" cy="-147.10892"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-37.39594"
+                class="id_10.5753/sbsi.2016.6009" cy="-150.63063"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-67.19686"
+                class="id_10.5753/sbsi.2015.5886" cy="-183.0474"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="419.39288"
+                class="id_10.1109/procomm.2018.00033" cy="-87.67608"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="15.455999" cx="418.25528"
+                class="id_10.5753/sbsi.2015.5821" cy="-39.959816"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="2.6879997"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="384.29922"
+                class="id_9b2c35db8fbceab32b88de1ee69121225c80c543"
+                cy="-0.9973513" stroke="#b200b2" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="376.28656"
+                class="id_10.21474/ijar01/9270" cy="-70.83052" stroke="#b200b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="359.0769"
+                class="id_10.18421/tem64-22" cy="-33.48674" stroke="#b200b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="430.53235"
+                class="id_c92fb82074c8a40db9a64d50fe14993c84b43351"
+                cy="6.0802298" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-122.4923"
+                class="id_10.5753/sbsi.2015.5830" cy="310.16934"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="154.25734"
+                class="id_10.1145/3160504.3160546" cy="-25.355122"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="156.3725"
+                class="id_10.5753/sbsi.2015.5869" cy="-67.344185"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-71.031784"
+                class="id_15c38272abca2b1589e358bb9248fa6f9e5956f8"
+                cy="-245.74925" stroke="#b2b200" stroke-opacity="1.0"
+                stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="-109.78602"
+                class="id_10.5753/sbsi.2015.5862" cy="-265.7385"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-123.006386"
+                class="id_10.5753/sbsi.2016.5965" cy="-224.17981"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-161.7558"
+                class="id_10.1145/3330204.3330260" cy="138.40877"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="-187.22679"
+                class="id_10.5753/sbsi.2015.5822" cy="104.48137"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-236.16238"
+                class="id_10.29322/ijsrp.8.6.2018.p7861" cy="-143.80637"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="-280.11197"
+                class="id_10.5753/sbsi.2015.5851" cy="-135.47063"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="-261.47778"
+                class="id_10.14201/adcaij2018733146" cy="-94.895676"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-84.206505"
+                class="id_10.5753/sbsi.2016.5967" cy="-516.02295"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="14.5728" cx="-45.756054"
+                class="id_10.5753/sbsi.2015.5801" cy="-541.306" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="2.5344"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-3.1071634"
+                class="id_10.5753/isys.2015.280" cy="-524.4106" stroke="#b2b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-62.219032"
+                class="id_10.1109/tla.2016.7786373" cy="-481.52826"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="-18.499659"
+                class="id_10.1109/tla.2016.7587653" cy="-486.08362"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#ff00ff" r="11.04" cx="197.64339"
+                class="id_10.14257/ijseia.2016.10.10.07" cy="66.131134"
+                stroke="#b200b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.9232" cx="201.20341"
+                class="id_10.5753/sbsi.2015.5887" cy="111.29849"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.0736"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="272.69763"
+                class="id_10.1145/3493244.3493249" cy="76.77775"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="12.8064" cx="311.77893"
+                class="id_10.5753/sbsi.2015.5863" cy="55.091885"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="2.2272"/>
+        <circle fill-opacity="1.0" fill="#ffff00" r="11.04" cx="281.27063"
+                class="id_10.5753/washes.2019.6404" cy="22.368958"
+                stroke="#b2b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="38.827274"
+                class="id_10.5753/sbsi.2015.5796" cy="-24.694603"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-63.848442"
+                class="id_10.5753/sbsi.2015.5852" cy="40.60725" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-74.03375"
+                class="id_10.5753/sbsi.2015.5873" cy="-43.35834"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="1.4984457"
+                class="id_10.5753/sbsi.2015.5855" cy="-81.669556"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="36.002125"
+                class="id_10.5753/sbsi.2015.5839" cy="64.39494" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-114.2627"
+                class="id_10.5753/sbsi.2015.5808" cy="-25.910172"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="29.431694"
+                class="id_10.5753/sbsi.2015.5843" cy="110.34102"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-32.860775"
+                class="id_10.5753/sbsi.2015.5859" cy="-110.99519"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-3.1401803"
+                class="id_10.5753/sbsi.2015.5805" cy="45.3276" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-71.32119"
+                class="id_10.5753/sbsi.2015.5799" cy="-96.02565"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="3.4865448"
+                class="id_10.5753/sbsi.2015.5882" cy="-1.4328194"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="69.25693"
+                class="id_10.5753/sbsi.2015.5848" cy="93.61829" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-35.950336"
+                class="id_10.5753/sbsi.2015.5844" cy="-24.264568"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-105.99753"
+                class="id_10.5753/sbsi.2015.5841" cy="-68.85978"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="42.101887"
+                class="id_10.5753/sbsi.2015.5828" cy="-66.01513"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="75.489204"
+                class="id_10.5753/sbsi.2015.5834" cy="44.289387"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-108.42901"
+                class="id_10.5753/sbsi.2015.5812" cy="38.626907"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-40.552273"
+                class="id_10.5753/sbsi.2015.5875" cy="71.83794" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="115.83445"
+                class="id_10.5753/sbsi.2015.5811" cy="-13.778431"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="83.15713"
+                class="id_10.5753/sbsi.2015.5870" cy="-81.8611" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-32.29868"
+                class="id_10.5753/sbsi.2015.5850" cy="15.690972"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="110.67346"
+                class="id_10.5753/sbsi.2015.5876" cy="27.385265"
+                stroke="#0000b2" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-35.832153"
+                class="id_10.5753/sbsi.2015.5878" cy="-67.918" stroke="#0000b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="115.88847"
+                class="id_10.5753/sbsi.2015.5866" cy="-58.84223"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="38.91354"
+                class="id_10.5753/sbsi.2015.5817" cy="22.71578" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="107.16721"
+                class="id_10.5753/sbsi.2015.5800" cy="68.10278" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-14.120779"
+                class="id_10.5753/sbsi.2015.5891" cy="121.71525"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-0.82518744"
+                class="id_10.5753/sbsi.2015.5856" cy="85.08169" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-83.45435"
+                class="id_10.5753/sbsi.2015.5829" cy="80.234024"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="1.9845728"
+                class="id_10.5753/sbsi.2015.5835" cy="-40.37728"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="77.01478"
+                class="id_10.5753/sbsi.2015.5846" cy="5.061622" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="51.82844"
+                class="id_10.5753/sbsi.2015.5853" cy="-109.39986"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-53.84313"
+                class="id_10.5753/sbsi.2015.5806" cy="109.57397"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="-132.87715"
+                class="id_10.5753/sbsi.2015.5815" cy="8.209031" stroke="#00b200"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="14.119748"
+                class="id_10.5753/sbsi.2015.5879" cy="-123.119995"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#00ff00" r="11.04" cx="74.96473"
+                class="id_10.5753/sbsi.2015.5819" cy="-41.94808"
+                stroke="#00b200" stroke-opacity="1.0" stroke-width="1.92"/>
+        <circle fill-opacity="1.0" fill="#0000ff" r="11.04" cx="-76.20683"
+                class="id_10.5753/sbsi.2015" cy="-1.5140634" stroke="#0000b2"
+                stroke-opacity="1.0" stroke-width="1.92"/>
+    </g>
+</svg>

@@ -7,7 +7,7 @@ import fasttext
 import xml.etree.ElementTree as ET
 import traceback
 from scholarly import scholarly
-from orcid_service import load_orcid
+#from orcid_service import load_orcid
 import urllib
 import networkx as nx
 import pandas as pd
@@ -743,6 +743,7 @@ if __name__ == '__main__':
         publication_year_list = publications_by_year.get(publication_year)
         publication_year_list.append(publication)
 
+
     # for year in publications_by_year:
     #     publication_year_list = publications_by_year[year]
     #     info = {
@@ -802,6 +803,10 @@ if __name__ == '__main__':
 
     G = nx.DiGraph()
 
+    dict_sbsi_doi = dict()
+    for publication in publications_list:
+        dict_sbsi_doi[publication["info"].get('doi',"").lower()] = publication['language']
+
     for publication in publications_2015:
         doi = publication['info'].get('doi')
         if doi is None:
@@ -828,6 +833,9 @@ if __name__ == '__main__':
                     citacoes_por_tipo['n_pt_pt'] += 1
                 else:
                     citacoes_por_tipo['n_pt_en'] += 1
+            #if(citing_doi in dict_sbsi_doi):
+            #    G.nodes[citing_doi]['viz'] = viz_nosso_pt if dict_sbsi_doi[citing_doi] == 'pt-br' else viz_nosso_en
+
     for publication in publications_2015:
         doi = publication['info'].get('doi')
         if doi is None:
@@ -846,7 +854,7 @@ if __name__ == '__main__':
         
     # save_dict(doi_dict, doi_json_path)
 
-    # nx.write_gexf(G, "data/citacoes.gexf")
+    nx.write_gexf(G, "data/citacoes_new.gexf")
 
     """prepare_folders()
 
